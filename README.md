@@ -1,8 +1,8 @@
 ##### <br> #####
 <a name="top-of-page">![TO BE UPDATED Lawn Genie Logo](/readme-assets/lawn-genie-readme-header-logo.png)</a>
 ##### <br> #####
-# LawnGenie.ie -> Everything your Lawn could wish for! #
-## A web application to enable to sale of products relating to Lawn Care & Maintenance ##
+# LawnGenie.ie - 'Everything your Lawn could wish for!' #
+## An e-commerce web apllication selling products relating to Lawn Care & Maintenance ##
 ### Purpose: Full Stack Development Project (Milestone Project 4) for the Diploma in Software Development course at [Code Institute](https://codeinstitute.net/) ###
 ### Developer: Andrew McDonald - Contact me on GitHub :octocat: @ <a href="https://github.com/AndyMc3000"><strong>AndyMc3000</strong></a> ###
 ### Website deployed on an Heroku App: TO BE UPDATED [Click Here](https://pool-club.herokuapp.com/) ###
@@ -20,92 +20,41 @@
 1. [Testing](#testing)
 1. [Deployment](#deployment)
 1. [Credits](#credits)
-<br>
 <hr>
 
 #### <br> ####
 ## 1. <a name="introduction-heading">Introduction</a> ##
-#### <br> ####
-<hr>
 
-The LawnGenie.ie web application (the application) is my Milestone 4 (MS4) project for the Diploma in Fullstack Software Development course at Code Institute. The underlying goal of the project is to meet and exceed the requirements laid out for the MS4 project by Code Institute. The high-level requirement of the MS4 project is to "..build a full-stack site based around business logic used to control a centrally-owned dataset. You will set up an authentication mechanism and provide paid access to the site's data and/or other activities based on the dataset, such as the purchase of a product/service." 
+The LawnGenie.ie web application is my Milestone 4 (MS4) project for the Diploma in Fullstack Software Development course at Code Institute. The underlying goal of the project is to meet and exceed the requirements laid out for the MS4 project by Code Institute. The high-level requirement of the MS4 project is to "..build a full-stack site based around business logic used to control a centrally-owned dataset. You will set up an authentication mechanism and provide paid access to the site's data and/or other activities based on the dataset, such as the purchase of a product/service." 
 
-LawnGenie.ie represents a project I have undertaken for a fictional client. I have been hired to develop an e-commerce store for CPC to meet certain criteria (see the User Experience Design section below). CPC is a small Pool Club with members based around a number of parishes close to Cill na Martra in Co.Cork, Ireland. Club members meet weekly at a number of local pubs to play pool. Membership numbers fluctuate between roughly 25 to 50 players. CPC runs a Pool League twice yearly. Members arrange to meet at a venue to play league matches, which comprise of playing a 'best of 5' games format. A Referee must also be present at league matches. Any other member can referee a match.
+LawnGenie.ie represents a project I have undertaken for a fictional client. I have been hired to develop an e-commerce store for a Garden Centre who want a specialist website which focuses on selling products related to the care and maintenance of lawns. 
 
-Club member management and pool league data management was traditionally paper-based, and was a headache for those members who were 'voluntold' to manage that job. The club want a simple web-based application to make it easy for members to; 
-* Manage a league table.
-* To allow members to get real-time match/league result information.
-* To allow members to record match results and update a league table hosted on the site in real-time.
-
-The principle languages used in the development of the site are; HTML5, CSS3, JavaScript, and Python.
-
-Other technologies include; 
-* The Bootstrap front-end CSS framework.
-* The jQuery JavaScript library.
-* The Flask Python web framework.
-* The Jinja templating language for Python.
-* The MongoDB NoSQL database program.
-* The Heroku cloud Platform-as-a-Service.
-* The EmailJS email service.
 
 #### [Back To Top ^ ](#top-of-page) ####
-
 <hr>
 
 #### <br> ####
 ## 2. <a name="user-experience-design">User Experience Design (UX)</a> ##
-#### <br> ####
-<hr>
 
-The design of the CPC website was determined by assessing and quantifying the goals and objectives of the club organisers ('client stories'), as well as the requirements of players who will visit and use the site ('user stories'). Following the determination of client and user stories and their subsequent technical requirements, the site was designed using the principles of Jesse James Garrett's '5 Planes of UX Design'. The outcome or tasks created for each of the 5 design planes is outlined below.
+The design of the LawnGenie.ie e-commerce website was determined by assessing and quantifying the goals and objectives of the business owners, as well as the requirements of users who will visit and use the website. 
+
+Following the determination of client and user stories, and their subsequent technical requirements, the site was designed using the principles of Jesse James Garrett's '5 Planes of UX Design'. The outcome or tasks created for each of the 5 design planes is outlined below.
 
 ### 1. The Strategy Plane ###
 
 The Strategy Plane, as defined by Jesse James Garrett "..incorporates not only what the people running the site want to get out of it but what the users want to get out of the site as well." 
 
-Please see below details of the 'Client Stories' to detail the requirements of the CPC organisers, and the 'User Stories' which highlight the requiremnts of club members/players.
+Please see below details of the 'Client Stories' to detail the requirements of the LawnGenie.ie business owners, and the 'User Stories' which highlight the requiremnts of the website users.
 
+# TO BE UPDATED #
 #### Client Stories ####
 > - [x] “One of the main goals of the website is to grow the membership of Cill na Martra Pool Club, and to provide value to visitors in the information is provides about the CPC.”
 > - [x] “The website must give Club organisers a place to add new members and create and edit Leagues.
-> - [x] “The website must allow users on the site to view the current League Table.” 
-> - [x] “The website must allow new members to register and join the Club.” 
-> - [x] “The website must provide an area where club members can view their current League statistics.”
-> - [x] “The website must provide an area where club members can add a Match result when they have acted as a Match Referee. Adding a match must update the League Table and a members League statistics appropriately.”
-> - [x] “The website must provide an area where club members can edit and update their Account information.”
-> - [x] “The website must provide an area where site Admininstrators can add a new League."
-> - [x] “The website must provide an area where site Admininstrators can add a new Player/Member."
-> - [x] “The website must provide an area where site Admininstrators can edit or delete a League."
-> - [x] “The website must allow users to find contact details for Club organisers and include a Contact Us form.”
-> - [x] “The website must have a section showing banner adverts for CPC sponsors.”
-> - [x] “The website must be mobile-friendly.”
-> - [x] “The website colours must be dark. The website will be used by Players at Match events on their mobile phones, and so a dark colour scheme will ensure that viewing the website while near a pool table will reduce the risk of Player distraction.”
 
 #### User Stories ####
 > - [x] “I want to learn about what the CPC is.”
 > - [x] “I want to be able to view the current League Table.”
-> - [x] “I want to be able to register and sign-up to join the CPC.”
-> - [x] “Once I'm signed-up and logged in, I want to be able to view my personal League statistics - my League Points, and my Matches Won/Lost.
-> - [x] “If I act as a Referee for a League Match, I want to be able to record the Match result and update the current League Table.”
-> - [x] “I want to be able to edit and update my Account information."
-> - [x] “I want to be able to find contact infromation for the CPC, and be able to send a message to the CPC organisers."
 
-#### League Ranking & Points Calculations ####
-In order to complete the above requirements it is important to understand how the League ranking sytem works. When adding a Match Result to the CPC site, the below rules will determine how calculations should be made.
-
-1. A League Match consists of a series of games where the winner is the first Player to win three games ( a 'best of 5 games' format).
-1. The Rank of a Player in the League is determined by how many points they have accrued. Rank #1 is the Player with the most points, Rank #2 has the second most points, and so on. This ranking detemines how the League Table should be presented on the site.
-1. When a Match is played, Players accrue points for winning games. Where;
-  * Winning 0 games in a Match scores 1 point
-  * Winning 1 game in a Match scores 2 points
-  * Winning 2 games in a Match scores 3 points
-  * Winning 3 games in a Match scores 4 points
-1. In addition to scoring points a Players statistics also include a Matches Won and Matches Lost record.
-1. When a Match is played, a Players Matches Won or Matches Lost tally must be incremented by 1 (depending in whether they won or lost). Where;
-  * Winning 0 games in a Match adds 1 to their Matches Lost tally
-  * Winning 1 games in a Match adds 1 to their Matches Lost tally
-  * Winning 2 games in a Match adds 1 to their Matches Lost tally
-  * Winning 3 games in a Match adds 1 to their Matches Won tally
 
 ### 2. The Scope Plane ###
 
