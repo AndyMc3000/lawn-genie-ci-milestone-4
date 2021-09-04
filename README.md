@@ -1,20 +1,14 @@
 ##### <br> #####
-<a name="top-of-page">![Lawn Genie Logo created using Canva.com and Clipart.com](/readme-assets/lawn-genie-readme-header-logo.png)</a>
-# LawnGenie #
+<a name="top-of-page">![TO BE UPDATED Lawn Genie Logo](/readme-assets/lawn-genie-readme-header-logo.png)</a>
 ##### <br> #####
-
-# Initial Wireframe -> # 
-<a name="top-of-page">![Lawn Genie Logo created using Canva.com and Clipart.com](/readme-assets/wireframes/lawn-genie-large-screen-ver1.png)</a> 
-
-##### <br> #####
-# TO BE UPDATED; #
-
-## A web application for managing the Members and Leagues of a fictional Pool Club ## 
-### Purpose: Backend Development Project (Milestone Project 3) for the Diploma in Software Development course at [Code Institute](https://codeinstitute.net/) ###
+# LawnGenie.ie -> Everything your Lawn could wish for! #
+## A web application to enable to sale of products relating to Lawn Care & Maintenance ##
+### Purpose: Full Stack Development Project (Milestone Project 4) for the Diploma in Software Development course at [Code Institute](https://codeinstitute.net/) ###
 ### Developer: Andrew McDonald - Contact me on GitHub :octocat: @ <a href="https://github.com/AndyMc3000"><strong>AndyMc3000</strong></a> ###
-### Website deployed on an Heroku App: [Click Here](https://pool-club.herokuapp.com/) ###
+### Website deployed on an Heroku App: TO BE UPDATED [Click Here](https://pool-club.herokuapp.com/) ###
+##### <br> #####
 <hr>
-<img src="/readme-assets/cpc-am-i-responsive-readme-screenshot.png" width="1100">
+<img src="/readme-assets/cpc-am-i-responsive-readme-screenshot.png"[TO BE UPDATED Lawn Genie Logo] width="1100">
 <hr>
 
 # Table of Contents #
@@ -34,9 +28,9 @@
 #### <br> ####
 <hr>
 
-The Cill na Martra Pool Club (hereafter called CPC) website is my Milestone 3 (MS3) project for the Diploma in Fullstack Software Development course at Code Institute. The underlying goal of the project is to meet and exceed the requirements laid out for the MS3 project by Code Institute. The high-level requirement of the MS3 project is to "..build a full-stack site that allows your users to manage a common dataset about a particular domain. Users make use of the site to share their own data with the community, and benefit from having convenient access to the data provided by all other members." 
+The LawnGenie.ie web application (the application) is my Milestone 4 (MS4) project for the Diploma in Fullstack Software Development course at Code Institute. The underlying goal of the project is to meet and exceed the requirements laid out for the MS4 project by Code Institute. The high-level requirement of the MS4 project is to "..build a full-stack site based around business logic used to control a centrally-owned dataset. You will set up an authentication mechanism and provide paid access to the site's data and/or other activities based on the dataset, such as the purchase of a product/service." 
 
-This README refers to CPC as a fictional client of mine, where I have been hired to develop a website for CPC to meet certain criteria (see the User Experience Design section below). CPC is a small Pool Club with members based around a number of parishes close to Cill na Martra in Co.Cork, Ireland. Club members meet weekly at a number of local pubs to play pool. Membership numbers fluctuate between roughly 25 to 50 players. CPC runs a Pool League twice yearly. Members arrange to meet at a venue to play league matches, which comprise of playing a 'best of 5' games format. A Referee must also be present at league matches. Any other member can referee a match.
+LawnGenie.ie represents a project I have undertaken for a fictional client. I have been hired to develop an e-commerce store for CPC to meet certain criteria (see the User Experience Design section below). CPC is a small Pool Club with members based around a number of parishes close to Cill na Martra in Co.Cork, Ireland. Club members meet weekly at a number of local pubs to play pool. Membership numbers fluctuate between roughly 25 to 50 players. CPC runs a Pool League twice yearly. Members arrange to meet at a venue to play league matches, which comprise of playing a 'best of 5' games format. A Referee must also be present at league matches. Any other member can referee a match.
 
 Club member management and pool league data management was traditionally paper-based, and was a headache for those members who were 'voluntold' to manage that job. The club want a simple web-based application to make it easy for members to; 
 * Manage a league table.
@@ -228,7 +222,7 @@ Please click on the the links below to view these wireframes. * Please note that
 
 ##### Wireframes #####
 * Wireframes for the Homepage and related pages;
-  * <a href="readme-assets/cpc-homepage-and-linked-pages-wireframes-large.png"><strong>Homepage on Large Screen Devices</strong></a>
+  * <a href="readme-assets/wireframes/lawn-genie-large-screen-ver1.png"><strong>Homepage on Large Screen Devices</strong></a>
   * <a href="readme-assets/cpc-homepage-and-related-pages-wireframes-mobile.png"><strong>Homepage on Mobile Devices</strong></a>
 
 * Wireframes for the Player Homepage and related pages;
