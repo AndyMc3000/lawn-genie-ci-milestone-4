@@ -1,8 +1,8 @@
 ##### <br> #####
-<a name="top-of-page">![Lawn Genie Logo](readme/readme-assets/logo/lawn-genie-logo-v1.png)</a>
+<a name="top-of-page"><img src="readme/readme-assets/logo/lawn-genie-logo-v1.png" width="430"></a>
 ##### <br> #####
-# LawnGenie.ie - 'Everything your Lawn could wish for!' #
-## An e-commerce web application for selling products relating to Lawn Care & Maintenance ##
+# LawnGenie.ie #
+## 'Everything your Lawn could Wish for!' An e-commerce web application for selling products relating to Lawn Care & Maintenance ## 
 ### Purpose: Full Stack Development Project (Milestone Project 4) for the Diploma in Software Development course at [Code Institute](https://codeinstitute.net/) ###
 ### Developer: Andrew McDonald - Contact me on GitHub :octocat: @ <a href="https://github.com/AndyMc3000"><strong>AndyMc3000</strong></a> ###
 ### Website deployed on an Heroku App: TO BE UPDATED [Click Here](https://pool-club.herokuapp.com/) ###
@@ -11,7 +11,7 @@
 <img src="/readme-assets/cpc-am-i-responsive-readme-screenshot.png"[TO BE UPDATED Lawn Genie Logo] width="1100">
 <hr>
 
-# Table of Contents #
+## Table of Contents ##
 1. [Introduction](#introduction-heading)
 1. [User Experience Design (UX)](#user-experience-design)
 1. [Development Process](#development-process)
@@ -46,7 +46,7 @@ The Strategy Plane, as defined by Jesse James Garrett "..incorporates not only w
 
 Please see below details of 'Client Stories' to detail the requirements of the LawnGenie.ie business owners, and 'User Stories' which highlight the requiremnts of the website users.
 
-# TO BE UPDATED #
+
 #### Client Stories ####
 > - [x] The business owners want to; "Create a specialist e-commerce store which sells products relating to the care and maintenance of Lawns."
 > - [x] “The store must contain a number of product categories and sub-categories of products which should be easily accessible and identifiable to a user." These categories and sub-categories are;
