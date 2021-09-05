@@ -44,12 +44,39 @@ Following the determination of client and user stories, and their subsequent tec
 
 The Strategy Plane, as defined by Jesse James Garrett "..incorporates not only what the people running the site want to get out of it but what the users want to get out of the site as well." 
 
-Please see below details of the 'Client Stories' to detail the requirements of the LawnGenie.ie business owners, and the 'User Stories' which highlight the requiremnts of the website users.
+Please see below details of 'Client Stories' to detail the requirements of the LawnGenie.ie business owners, and 'User Stories' which highlight the requiremnts of the website users.
 
 # TO BE UPDATED #
 #### Client Stories ####
-> - [x] “One of the main goals of the website is to grow the membership of Cill na Martra Pool Club, and to provide value to visitors in the information is provides about the CPC.”
-> - [x] “The website must give Club organisers a place to add new members and create and edit Leagues.
+> - [x] The business owners want to; "Create a specialist e-commerce store which sells products relating to the care and maintenance of Lawns."
+> - [x] “The store must contain a number of product categories and sub-categories of products which should be easily accessible and identifiable to a user." These categories and sub-categories are;
+* Category 1 - Mowers:  
+   * Robot Mowers
+   * Self-propelled
+   * Push Mowers
+   * Tractor Mowers 
+* Category 2 - Tools:
+   * Rakes
+   * Edging Tools
+   * Aerators
+   * Watering
+   * Hand Tools
+   * Sprayers
+* Category 3 - Improvers:
+   * Lawn Feed
+   * Weeding
+   * Seeds
+* Category 4 - Clothng:
+   * Jackets
+   * Trousers
+   * Boots
+   * Gloves
+> - [x] The store must provide the business owners with an easy to use interface to enable to addition, editing, and deletion of products and their content. This content must include a product name, SKU, category, description, price, a product image, and rating. The interface should also allow for the s of other attributes which may be unique to certain products, for example, a power attribute for lawnmowers, or a size attribute for boots."
+> - [x] The store must use the Stripe payment processing platform to ensure an elegant and secure payment process for users."
+> - [x] The store design must allow users to navigate easily and intuitively through the product offering, regardless of what device they are using."
+--------------
+ > - [x] NICE TO HAVE # 1 - “The store must give users the option to subscribe to an email mailing list. Marketing/promotional emails can then be sent to users based on topics such as; tips and tricks from gardening professionals and lawn care specialists, new product infromation, and special offers."
+ > - [x] NICE TO HAVE # 2 - “The store must have a blog section where users can read articles and get information about lawn care and maintenance etc. A secure interface to add, update, and delete blog posts must be availableprovided to the business owners."
 
 #### User Stories ####
 > - [x] “I want to learn about what the CPC is.”
