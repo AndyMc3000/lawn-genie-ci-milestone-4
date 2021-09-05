@@ -1,6 +1,5 @@
 ##### <br> #####
-<a name="top-of-page"><img src="readme/readme-assets/logo/lawn-genie-logo-v1.png" width="430"></a>
-##### <br> #####
+<a name="top-of-page"><img src="readme/readme-assets/logo/lawn-genie-logo-v2.png" width="400"></a>
 # LawnGenie.ie #
 ## 'Everything your Lawn could Wish for!' An e-commerce web application for selling products relating to Lawn Care & Maintenance ## 
 ### Purpose: Full Stack Development Project (Milestone Project 4) for the Diploma in Software Development course at [Code Institute](https://codeinstitute.net/) ###
@@ -85,17 +84,18 @@ Please see below details of 'Client Stories' to detail the requirements of the L
 > - [x] “I want to learn to immediately understand the overall concept of what the website offers when I land on the homepage, i.e. the online sale of lawn care equipment and associated products.”
 > - [x] “I want to be able to access all product categories from every page.”
 > - [x] “I want to be able to view a list of all products in a category.”
+> - [x] “I want to be able to easily search for products from every page."
+> - [x] “I want to be able to easily sort product listings by price, name, category, and rating."
+> - [x] “I want to be able to add products to a shopping bag and easily view all the products in my shopping bag."
+> - [x] “I want to be able to easily change the quantities or other relevant attributes of the products in my shopping bag."
 > - [x] “I want to be able to be able to see the total cost of my current shopping basket from every page.”
 > - [x] “I want to be able to view a product detail page showing me all relevant information about a product.”
 > - [x] “I want to be able to easily register on the site and store my personal delivery information for automatic retrieval at the checkout when making purchases."
 > - [x] “I want to get an email confirmation/verification email after I register for an account."
 > - [x] “I want to be able to easily login or logout of my account from every page."
-> Search
-> Sort
-> shopping bag
-> Easily adjust size/quantity of items in my 
 
-
+# TO DO #
+-----------------------
 ### 2. The Scope Plane ###
 
 Based on the outcomes from the Strategy Plane, The Scope Plane determines what features, functionality, and types of content should be included within the scope of the project. Listed below are the functional specifications and content requirements decided on for the CPC website. 
