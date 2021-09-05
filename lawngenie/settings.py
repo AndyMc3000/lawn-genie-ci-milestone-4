@@ -39,9 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',  # Copied from django-allauth documentation
-    'allauth',  # Copied from django-allauth documentation - django-allauth.readthedocs.io
-    'allauth.account',  # Copied from django-allauth documentation - django-allauth.readthedocs.io
-    'allauth.socialaccount',  # Copied from django-allauth documentation - django-allauth.readthedocs.io
+    'allauth',  # Copied from django-allauth documentation
+    'allauth.account',  # Copied from django-allauth documentation
+    'allauth.socialaccount',  # Copied from django-allauth documentation
     'home',
 ]
 
