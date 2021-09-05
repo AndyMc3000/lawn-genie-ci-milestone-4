@@ -1,8 +1,8 @@
 ##### <br> #####
-<a name="top-of-page">![TO BE UPDATED Lawn Genie Logo](/readme-assets/lawn-genie-readme-header-logo.png)</a>
+<a name="top-of-page">![Lawn Genie Logo](readme/readme-assets/logo/lawn-genie-logo-v1.png)</a>
 ##### <br> #####
 # LawnGenie.ie - 'Everything your Lawn could wish for!' #
-## An e-commerce web apllication selling products relating to Lawn Care & Maintenance ##
+## An e-commerce web application for selling products relating to Lawn Care & Maintenance ##
 ### Purpose: Full Stack Development Project (Milestone Project 4) for the Diploma in Software Development course at [Code Institute](https://codeinstitute.net/) ###
 ### Developer: Andrew McDonald - Contact me on GitHub :octocat: @ <a href="https://github.com/AndyMc3000"><strong>AndyMc3000</strong></a> ###
 ### Website deployed on an Heroku App: TO BE UPDATED [Click Here](https://pool-club.herokuapp.com/) ###
@@ -71,16 +71,29 @@ Please see below details of 'Client Stories' to detail the requirements of the L
    * Trousers
    * Boots
    * Gloves
-> - [x] The store must provide the business owners with an easy to use interface to enable to addition, editing, and deletion of products and their content. This content must include a product name, SKU, category, description, price, a product image, and rating. The interface should also allow for the s of other attributes which may be unique to certain products, for example, a power attribute for lawnmowers, or a size attribute for boots."
+> - [x] The store must provide the business owners with an easy to use interface to enable to addition, editing, and deletion of products and their content. This content must include a product name, SKU, category, description, price, a product image, and rating. The interface should also allow for the addition of other attributes which may be unique to certain products, for example, a 'power type' attribute for lawnmowers, or a 'size' attribute for boots."
 > - [x] The store must use the Stripe payment processing platform to ensure an elegant and secure payment process for users."
 > - [x] The store design must allow users to navigate easily and intuitively through the product offering, regardless of what device they are using."
+> - [x] "For ease of use, the store must allow users of the site to register and login so that they can store their personal delivery/account information. This is to facilitate quick purchaing transactions."
+> - [x] The store design must have an About Us page, and a Contact Us page."
 --------------
- > - [x] NICE TO HAVE # 1 - “The store must give users the option to subscribe to an email mailing list. Marketing/promotional emails can then be sent to users based on topics such as; tips and tricks from gardening professionals and lawn care specialists, new product infromation, and special offers."
- > - [x] NICE TO HAVE # 2 - “The store must have a blog section where users can read articles and get information about lawn care and maintenance etc. A secure interface to add, update, and delete blog posts must be availableprovided to the business owners."
+> - [x] NICE TO HAVE # 1 - “The store must give users the option to subscribe to an email mailing list. Marketing/promotional emails can then be sent to users based on topics such as; tips and tricks from gardening professionals and lawn care specialists, new product infromation, and special offers."
+> - [x] NICE TO HAVE # 2 - “The store must have a blog section where users can read articles and get information about lawn care and maintenance etc. A secure interface to add, update, and delete blog posts must be availableprovided to the business owners."
+> - [x] NICE TO HAVE # 3 - "The store contact page must have a Google map with a branded marker on it showing the location of the business office." 
 
 #### User Stories ####
-> - [x] “I want to learn about what the CPC is.”
-> - [x] “I want to be able to view the current League Table.”
+> - [x] “I want to learn to immediately understand the overall concept of what the website offers when I land on the homepage, i.e. the online sale of lawn care equipment and associated products.”
+> - [x] “I want to be able to access all product categories from every page.”
+> - [x] “I want to be able to view a list of all products in a category.”
+> - [x] “I want to be able to be able to see the total cost of my current shopping basket from every page.”
+> - [x] “I want to be able to view a product detail page showing me all relevant information about a product.”
+> - [x] “I want to be able to easily register on the site and store my personal delivery information for automatic retrieval at the checkout when making purchases."
+> - [x] “I want to get an email confirmation/verification email after I register for an account."
+> - [x] “I want to be able to easily login or logout of my account from every page."
+> Search
+> Sort
+> shopping bag
+> Easily adjust size/quantity of items in my 
 
 
 ### 2. The Scope Plane ###
