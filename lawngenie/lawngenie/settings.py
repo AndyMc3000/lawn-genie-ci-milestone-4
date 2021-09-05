@@ -63,7 +63,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request',  # Required by django-allauth
+                'django.template.context_processors.request',  # Required by django and django-allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
@@ -79,6 +79,18 @@ AUTHENTICATION_BACKENDS = [
     # `allauth` specific authentication methods, such as login by e-mail
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
+
+SITE_ID = 1  # Required by django-allauth
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # Required to temporaily log emails to the console
+
+ACCOUNT_AUTHENTICATION_METHOD = 'username_email'  # Allow authentication by username or email
+ACCOUNT_EMAIL_REQUIRED = True  # Ensures email is a requirement for account registration
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'  # Ensures Email verification is required for account setup
+ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True  # Ensures a user must enter their email twice on registration form to avoid typo's
+ACCOUNT_USERNAME_MIN_LENGTH = 4  # Sets minimum username charachter length
+LOGIN_URL = '/accounts/login/'
+LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'lawngenie.wsgi.application'
 
