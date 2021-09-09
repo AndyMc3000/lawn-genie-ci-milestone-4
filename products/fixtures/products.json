@@ -1,0 +1,1528 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "name": "G-38 Push Lawnmower",
+      "category": "4",
+      "brand": "Bosch",
+      "description": "Hand mower. Perfect for mowing small lawn areas conveniently and quietly. Variable height-of-cut adjustment. Width of cut: 38 cm. Cutting system: Cylinder blades (4 blades). Height of cut: 12 – 40 mm. Height-of-cut settings: Continuously variable. Lower blade setting: Click lock. Weight: 6.9 Kg. Warranty: 2 Years.",
+      "rating": "4.5",
+      "sku": "600886103",
+      "price": "89.99",
+      "image": "001.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "name": "Nitro 40V Cordless",
+      "category": "1",
+      "brand": "WORX",
+      "description": "The Worx Nitro WG753 40V Power Share Cordless Self-Propelled Lawn Mower with Rear Wheel Drive and 2X 5.0Ah Batteries has a highly-efficient brushless motor running 50% longer, churning out 25% more power, and providing 10% more life than brushed motors. With two high-capacity Power Share PRO batteries, this self-propelled mower is a worthy replacement to gas mowers. And does so without any of the drawbacks of gas, like the cost, mess, fumes, excessive volume, or extra maintenance. Full of quality-of-life features, like rear-wheel drive with a variable-speed control so the user can pick a pace that’s comfortable for them. Single-lever height adjustments and mode changes make switching between cutting heights (7-positions, 1.6 in.-4 in.) and cutting modes (bag/mulch/side-discharge) quick and easy. LED lights provide greater visibility when mowing at dusk or in other low-light conditions. Auto-Intellicut™ technology increases the speed of the blades when it detects thicker grass, then slows them back down when the mowing gets easier to conserve battery usage. And the one-touch fully-collapsible handle makes for compact, stand-up storage in the garage. The bag capacity is 2 Bushels, the wheels are 8 in. (front) and 10 in. (rear). The durable steel cutting deck is a wide 21 in. (20 in. cutting width) and great for lawns with rough terrain, and features Nutricut™ dual-stage mulching capabilities to return both water and nutrients back to your lawn.",
+      "rating": "4.8",
+      "sku": "WG761",
+      "price": "679.99",
+      "image": "002.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "name": "WEH-12R Push Cylinder Lawnmower\n",
+      "category": "4",
+      "brand": "Webb",
+      "description": "LIGHTWEIGHT, DOUBLE-ROLLER LAWNMOWER TO MAKE STRIPES FOR SMALL LAWNS - weighing just 11kg this mower is ideal for keeping small flat lawns finished with an immaculate 30cm wide stripe, while keeping smooth grass clipped to a manicured finish. EASY TO ADJUST CUTTING HEIGHT - simply turn the two large knobs on either side of the mower to lift the front roller up or down to raise or lower the cutting height from 13mm to 23mm - no tools needed. SILENT, ECO FRIENDLY AND DEPENDABLE - this traditional hand-push lawnmower is an enviromentally-friendly way to cut the grass, and offers hassle-free maintenance and reliable performance without the noise, cost or worry of a petrol motor. USE WITH OR WITHOUT THE FRONT-FACING 18L BOX - grass clippings are small and fine so can be left on the grass to restore nutrients to the soil, or collected in the lightweight collection bag mounted on the front so you can see when it needs emptying",
+      "rating": "4.1",
+      "sku": "H12R-A",
+      "price": "129.95",
+      "image": "003.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "name": "Classic 400",
+      "category": "4",
+      "brand": "GARDENA",
+      "description": "Mowing as with shears: The blade roll and the lower blade made of hardened quality steel allow a precise mowing as with shears, ideal for small and medium-sized gardens to 250m² mowing area. Smooth and effortless: Thanks to the contact-free cutting technique of the reel mower is particularly quiet and easy to push. Space-saving storage: The boom can be folded so that space-saving cleared the cylinder mower can be. Convenient cleaning: The knife roller is non-stick coating and thus prevents the hassle of drying of wet grass.",
+      "rating": "4.5",
+      "sku": "B00OB7QR50",
+      "price": "164.99",
+      "image": "004.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "name": "GC-HM 300",
+      "category": "4",
+      "brand": "Einhell",
+      "description": "The Einhell gc-hm 300 manual lawn mower is a robust, functional lawn mower without a motor drive, for the clean, quiet and mowing of lawns of up to 150 m in size. The ball-bearing mounted mower spindle with 5 high-grade steel blades is designed for a cutting width of 30 cm. the cutting height adjustment facility with 4 levels can be adjusted to individual requirements between 13 mm and 37 mm. The plastic roller has a diameter of 45 mm. the manual lawn mower has lawn-friendly large wheels. the 16 liter grass catch basket is removable and easy to empty. A curved long handle provides optimum on-the-job ergonomics, and there is a parking position for easy and secure storage of the lawn mower.\n",
+      "rating": "3.9",
+      "sku": "3414114",
+      "price": "54.95",
+      "image": "005.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "name": "MowJoe MJ500",
+      "category": "4",
+      "brand": "SNOW JOE",
+      "description": "Product Line: Mow Joe Product Model: MJ500M Product Name: Mow Joe 16-IN Manual Reel Mower with Catcher - MJ500M Marketing Information: See Joe Mow. No messy gas; just an easy-to-use, lightweight, maneuverable and economical push reel mower. The Sun Joe MJ500M Reel Mower with Grass Catcher handles tough turf with ease and provides a quiet, eco-friendly solution for any lawn. The MJ500M comes with a handy rear collection bag to help keep your yard nice and tidy. Powered by you, the Mow Joe MJ500M has a 16-IN wide cutting path with a 4 position height adjustment lever. The Sun Joe Mow Joe comes with a 2-Year full warranty.",
+      "rating": "4.8",
+      "sku": "B0072CTQYU",
+      "price": "133.28",
+      "image": "006.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "name": "EC-370 Electric Lawnmower",
+      "category": "4",
+      "brand": "Murray",
+      "description": "Looking for a mower that has the power to mow your small to mid-sized lawn? Then a corded electric mower is a great option. Corded electric lawn mowers produce little noise and are easy to start and operate. Plus, you will never run out of power. Although you need to make sure your power cord or extension cable is long enough to reach every corner of the lawn. An electric lawn mower also requires little maintenance, you almost only need to plug it in and start mowing.",
+      "rating": "4",
+      "sku": "2691584",
+      "price": "124.00",
+      "image": "007.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "name": "EQ-200 Petrol Lawnmower",
+      "category": "4",
+      "brand": "Murray",
+      "description": "The Murray EQ200 petrol lawn mower is powered by the reliable Briggs & Stratton 300E Series engine. The 2-in-1 cutting system features rear discharge and collecting of clippings. The EQ200 offers an ergonomic handle bar that is adjustable in three heights, it can be easily folded for storage to reduce precious space. The mower deck has 6 height-of-cut positions that can be set with two levers. 2-Years limited consumer warranty. This petrol lawn mower requires 0.5 Litre SAE30 4-stroke oil for the engine, not included in the box, please buy separately.",
+      "rating": "4.6",
+      "sku": "2691601",
+      "price": "168.54",
+      "image": "008.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "name": "HYM400P Petrol Lawnmower",
+      "category": "4",
+      "brand": "Hyundai",
+      "description": "The HYM400P is a low maintenance petrol powered rotary lawnmower from Hyundai. A “no fuss” lawnmower ideally suited for small to medium sized lawns up to approx. 20m x 20m, the HYM400P has a cutting width of 400mm and is powered by a 79cc 4-stroke OHV petrol engine, delivering impressive cutting power, but also low levels of noise and fuel consumption to minimise disruption and keep running costs to a minimum.",
+      "rating": "4.2",
+      "sku": "HYM400P",
+      "price": "174.59",
+      "image": "009.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "name": "410P Petrol Lawnmower",
+      "category": "4",
+      "brand": "SPRINT",
+      "description": "Powered by the reliable Briggs & Stratton 300E Series engine. 2-in-1 cutting system: Choose between rear discharge and collecting of clippings. The handle bar is adjustable in three heights and can easily be folded to save precious storage space. Easily set one of the 6 height-of-cut positions (35 - 85 mm), by using only one single point lever. All Sprint petrol lawn mowers are supported by the extensive network of Briggs & Stratton authorized dealers. This petrol lawn mower requires 0.5 Litre SAE30 4-stroke oil for the engine; not included in the box, please buy separately. 2-Year Limited Consumer Warranty",
+      "rating": "3.8",
+      "sku": "2691620",
+      "price": "145.23",
+      "image": "010.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "name": "MP-300-H40 Petrol Lawnmower",
+      "category": "4",
+      "brand": "Mac Allister",
+      "description": "Powered by a Briggs & Stratton petrol engine and advanced cutting blades for performance you can rely on. Featuring 40cm cutting deck and universal blade with mulching, catching and overload protection. No cords mean it is ideal for keeping you lawns tidy even when you haven't got a power source in reach. Folding handles to easily store when not in use. Features mulching plug, which allows the grass clippings to be recycled back onto the lawn, acting as a natural fertiliser.\n",
+      "rating": "4.7",
+      "sku": "5059340124537",
+      "price": "210.00",
+      "image": "011.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "name": "HP-185 125cc Petrol Lawnmower\n",
+      "category": "4",
+      "brand": "Mountfield",
+      "description": "Powered by Briggs & Stratton 300 series OHV 125cc engine, this hand propelled lawnmower enables you to cut your lawn at your own pace. Reliable, easy starting engine. This powder coated steel cutter deck is robust and hard wearing. Mulching plug finely cuts grass timinings into a nitrogen-rich mulch which is recycled back into the lawn as a natural fertiliser. Offers 3 in 1 function of collecting, mulching and rear discharging.",
+      "rating": "4.8",
+      "sku": "8008984818989",
+      "price": "225.00",
+      "image": "012.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "name": "HYM-40-LI Self-propelled Battery Lawnmower",
+      "category": "1",
+      "brand": "Hyundai",
+      "description": "No Cables, No Petrol, No Pollution - simply charge the batteries and you’re ready to go. Powered by a Hyundai 40v lithium-ion 2.5Ah battery, designed for 1000+ charges. Powered by a 800w Brushless Motor. 42cm cutting width it’s ideal for cutting small to medium sized lawns. Durable steel chassis weighing just 19.9kg with adjustable 6 cutting heights from 25mm to 75mm. The large easy to remove 45L grass catcher bag minimises the time you spend emptying the cuttings and features a grass level indicator. Safety feature - safety key prevents accidental start-ups, the removable key is located next to the battery and will disable the mower when removed. No assembly needed, just unfold the handles and charge the battery.",
+      "rating": "4.7",
+      "sku": "B08G5BP6RQ",
+      "price": "324.00",
+      "image": "013.jpg"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "name": "LC 253-S Self-propelled Petrol Lawnmower",
+      "category": "1",
+      "brand": "Husqvarna",
+      "description": "Self-propelled and easy-to-use, high-quality lawnmower suitable for medium-sized gardens. Durable, corrosion-resistant composite chassis and aluminium wheels for reduce weight, powerful, reliable engine and rubber tyres for increased performance and control. Ergonomic and easy foldable handle bar, convenient bail removal and easy adjust cutting height makes every mow simpler. Collect blade leaves less clippings on the lawn for a tidy, professional look.",
+      "rating": "4.9",
+      "sku": "67BDD9912E",
+      "price": "655.00",
+      "image": "014.jpg"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "name": "LC 347iVX Self-propelled Battery Lawnmower",
+      "category": "1",
+      "brand": "Husqvarna",
+      "description": "Battery lawn mower with increased cutting width, plus dual battery slots compatible with all Husqvarna batteries for increased convenience, cost-effectiveness and runtime. Quiet, efficient smoke-free operation with zero direct emissions. Ergonomic design includes easy-to-understand keypad, simple height adjustment and easy manoeuvring. Self-drive for easier mowing of medium-sized lawns. Bluetooth connectivity provides users with product data and information, and enabled more efficient, effective servicing.",
+      "rating": "4.8",
+      "sku": "986DDi9912E-B",
+      "price": "715.00",
+      "image": "015.jpg"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "name": "LC 141i Self-propelled Battery Lawnmower",
+      "category": "1",
+      "brand": "Husqvarna",
+      "description": "Ideal for homeowners or for trimming complex areas, this intuitive hassel-free battery mower can mow an average-sized garden quickly and quietly in a single charge. The mower is easy to manouevre due to it’s light-weighted and compact deck and ergonomic handle makes it easy to steer even round small places. Compatible with all Husqvarna BLi-batteries. Battery and Charger sold separately.",
+      "rating": "4.5",
+      "sku": "226DDi9912C-Bi5",
+      "price": "475.00",
+      "image": "016.jpg"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "name": "LC 551-SP Self-propelled Petrol Lawnmower",
+      "category": "1",
+      "brand": "Husqvarna",
+      "description": "Lightweight and compact yet robust walk behind mower with powerful engine, large fuel tank and aluminium wheels with rubber tyres. The perfect choice for professionals who need affordable quality with reliable, long lasting performance and outstanding results.",
+      "rating": "5",
+      "sku": "P-5044593iE-G",
+      "price": "1130.00",
+      "image": "017.jpg"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "name": "RM 248 T 19″ Self-Propelled Lawnmower",
+      "category": "1",
+      "brand": "STIHL",
+      "description": "The STIHL RM 248 T petrol lawn mower has been developed to effortlessly mow medium-sized lawns up to 1200m². The single-speed drive allows you to mow the lawn without having to push the mower, great for steep and larger lawns. Featuring foldable handlebars with a super-soft grip, the RM 248 T offers a compact storage solution and extra comfort when pushing across the lawn. Simple operation of the central seven-setting cutting height adjustment enables an extremely precisely cut lawn at heights from 25 to 75 mm. The large 55-litre grass catcher box ensures fast mowing with fewer breaks.",
+      "rating": "4.8",
+      "sku": "8-E-6945620-SP-P",
+      "price": "439.00",
+      "image": "018.jpg"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+      "name": "Pro Optimow 7 Robotic Lawnmower",
+      "category": "2",
+      "brand": "Greenworks ",
+      "description": "The Optimow 7 model from Greenworks is designed for areas of up to 750 m2 and also manages plots with slopes of up to ±30 %. A lithium-ion battery is located underneath the cover, which provides the robot mower with sufficient energy to reliably mow the area. The robot lawn mower now also takes care of steeper areas, uneven surfaces with or without obstacles. Narrow passages or even corridors are independently traversed and mown by the Greenworks Optimow 7. If the robot grass cutter gets dirty, e.g. dried grass clippings, the housing can be removed and cleaned with a garden hose.",
+      "rating": "4.1",
+      "sku": "9674DDi9912E-Ti",
+      "price": "729.00",
+      "image": "019.jpg"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+      "name": "iMow 422P Robotic Lawnmower",
+      "category": "2",
+      "brand": "STIHL",
+      "description": "The compact RMI 422 robot mower will mow small lawns up to 600 m² and is designed to do this in the shortest time possible, allowing you full access to your garden when you want it. As it is fully automated, once the iMow is installed, it will mow, charge and adapt its schedule all by itself. If the robot mower battery runs low or it starts to rain, the RMI 422 will return itself to the docking station, and depending on how much of the lawn still needs to be cut, it will decide whether to charge itself quickly or slowly helping to conserve power. Fitted with a robust mulching blade, your grass will be finely shredded returning vital nutrients into the soil. This also eliminates the need to dispose of any grass clippings. The iMow RMI 422 boasts 15 different cutting height settings, varying from 20mm-60mm so you can adjust it to suit you and your lawn!",
+      "rating": "4.5",
+      "sku": "888458E-B",
+      "price": "1195.00",
+      "image": "020.jpg"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+      "name": "Landroid S300 WR130E Robotic Lawnmower",
+      "category": "2",
+      "brand": "WORK",
+      "description": "The Worx Landroid S300 is the right choice for smaller gardens. The robot mower can be controlled with a smartphone app and  overcomes inclines of up to ± 27 %. It is able to create an optimal mowing plan for your garden. The robot grass cutter adjusts the mowing times individually to the weather conditions and grass growth. Thanks to artificial intelligence (AIA technology) and multi-zone programming, the Worx Landroid WR130E can handle even more complex areas.",
+      "rating": "4.9",
+      "sku": "95-T-6DDi9912E-i",
+      "price": "749.00",
+      "image": "021.jpg"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+      "name": "Automower 435x AWD Robotic Lawnmower",
+      "category": "2",
+      "brand": "Husqvarna",
+      "description": "Husqvarna Automower® 435X AWD – a pioneer on the robotic lawnmower market. An all-wheel-drive model that makes light work of lawns up to 3,500 m² and navigates obstacles, rough terrain and slopes of up to an impressive 70 %. The mower features X-line design with LED headlights, remote object detection and intuitive interaction with Automower® Access. Equipped with Automower® Connect including GPS theft tracking.",
+      "rating": "4.7",
+      "sku": "5676DDi99-Gi",
+      "price": "5000.00",
+      "image": "022.jpg"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+      "name": "Automower 315X Robtic Lawnmower",
+      "category": "2",
+      "brand": "Husqvarna",
+      "description": "Husqvarna Automower® 315X - a premium model in the X-line series. It mows complicated lawns up to 1600m2, handling narrow passages and slopes up to 40%, and taking tough terrain in its stride. As a member of our premium X-line range, it features Automower® Connect with GPS theft tracking, GPS-assisted navigation and X-line design with LED Headlights, front bumper and special coloured wheel caps. The Automower® Connect app keeps you in control: track, interact and stay updated at the touch of a screen, wherever you are in the world.",
+      "rating": "5",
+      "sku": "333i89DD-99F",
+      "price": "2275.00",
+      "image": "023.jpg"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+      "name": "RS622 Automatic Robotic Lawnmower",
+      "category": "2",
+      "brand": "Robomow",
+      "description": "A mower that is robust and agile enough to handle even the most complex of large lawns, the Premium Robomow RS622 comes complete with the full range of superior features and specifications built-in. Unique to the RS range, the counter-balanced fully floating deck allows the RS to follow the contours of your garden to leave an even cut and keep your lawn looking pristine, a feature usually only seen on premium lawn tractors. Designed to keep sprawling lawns of 0-2200 m2 in tip-top condition, the Robomow RS622's heavy duty motors and twin edged tri-blades will ensure that no matter how large your lawn, it'll always look its very best, year in, year out. The RS622 comes with Bluetooth connectivity built in which allows you to manage your Robomow even easier from the free Robomow app.",
+      "rating": "4.5",
+      "sku": "GH-2_2691584-i",
+      "price": "830.00",
+      "image": "024.jpg"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+      "name": "BT98HCK Tractor Lawnmower",
+      "category": "3",
+      "brand": "ALPINA",
+      "description": "The stylish black Alpina BT98 HCK is a sturdy, reliable and versatile lawn tractor designed to be a powerful help for large gardens. The BT98 HCK lawn tractor is powered by a powerful and reliable Twin cylinder 603cc Kawasaki engine with hydrostatic transmission for effortless control. A 98 cm / 38 inch twin blade cutting deck with electromagnetic blade engagement and anti-scalp wheels will ensure you perfect cutting for your lawn. The white Alpina has the added benefit of 240 litre collector, a high back seat, larger front wheels, front bumper and rubber mats on the foot well.",
+      "rating": "4.2",
+      "sku": "2T-Gi-5210",
+      "price": "2995.00",
+      "image": "025.jpg"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+      "name": "TC138 Tractor Lawnmower",
+      "category": "3",
+      "brand": "Husqvarna",
+      "description": "The Husqvarna TC 138 is a user-friendly tractor ideal for homeowners having mid-size to large gardens. The tractor that offers excellent collection of grass clippings as well as leaves, giving tidy cutting results. The spacious, integrated collector is easily emptied from the driver’s seat. Equipped with a powerful Husqvarna Series engine with choke less start and pedal-operated hydrostatic transmission. BioClip® plug and deflector for rear ejection is available as an optional extra.",
+      "rating": "4.4",
+      "sku": "56-TY-Di99-Gi",
+      "price": "2800.00",
+      "image": "026.jpg"
+    }
+  },
+  {
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+      "name": "AT58-4HCB Tractor Lawnmower",
+      "category": "3",
+      "brand": "ALPINA",
+      "description": "Alpina AT584HCB collecting ride on lawnmower with rear discharge cutting system and hydrostatic transmission. Powered by Briggs and Stratton 344cc engine. The lawnmower is equipped with 84 cm cutting deck with twin cutting blades which are engaged by electromagnetic clutch. The deck has 7 different cutting positions from 25 to 80 mm and feeds a 240 L grass bag. The Alpina has big front 15\" and rear 18\" wheels, 6 L fuel tank, front lights and robust bumper.",
+      "rating": "4.3",
+      "sku": "546-J-6DDi99-P",
+      "price": "2080.00",
+      "image": "027.jpg"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+      "name": "TC142-T Tractor Lawnmower",
+      "category": "3",
+      "brand": "Husqvarna",
+      "description": "The Husqvarna TC 142T is a high specification and high capacity tractor with integrated collection, equipped with a powerful Husqvarna Series, Briggs and Stratton twin cylinder engine, with chokeless starting. This mower has an efficient, integrated collection system that is convenient and easily emptied from the driver’s seat. It features pedal-operated hydrostatic transmission that makes driving this lawnmower a pleasure. The Husqvarna TC142T for sale in Ireland is the ideal lawnmower for large lawns of around an acre or more! The TC142T is an upgrade for 2017 featuring a new metal back plate and 18\" rear tyres.",
+      "rating": "5",
+      "sku": "5-896-DDi99-O",
+      "price": "3595.00",
+      "image": "028.jpg"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+      "name": "RT5097 C Tractor Lawnmower",
+      "category": "3",
+      "brand": "STIHL",
+      "description": "The Stihl RT 5097 incorporates a single cylinder Briggs and Stratton engine and great design. All controls are withing easy reach from the fully adjustable, sprung padded seat. In addition the single-pedal operation and direct steering provide a previously unattained level of comfort during driving, manoeuvering and mowing. The Grass Guide System on both sides of the mowing deck catches grass blades at the edge of the deck and guides them towards the cutting blades. The 2 blade system with angled blades provides a neat and clean cutting pattern over a width of 97cm. The mowing deck can be removed without tools.",
+      "rating": "4.5",
+      "sku": "66332-6DDi99-T",
+      "price": "3799.00",
+      "image": "029.jpg"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+      "name": "RPX310 Tractor Lawnmower",
+      "category": "3",
+      "brand": "Snapper",
+      "description": "Snapper RPX310 is our most powerful ride on lawnmower, new for 2019. Like the Snapper RXT300 everything about this ride on mower is high spec. The RPX310 features a massive professional series Briggs and Stratton 8270 series 724cc engine that is capable of producing up to 27 gross horse power. This tractor has a large 42 inch cutting deck with twin cutting blades, leaving a perfect finish every time. The Snapper RPX310 has a large 350 litre grass catcher, meaning less stopping to empty and a very fast travelling speed of 9km/h. This tractor mower has large 22 inch rear wheels and 15 inch front wheels ensuring traction, even on damp ground and it comes complete with a mulching plug and tow hitch free of charge. User friendly features on this machine include arm rests on the seat, LED head lights and a tight turning circle of 36cm. The Snapper RPX310 has a cast iron front axle and like all Snappers a strong chassis with steel panels, the 2019 RPX310 now comes with a front bumper as standard.",
+      "rating": "4.8",
+      "sku": "599-Y436DDi99-E",
+      "price": "4530.00",
+      "image": "030.jpg"
+    }
+  },
+  {
+    "pk": 31,
+    "model": "products.product",
+    "fields": {
+      "name": "Ten Tines Soil Rake",
+      "category": "5",
+      "brand": "Sneeboer",
+      "description": "A 10 pronged rake, the strong teeth will turn soil easy and a long handle makes gardening less strenuous on the back. Take a bumpy or uneven landscape and convert it into a fine-textured level bed for vegetables or flowers.",
+      "rating": "4.9",
+      "sku": "764-Y43-T-DDi99-E",
+      "price": "77.00",
+      "image": "031.jpg"
+    }
+  },
+  {
+    "pk": 32,
+    "model": "products.product",
+    "fields": {
+      "name": "Bow tine rake",
+      "category": "5",
+      "brand": "DeWit",
+      "description": "Lightweight and well balanced, this durable DeWit bow tine rake is built for a lifetime of use around the garden and allotment. Hand forged from tough carbon steel, bolted to an ash hardwood handle, the head’s 13 sharp tines easily penetrate both light and heavier soil without bending or breaking. Great for all soil raking jobs, including preparing beds for sowing and transplanting, soil levelling, clearing stones and weeds, etc.",
+      "rating": "4.4",
+      "sku": "8379-Y436DDi99-G",
+      "price": "45.00",
+      "image": "032.jpg"
+    }
+  },
+  {
+    "pk": 33,
+    "model": "products.product",
+    "fields": {
+      "name": "Plastic Leaf Rake",
+      "category": "5",
+      "brand": "Wilkinson Sword",
+      "description": "This big-headed, plastic tined tool makes the gathering up of pesky leaves an absolute breeze. Its light, wooden shaft and springy plastic tines makes it comfortable and speedy to work with – it also excels in gathering grass clippings for when you’ve not been bothered to fit the grass box on your mower.",
+      "rating": "4.8",
+      "sku": "8900-Y436DDi99-T",
+      "price": "35.00",
+      "image": "033.jpg"
+    }
+  },
+  {
+    "pk": 34,
+    "model": "products.product",
+    "fields": {
+      "name": "4-in-1 Rake",
+      "category": "5",
+      "brand": "Wolf Garten",
+      "description": "This versatile 4-in-1 leaf rake from Wolf Garten can be assembled in 3 different widths (20cm, 48cm and 76cm) to cater for all your raking needs. Use the central rake piece on its own for tackling small grassy pathways or clip on either one or two of the side rake extensions to form one massive, leaf-herding head. You can also dual wield the side wings – sans pole – for close quarter leaf combat. The pole itself will need to be purchased separately, but can be used to host other tool heads in the Wolf Garten range.",
+      "rating": "4.7",
+      "sku": "5422-Y436D-G",
+      "price": "39.00",
+      "image": "034.jpg"
+    }
+  },
+  {
+    "pk": 35,
+    "model": "products.product",
+    "fields": {
+      "name": "Heavy Duty Lawn Rake",
+      "category": "5",
+      "brand": "Spear & Jackson",
+      "description": "A nice, weighty trad rake that’ll handle most garden raking duties with aplomb. This one boasts 20 heat treated tines that are held securely in place with an extra rivet on the underside of the rake head. Its bomb proof build makes it a touch on the weighty side, but the long hardwood shaft gives it balance to help ease you through long autumn raking sessions.",
+      "rating": "4.3",
+      "sku": "599-Y4HH667",
+      "price": "42.00",
+      "image": "035.jpg"
+    }
+  },
+  {
+    "pk": 36,
+    "model": "products.product",
+    "fields": {
+      "name": "Aluminium Landscaping Rake",
+      "category": "5",
+      "brand": "Roughneck",
+      "description": "Lightweight and rustproof aluminium rake. Ideal for raking bark, wood chippings, leaf mulch, pea gravels and other landscaping tasks. Fibreglass handle. 8mm teeth with 15mm gaps.",
+      "rating": "5",
+      "sku": "78742T2-Y436D-G",
+      "price": "55.00",
+      "image": "036.jpg"
+    }
+  },
+  {
+    "pk": 37,
+    "model": "products.product",
+    "fields": {
+      "name": "Carbon Steel Edging Tool",
+      "category": "6",
+      "brand": "Green Jam",
+      "description": "Edging tool with ergonomic soft grip handle. Strong carbon steel head. Durable rust resistant finish. Strong, lightweight design and comfort handle. Ideal for all gardeners who take pride in their gardens.",
+      "rating": "4.8",
+      "sku": "22J—8900—T",
+      "price": "22.00",
+      "image": "037.jpg"
+    }
+  },
+  {
+    "pk": 38,
+    "model": "products.product",
+    "fields": {
+      "name": "Steel Edging Iron",
+      "category": "6",
+      "brand": "Ambassador",
+      "description": "Shock absorbing solid ash shaft. High quality polished stainless steel head. Ideal for creating neat edges around the lawn. Length: 87cm.",
+      "rating": "4.5",
+      "sku": "2339T-Gi-521-E",
+      "price": "38.00",
+      "image": "038.jpg"
+    }
+  },
+  {
+    "pk": 39,
+    "model": "products.product",
+    "fields": {
+      "name": "Premier Edging Knife",
+      "category": "6",
+      "brand": "Bulldog Tools",
+      "description": "For finishing off the edges of any lawn where it meets borders, paths, patios and driveways. Treaded, stop slippage in wet and muddy conditions. Designed to cut cleanly and easily for a perfect edge. Solid forged for extra strength. Head Size (L) 177mm (W) 205mm",
+      "rating": "4.4",
+      "sku": "E2-99-Y4HH66i",
+      "price": "32.00",
+      "image": "039.jpg"
+    }
+  },
+  {
+    "pk": 40,
+    "model": "products.product",
+    "fields": {
+      "name": "WG163 GT 3.0 Battery Grass Trimmer/Edger",
+      "category": "6",
+      "brand": "WORX",
+      "description": "The 2-in-1 GT quickly converts from a trimmer to an in-line wheeled edger and back again. Save your money and don’t buy a separate trimmer and edger. The Command Feed spool system gives you line when you want it at the press of a button. And press all you want because the GT comes with Free Spools for Life! The rubberized wheels provide traction and support for even, professional looking lines when you’re edging. The head tilts 90° so you can trim on uneven patches of lawn. The adjustable spacer guard keeps protects the tops of flowers and plants. And at only 5.3 lbs. you can get your trimming and edging done without feeling fatigue from it. Two powerful 20V Power Share batteries are included with this purchase, which you can use on any tool on the WORX Power Share platform.",
+      "rating": "4.9",
+      "sku": "267-FID-Di99-GL",
+      "price": "115.00",
+      "image": "040.jpg"
+    }
+  },
+  {
+    "pk": 41,
+    "model": "products.product",
+    "fields": {
+      "name": "525ECS 7.5“ Petrol Lawn Edger",
+      "category": "6",
+      "brand": "Husqvarna",
+      "description": "Stay on the cutting edge of your professional maintenance work. Designed for professional use, the Husqvarna 525ECS edger offers enhanced comfort with its ergonomic curved shaft. A balanced, user-centric design ensures safety and practicality day after day. Plus, our patented X-Torq® engine means more power and less fuel consumption and emissions compared to conventional engines.",
+      "rating": "5",
+      "sku": "JJ2999-T-6763K",
+      "price": "325.00",
+      "image": "041.jpg"
+    }
+  },
+  {
+    "pk": 42,
+    "model": "products.product",
+    "fields": {
+      "name": "Lawn Edge Iron Head",
+      "category": "6",
+      "brand": "Wolf Garten",
+      "description": "This Lawn Edge Iron cuts turf to give your lawn a neat and defined edge where it meets borders. The traditional half-moon design makes the tool easy to use and the extra hardened blade will stay sharp in use. The integrated foot rest allows you to apply pressure when inserting to tool into the ground, reducing strain on the upper body.",
+      "rating": "4.8",
+      "sku": "YT2-9G4HH6777",
+      "price": "35.00",
+      "image": "042.jpg"
+    }
+  },
+  {
+    "pk": 43,
+    "model": "products.product",
+    "fields": {
+      "name": "Prestige Edging Iron",
+      "category": "6",
+      "brand": "Faithful",
+      "description": "The Faithfull Prestige Edging Iron has a half moon shaped blade with a durable cutting edge and is used for trimming the edges of lawns to create neat and tidy borders. Made from rust-resistant stainless steel. The polished stainless steel finish provides improved resistance to rust, humidity and alkaloids in the soil. A treaded head shape spreads the load and provides additional support for the foot when the blade is pushed into a lawn, helping to alleviate fatigue. Fitted with a long T-grip handle made from European ash, supplied from FSC® sustainable resources. These are then stained for protection against the weather. With a heavy-duty strapped, double riveted, deep socket for added strength to provide the best in performance and durability. Provides full control of the blade position to ensure a precise edge is created.",
+      "rating": "4.4",
+      "sku": "BBY-2T-99-X",
+      "price": "32.00",
+      "image": "043.jpg"
+    }
+  },
+  {
+    "pk": 44,
+    "model": "products.product",
+    "fields": {
+      "name": "RG-SA 1433 Electric Scarifier and Lawn Aerator",
+      "category": "7",
+      "brand": "Einhell",
+      "description": "3-in-1 combination tool: scarifying, aerating and catching. Ball-bearing spike drum with 20 stainless steel blades. Adjustable scarifying depth, three levels with parking position. Large 28 L collection bag means less emptying. Recommended for lawn areas up to 400 square m",
+      "rating": "4.3",
+      "sku": "6722-G4377-G",
+      "price": "215.00",
+      "image": "044.jpg"
+    }
+  },
+  {
+    "pk": 45,
+    "model": "products.product",
+    "fields": {
+      "name": "2 in 1 Lawn Scarifier",
+      "category": "7",
+      "brand": "VonHaus",
+      "description": "KEEPS YOUR GARDEN TIDY - Easy, convenient and efficient, this powerful 1500W 2 in 1 scarifier offers a quick and simple way to maintain a healthy, tidy lawn. Helping you remove dead grass, moss and thatch all the way down to the roots. TOUGH ENOUGH FOR THE JOB - Made from durable plastic with a metal frame and distinctive grey, black and orange colourways, this handy tool effortlessly removes thatch, moss, leaves and other debris from your lawn. TWO TOOLS IN ONE - The dual purpose drum features easily interchangeable aerating and scarifying rollers as well as a collection box, height adjustable handle and long 10m power lead. Some simple assembly required. SPECIFICATIONS – Packed with features: 4 Cutting Depths, 32cm Working Width, 28l Collection Bag, 9.9kg, 98dB Guaranteed Sound Level.",
+      "rating": "4.2",
+      "sku": "7422-Y6D-8",
+      "price": "145.00",
+      "image": "045.jpg"
+    }
+  },
+  {
+    "pk": 46,
+    "model": "products.product",
+    "fields": {
+      "name": "Lawn Spike Aerator Roller",
+      "category": "7",
+      "brand": "Coopers of Stortford",
+      "description": "Now is the perfect time to aerate your grass for a beautiful lawn. Our Lawn Aerator measures 45cm (17¾ins) wide and makes approx. 184 neat holes per square metre - imagine making that many holes with your garden fork! Simple to use (just push it), it will improve the quality of your lawn by allowing the grass’s roots to breath as well as getting the water off the surface to where it is needed most (this also helps to eliminate moss). Measures approx 122cm (4ft) long and comes complete with a metal protection guard.",
+      "rating": "4.7",
+      "sku": "76722-877436D",
+      "price": "25.00",
+      "image": "046.jpg"
+    }
+  },
+  {
+    "pk": 47,
+    "model": "products.product",
+    "fields": {
+      "name": "Lawn Aerator & Scarifier",
+      "category": "7",
+      "brand": "ABREOME",
+      "description": "Strong and sturdy - Aerator shoes feature a sturdy plastic base that provides unsurpassed heel support. Four adjustable nylon straps wrap the ventilation shoes close to the foot - these shoes remain the same on firm and soft ground.",
+      "rating": "4.9",
+      "sku": "7772-Y436DDD5",
+      "price": "30.00",
+      "image": "047.jpg"
+    }
+  },
+  {
+    "pk": 48,
+    "model": "products.product",
+    "fields": {
+      "name": "RC401 Pro Gold Lawn Aerator",
+      "category": "7",
+      "brand": "Kingfisher",
+      "description": "Ideal for the professional gardener. Easily stores away, robust design. 5 prong lawn aerator. Weight : 2.16 Kg",
+      "rating": "4.5",
+      "sku": "5667-J436DP",
+      "price": "25.00",
+      "image": "048.jpg"
+    }
+  },
+  {
+    "pk": 49,
+    "model": "products.product",
+    "fields": {
+      "name": "2 in 1 Electric Lawn Aerator & Scarifier",
+      "category": "7",
+      "brand": "Hyundai",
+      "description": "Get a healthy green lawn: Revitalise your dull, spongy, patchy grass. Fitted with 20 hardened steel blades: Designed to remove moss, thatch, and dead grass right down to the roots. Powerful 1500W motor: Gets the job done quickly, coupled with a large 360mm operating width. Weighs just 11.4kg: Comfortable to push around the garden and provides 5 cutting heights for a perfect finish on your lawn.. Powered by mains electric: Low maintenance and easy to use",
+      "rating": "5",
+      "sku": "8722-X436DKK-O",
+      "price": "199.00",
+      "image": "049.jpg"
+    }
+  },
+  {
+    "pk": 50,
+    "model": "products.product",
+    "fields": {
+      "name": "PREMIUM Pulse Garden Sprinkler",
+      "category": "8",
+      "brand": "GARDENA ",
+      "description": "Simple operation: The fine range selection allows convenient setting of the sectors to be watered; it is immediately obvious which sector, between 25 Degrees and 360 Degrees is set. Stable fixing: The sprinkler is mounted on a robust plastic sled that has three metal inserts to make it stable. Multiple expandability: More than one sprinkler can be connected in a row with the Gardena system connector and the end cap.",
+      "rating": "4.5",
+      "sku": "65H67-J436DP",
+      "price": "38.00",
+      "image": "050.jpg"
+    }
+  },
+  {
+    "pk": 51,
+    "model": "products.product",
+    "fields": {
+      "name": "Oscillating Garden Sprinkler",
+      "category": "8",
+      "brand": "Hozelock",
+      "description": "An oscillating sprinkler that can water a full or part rectangle. Ultra even coverage due to water-powered motor & jets. Reaches a maximum area coverage of 180m2.",
+      "rating": "4.3",
+      "sku": "888667-J4-T",
+      "price": "32.00",
+      "image": "051.jpg"
+    }
+  },
+  {
+    "pk": 52,
+    "model": "products.product",
+    "fields": {
+      "name": "PREMIUM OSCILLATING SPRINKLER",
+      "category": "8",
+      "brand": "KARCHER ",
+      "description": "The Karcher Oscillating Sprinkler OS 5.320 SV with width coverage control and splash guard for convenient alignment is ideal for watering medium-sized/large areas and gardens. Compatible with all Karcher hoses, hose reel kits and watering systems. Max sprinkler coverage 320 m2. Integrated SplashGuard protection. Easy to connect to garden hoses",
+      "rating": "4.9",
+      "sku": "HG6-67-J436-E",
+      "price": "42.00",
+      "image": "052.jpg"
+    }
+  },
+  {
+    "pk": 53,
+    "model": "products.product",
+    "fields": {
+      "name": "Rain Train Travelling Lawn Sprinkler",
+      "category": "8",
+      "brand": "Nelson",
+      "description": "The Nelson travelling lawn sprinkler features a powerful two-speed transmission for high and low speeds. It can also be set to neutral for stationary use. This machine works by travelling along a length of garden hose laid out in the area requiring watering (maximum length of 60 metres). When the rain train reaches the end of the hose pipe, the shut-off ramp will automatically deactivate the sprinkler and terminate watering to prevent water waste. This sprinkler is made to be tough and reliable, with a body made of heavy duty cast iron. This is favoured by professional gardeners and landscapers.",
+      "rating": "4.7",
+      "sku": "587877-J436-B",
+      "price": "210.00",
+      "image": "053.jpg"
+    }
+  },
+  {
+    "pk": 54,
+    "model": "products.product",
+    "fields": {
+      "name": "Garden Skid Sprinkler - Pro",
+      "category": "8",
+      "brand": "GARDENA ",
+      "description": "The garden skid sprinkler is a professional garden sprinkler that provides excellent watering coverage. Comes with a professional sprinkler head that has a maximum coverage of 25m diameter. Can be set to do either a full circle coverage or part circle coverage (such as a semi-circle or quarter circle). The range of the sprinkler can be reduced as well quickly and easily to cover smaller areas. Comes with a Hozelock inlet preinstalled for quick and easy connection to a garden hose pipe. The sprinkler is also supplied with a Geka connection if required.",
+      "rating": "4.3",
+      "sku": "656567-J436D-8G",
+      "price": "78.00",
+      "image": "054.jpg"
+    }
+  },
+  {
+    "pk": 55,
+    "model": "products.product",
+    "fields": {
+      "name": "Pop-up Lawn Watering Kit",
+      "category": "8",
+      "brand": "Colibri",
+      "description": "The introduction of the Claber Colibri complete lawn watering kit has meant homeowners can quickly and easily install a pop-up sprinkler system for themselves at an affordable price. This lawn watering kit is designed for areas measuring 50m² and can be extended to cover areas up to 200m² by purchasing additional Colibri sprinklers and accessories. Because of the unique design of the Colibri pop-up sprinklers, this kit can easily be run from a low-pressure water supply. When in use, the pop-up sprinklers rise out of the ground and evenly waters your lawn with a gentle uniform rain effect, and then retract back underground when the system is turned off. For full automation, purchase a water timer to time when the watering system is turned on and off.",
+      "rating": "4.8",
+      "sku": "K97349724-GH",
+      "price": "109.00",
+      "image": "055.jpg"
+    }
+  },
+  {
+    "pk": 56,
+    "model": "products.product",
+    "fields": {
+      "name": "Deluxe Stainless Steel Soil Knife",
+      "category": "9",
+      "brand": "A.M. Leonard ",
+      "description": "MULTITASKING DUAL EDGES: a deep serrated edge and a tapered slicing edge ideal for tough or delicate cuts. DURABLE 6-inch stainless steel blade withstands 300 lbs of pressure. HIGHLY VISIBLE bright orange handle has a wide safety guard and comfortable grip. TWINE CUTTING NOTCH, DEPTH GAUGE MARKINGS & spear point - no need to switch tools when using this garden knife. LIFETIME WARRANTY",
+      "rating": "4.8",
+      "sku": "74445-Y677D-L",
+      "price": "15.00",
+      "image": "056.jpg"
+    }
+  },
+  {
+    "pk": 57,
+    "model": "products.product",
+    "fields": {
+      "name": "48” Long Handled Spade",
+      "category": "9",
+      "brand": "Kingfisher",
+      "description": "The Long Handle Irish Spade – 48in is a light weight extra strong digging spade designed for the more enthusiastic gardener with quality and durability in mind. Made with a light weight solid ash handle and a heavy duty carbon steel coated head, this spade is built to last. It also has extra wide foot steps for comfortable use.",
+      "rating": "4.3",
+      "sku": "191922-T6D-H",
+      "price": "20.00",
+      "image": "057.jpg"
+    }
+  },
+  {
+    "pk": 58,
+    "model": "products.product",
+    "fields": {
+      "name": "LN2K Fixed Double Hoe",
+      "category": "9",
+      "brand": "Wolf Garten",
+      "description": "Part of the Fixed Hand Tool Range 2 in 1 Tool for Hoeing and Loosening Soil 3 Strong Tines Sharp Hoeing Blade 10 Year Guarantee",
+      "rating": "4.1",
+      "sku": "4322Y6D99-P",
+      "price": "22.00",
+      "image": "058.jpg"
+    }
+  },
+  {
+    "pk": 59,
+    "model": "products.product",
+    "fields": {
+      "name": "1301 Multi-Purpose Blade Sharpener",
+      "category": "9",
+      "brand": "MULTI-SHARP",
+      "description": "Get your garden in top shape with the Multi-Sharp Rotary Mower/Garden Tool Sharpener. This tool re-sharpens rotary mower blades to the correct angle in just minutes. Sharp blades give you a clean cut and are healthier for the grass. Mowing with a sharp blade produces finer clippings for healthier lawn and allows you to mow faster and exert less effort. To use this mower accessory, there's no need to remove the blade from the mower. This sharpener features a reversible, Corundum grinding wheel that gives 10 blade resharpenings and should last for three to four seasons. This versatile tool is also great for re-edging and re-sharpening hoes, lawn-edgers, spades, and axes, making them easier and safer to use in your garden, home, and patio areas.",
+      "rating": "4.8",
+      "sku": "7422-L",
+      "price": "15.00",
+      "image": "059.jpg"
+    }
+  },
+  {
+    "pk": 60,
+    "model": "products.product",
+    "fields": {
+      "name": "4-in-1 Soil pH Meter",
+      "category": "9",
+      "brand": "Sonkir",
+      "description": "Sonkir has spent many years in pH measuring field & gardening testing tool, and we are endeavor to produce scientific and reliable testing kits for those who are persistent for high-quality goods. The accuracy of pH measurement is a common puzzle for soil meters, and in many cases people find the needle in traditional soil tester will not move under the pH measuring mode. We know what the problem is as the components in traditional meter are fragile and the way of giving out results are dependent on weak chemical reaction. As a result, we produce a digital meter that will prevent those unpleasant experience and offer you a reliable digital reading.",
+      "rating": "4.6",
+      "sku": "56600452-YTTD-8",
+      "price": "19.00",
+      "image": "060.jpg"
+    }
+  },
+  {
+    "pk": 61,
+    "model": "products.product",
+    "fields": {
+      "name": "URM3 Roller Moss",
+      "category": "9",
+      "brand": "Wolf Garten",
+      "description": "This Roller Moss Removal Rake is the ideal tool for clearing moss and thatch from your lawn. The head has been specially designed to swing back and forth – this, combined with the angle of the teeth, enables the rake to ‘glide’ over the lawn when pushed and ‘bite’ into the lawn when pulled. The wheels on either side of the rake provide maximum manoeuvrability with minimal effort.",
+      "rating": "5",
+      "sku": "860522-K-3",
+      "price": "45.00",
+      "image": "061.jpg"
+    }
+  },
+  {
+    "pk": 62,
+    "model": "products.product",
+    "fields": {
+      "name": "Knapsack Chemical Weed Sprayer 12 L",
+      "category": "10",
+      "brand": "Proplus",
+      "description": "ProPlus Knapsack Sprayer has a capacity of 12 litres and is suitable for spraying your garden with herbicides, pesticides and fertilizers. The backpack style sits comfortably on your back with adjustable harness straps to suit your height. There is a free grass guide hood and lance as well as a fully adjustable nozzle which can create a fine mist to a jet spray. The tank is a translucent colour with graduated markings and the lance can be clipped into the pump handle for easy storage. The trigger lock can create a continuous flow of spray which is very easy to turn on. It is important to consider the time you spray your pesticides. If you apply it just before rain the pesticides can leach through the soil and contaminate entire habitats. The best time to use a pesticide is on a cloudy day when temperatures are moderate and the soil should be moderately dry. Never apply pesticide when there is wind to prevent the chemical from drifting to non-target areas.",
+      "rating": "4.8",
+      "sku": "9HG6-67-K436-F",
+      "price": "45.00",
+      "image": "062.jpg"
+    }
+  },
+  {
+    "pk": 63,
+    "model": "products.product",
+    "fields": {
+      "name": "Garden Pressure Sprayer",
+      "category": "10",
+      "brand": "Hozelock",
+      "description": "The Hozelock Pressure Sprayer has a wide, ergonomic pump handle for easy pressurisation. With last drop technology, it comes with a one year guarantee.Adjustable cone nozzle from jet to mist. Integrated in-built pressure release valve. Translucent, graduated bottle for accurate chemical mixing and dosing. Capacity 7L",
+      "rating": "4.3",
+      "sku": "NNH66-J43946-MM",
+      "price": "36.00",
+      "image": "063.jpg"
+    }
+  },
+  {
+    "pk": 64,
+    "model": "products.product",
+    "fields": {
+      "name": "Electric Sprayer 15L",
+      "category": "10",
+      "brand": "WECLEAN",
+      "description": "Removable & rechargeable lithium battery]: 2Ah external lithium battery , easy to remove and charge. The Weclean agricultural Electric Sprayer can run continuously for 2-4 hours after charging for about 5 hours. The electric sprayer does not require manual pressing, which is more convenient and practical. High-quality material]: The body of the disinfection sprayer is made of PP plastic, which is non-toxic, odorless, low density, strength, stiffness, hardness and heat resistance. Multi-function]: Equipped with 4 different nozzles to meet different needs. The WECLEAN electric sprayer can be used for sterilization, disinfection, as well as for spraying fertiliser or weedkiller.",
+      "rating": "4.9",
+      "sku": "546HF6-67-ER436",
+      "price": "185.00",
+      "image": "064.jpg"
+    }
+  },
+  {
+    "pk": 65,
+    "model": "products.product",
+    "fields": {
+      "name": "Pump Action Pressure Sprayer 5 L",
+      "category": "10",
+      "brand": "Spear & Jackson",
+      "description": "Fully adjustable wand nozzle from spray to mist, lockable trigger mechanism and water flow regulator. Translucent graduated bottle in litres and fluid ounces for accuracy when filling or mixing within the bottle. 5 litre pump action pressure sprayer with pressure release valve and shoulder strap. Use with water and non viscous water based or soluble products including pesticides, herbicides, insecticides, fungicides, fertilisers. 560 mm watering wand/lance and 1.3 m hose for use in awkward or inaccessible places created using spot IIDP. Weight full (kg): 5.40. Where not using water, use liquids no less/more than pH values 5-9",
+      "rating": "4.4",
+      "sku": "JH66F7-99J436-2",
+      "price": "14.00",
+      "image": "065.jpg"
+    }
+  },
+  {
+    "pk": 66,
+    "model": "products.product",
+    "fields": {
+      "name": "PLUS Knapsack Garden Sprayer - 12 L",
+      "category": "10",
+      "brand": "Hozelock",
+      "description": "The Hozelock Plus sprayers are multi-purpose, effective large pressure sprayers for outdoor use and are designed to be conveniently & comfortably carried on your back. The design allows you to use the sprayer using your right or left hand, simply by switching the straps. Thanks to its easy pumping action, you can adjust your spray pattern with ease, with the added benefit of an ergonomic handle – making it comfortable to use. Comes with a filter and a mixer.",
+      "rating": "4.7",
+      "sku": "44G6-6G7J436D",
+      "price": "105.00",
+      "image": "066.jpg"
+    }
+  },
+  {
+    "pk": 67,
+    "model": "products.product",
+    "fields": {
+      "name": "Pumpless Battery Powered Sprayer",
+      "category": "10",
+      "brand": "Flo Master",
+      "description": "Rechargeable lithium ion Battery powered sprayer. No pumping required and sprays approximately 18 gallons of liquid on a single charge. Translucent 1.3 Gallon tank allows for easy monitoring of fluid levels. Adjustable nozzle sprays from a fine mist to a straight stream. Convenient, padded shoulder strap for comfort and portability.Thumb operated power switch.Double telescoping wand, extends from 16 to 35 inches",
+      "rating": "5",
+      "sku": "6GFVXG67-J436",
+      "price": "65.00",
+      "image": "067.jpg"
+    }
+  },
+  {
+    "pk": 68,
+    "model": "products.product",
+    "fields": {
+      "name": "SUPERSOIL Fertiliser - 1Kg",
+      "category": "11",
+      "brand": "SUPERSOIL",
+      "description": "100% Pure. 100% Natural. 100% Organic. No Chemicals. Ever. Each 1 kg tub contains 1,000,000,000,000 Supersoil microbes that work like magic and a powerful growth booster that’s the equivalent of 20 tons of organic compost. Supersoil is a highly concentrated powder that dissolves easily in water. Simply add Supersoil to water and apply directly to your soil / plant roots / short grass etc using a crop sprayer, drench or even a watering can. The recommended dilution ratio for Supersoil is 1 : 1,000.",
+      "rating": "5",
+      "sku": "GB6422-L",
+      "price": "299.00",
+      "image": "068.jpg"
+    }
+  },
+  {
+    "pk": 69,
+    "model": "products.product",
+    "fields": {
+      "name": "ZERO Lawn Feed - Small Kit",
+      "category": "11",
+      "brand": "Horkans",
+      "description": "Contains 1x 2.5L of Zero Lawn Moss and 1x 15kg bags of Zero Lawn Feed. Zero Lawn Moss is a fast acting moss remover that works overnight. Zero Lawn Feed a slow release fertilizer that greens your lawn without forcing growth. Leaves your lawn looking luscious and green with quick results.",
+      "rating": "4.9",
+      "sku": "A-422-LA",
+      "price": "55.00",
+      "image": "069.jpg"
+    }
+  },
+  {
+    "pk": 70,
+    "model": "products.product",
+    "fields": {
+      "name": "Lime Pellets for Lawns",
+      "category": "11",
+      "brand": "OSMO",
+      "description": "Raises the pH of the soil. Adds important nutrients like calcium & magnesium. Revitalises your lawn. Easy to apply over the ground, less likely to drift to areas where lime is not needed. Can be applied to garden on lawns, in fruit and vegetable gardens, greenhouses and ornamental gardens. 25kg bag.",
+      "rating": "4.5",
+      "sku": "746562-L",
+      "price": "20.00",
+      "image": "070.jpg"
+    }
+  },
+  {
+    "pk": 71,
+    "model": "products.product",
+    "fields": {
+      "name": "Water Soluble Lawn Food 1 kg",
+      "category": "11",
+      "brand": "Miracle-Gro",
+      "description": "Richer, greener lawn in 5 days. Dissolved nutrients lowers the risk of scorching. Easy to apply using the Miracle-Gro Feeder or mixing in a watering can. Use from March to October",
+      "rating": "4.9",
+      "sku": "876B22-L",
+      "price": "12.00",
+      "image": "071.jpg"
+    }
+  },
+  {
+    "pk": 72,
+    "model": "products.product",
+    "fields": {
+      "name": "Fast Green Lawn Food 7 kg",
+      "category": "11",
+      "brand": "Miracle-Gro",
+      "description": "Deeper greening in just 3 days. Children and pets need not be kept out of the treated area. 7 kg bag covers 200 sq m. For ideal results, use with an EverGreen or Scotts spreader to ensure even coverage. Use from March to September",
+      "rating": "4.3",
+      "sku": "274290902-L",
+      "price": "74.00",
+      "image": "072.jpg"
+    }
+  },
+  {
+    "pk": 73,
+    "model": "products.product",
+    "fields": {
+      "name": "EverGreen Autumn & Spring Lawn Food 8 kg",
+      "category": "11",
+      "brand": "Miracle-Gro",
+      "description": "September to November - apply to restore your lawn after harsh summer and prepare it for the stresses of winter. March to May - apply after the distress winter imposes on your lawn, spring becomes a key season in caring for it. Fast greening in 7 days and no Scorch formula. Wait at least 6 weeks after seeding or turfing new lawn areas before use; Do not re-seed or turf for at least 6 weeks after application; Re-apply in 3 months if needed. Do not over apply. Wash hands after use or before eating and drinking. Children and pets need not be excluded from treated areas when applied according to the label instructions.",
+      "rating": "4.7",
+      "sku": "6232422-POH",
+      "price": "83.00",
+      "image": "073.jpg"
+    }
+  },
+  {
+    "pk": 74,
+    "model": "products.product",
+    "fields": {
+      "name": "Select Stainless Weeder and Fulcrum",
+      "category": "12",
+      "brand": "Spear & Jackson",
+      "description": "Fulcrum provides additional leverage when removing weeds. Mirror polished stainless steel head for improved resistance to rust and minimal soil adhesion. Material: Soft grip pp handle. Bi-material contoured handle. Ideal for levering out stubborn weeds",
+      "rating": "4.5",
+      "sku": "12-UH-42655",
+      "price": "15.00",
+      "image": "074.jpg"
+    }
+  },
+  {
+    "pk": 75,
+    "model": "products.product",
+    "fields": {
+      "name": "Xact weed puller",
+      "category": "12",
+      "brand": "FISKARS",
+      "description": "Fiskars’ Xact weed puller is designed to be as easy, efficient and ergonomic to use as possible. The long handle allows you to remove root weeds without crouching or kneeling: simply place the blades around the weed, press it into the ground and pull it back up. The weed can be effortlessly removed from the blades with the handle’s easy-eject mechanism.",
+      "rating": "4.7",
+      "sku": "6B-100_236546-M",
+      "price": "55.00",
+      "image": "075.jpg"
+    }
+  },
+  {
+    "pk": 76,
+    "model": "products.product",
+    "fields": {
+      "name": "Lawn Weed Killer Concentrate Liquid 1 L",
+      "category": "12",
+      "brand": "Weedol",
+      "description": "Kills weeds not lawns. Kills dandelions, daisies and clover. No Glyphosate. Apply through a sprayer or watering can. Covers up to 667 m2. Weeds in the lawn compete with the grass for light moisture and food, remove it with Weedol Lawn Weedkiller",
+      "rating": "4.8",
+      "sku": "623-J28722",
+      "price": "23.00",
+      "image": "076.jpg"
+    }
+  },
+  {
+    "pk": 77,
+    "model": "products.product",
+    "fields": {
+      "name": "Complete 4-in-1 Lawn Care",
+      "category": "12",
+      "brand": "Evergreen",
+      "description": "Creates a thicker, greener and healthier lawn whilst killing weeds and moss. WaterSmart formula helps absorb water and nutrients more effectively, helping to protect your lawn against drought and stress. For ideal results, apply using an EverGreen or Scotts spreader to ensure even coverage. After applying this product in accordance with the label instructions keep children and pets away from treated areas until the granules have been watered in thoroughly and the areas have dried. Use from April to September",
+      "rating": "4.9",
+      "sku": "L25T-34",
+      "price": "28.00",
+      "image": "077.jpg"
+    }
+  },
+  {
+    "pk": 78,
+    "model": "products.product",
+    "fields": {
+      "name": "Lawn Weed Killer Extra 1 L",
+      "category": "12",
+      "brand": "Resolva",
+      "description": "Kills weeds in your lawn with damaging the grass; contains mecoprop-P and dicamba. Ideal for effective control of broad leaved weeds including dandelions, daisies, white clover, yarrow, buttercups, self heal, deadnettle, speedwell and broad-leaved docks in lawns. This products adjustable spray or jet trigger head feature allows for wide large area or targeted application. This pack will treat a 40 m2 area (equivalent to four car parking spaces).",
+      "rating": "4.3",
+      "sku": "63HGB88",
+      "price": "14.00",
+      "image": "078.jpg"
+    }
+  },
+  {
+    "pk": 79,
+    "model": "products.product",
+    "fields": {
+      "name": "Lawn WeedKiller Spray Bottle 1L",
+      "category": "12",
+      "brand": "Doff",
+      "description": "Specially formulated for lawns, Doff Lawn Weedkiller takes special care to kill weeds and not grass. Great value for money, 1L of solution can treat up to 50m² of lawn. Doff Lawn Weedkiller is perfect for spot treatment of weeds.",
+      "rating": "4.5",
+      "sku": "92O2422LOM",
+      "price": "12.00",
+      "image": "079.jpg"
+    }
+  },
+  {
+    "pk": 80,
+    "model": "products.product",
+    "fields": {
+      "name": "Play & Sport Grass Seed 5 K",
+      "category": "13",
+      "brand": "BARENBRUG",
+      "description": "Play & Sport is the latest lawn grass seed mix that stands out with exceptional utility features. It allows you to grow a resistant, self-thickening and self-repairing lawn that you have never seen before. It contains, among other species, the new generation of perennial ryegrass that displays exceptional ability to develop lateral stolons that form a strong underground network. It will strengthen your lawn and ensure its magnificent appearance. Thanks to advanced reproduction research it also shows high resistance to treading and quickly fills gaps caused by mechanical damage. The innovative RPR ryegrass provides the most effective solution against ugly, loose turf with visible tufts. Sowing the Play & Sport grass seed allows you to grow an even, dense lawn that will be resistant to heavy use. ",
+      "rating": "4.7",
+      "sku": "B-522-LA",
+      "price": "59.00",
+      "image": "080.jpg"
+    }
+  },
+  {
+    "pk": 81,
+    "model": "products.product",
+    "fields": {
+      "name": "Fast Grass Lawn Seed 480g",
+      "category": "13",
+      "brand": "Miracle-Gro",
+      "description": "Faster results with 4 day germination. Contains Headstart Gold, a revolutionary grass seed coating that ensures rapid germination. Stronger roots and a healthier lawn. Professional grade seed for superior results, suitable for all lawn types.",
+      "rating": "4.2",
+      "sku": "A-422-LKK",
+      "price": "8.00",
+      "image": "081.jpg"
+    }
+  },
+  {
+    "pk": 82,
+    "model": "products.product",
+    "fields": {
+      "name": "GRO-SURE Muli-Purpose Lawn Seed 3.6KG",
+      "category": "13",
+      "brand": "Westland",
+      "description": "A blend of quality, hardwearing seed varieties that establish strong root networks. Seed treatment to help deter birds from feeding. Ideal for starting a new lawn, over-seeding worn grass or filling in bare patches. Maintains Colour All Season Long",
+      "rating": "4.4",
+      "sku": "F54E-422-LA",
+      "price": "38.00",
+      "image": "082.jpg"
+    }
+  },
+  {
+    "pk": 83,
+    "model": "products.product",
+    "fields": {
+      "name": "Leisure Lawn Grass Seed No2 10kg",
+      "category": "13",
+      "brand": "Germinal ",
+      "description": "Germinal leisure lawn grass seed is a quick establishing lawn seed specially designed for landscaping and domestic lawns",
+      "rating": "4.6",
+      "sku": "HC5-42772-B",
+      "price": "49.00",
+      "image": "083.jpg"
+    }
+  },
+  {
+    "pk": 84,
+    "model": "products.product",
+    "fields": {
+      "name": "Evengreen Drop Spreader 18\"",
+      "category": "13",
+      "brand": "Scotts",
+      "description": "The Scotts 016057 EvenGreen Drop Spreader helps remove the drudgery from vital gardening tasks. The spreader will help the gardener strike a balance between dispersing too much or too little grass seed, resulting in growth that is neither too dense nor too sparse. It also dispenses lawn fertilizer on growing grass, and its long handle allows for comfortable working. The spreader weighs 4.4 Kg.",
+      "rating": "4.9",
+      "sku": "V-77222-N",
+      "price": "95.00",
+      "image": "084.jpg"
+    }
+  },
+  {
+    "pk": 85,
+    "model": "products.product",
+    "fields": {
+      "name": "Hand Held Handy Spreader",
+      "category": "13",
+      "brand": "Evergreen",
+      "description": "The Evergreen Handy Spreader accurately distributes EverGreen & Scotts Lawn Builder granular lawn food to help achieve the best results. Extremely easy to use and makes light work of lawn treatment. It is great for small lawns and is easy to use with 5 settings with arm support for greater comfort.  Perfect for evenly applying granular lawn treatments and/or grass seed products over a small lawn! For even application of granular lawn care and grass seed. Great for small lawns. Arm support for greater comfort. Easy to use, with 5 settings.",
+      "rating": "5",
+      "sku": "WW55-88S",
+      "price": "90.00",
+      "image": "085.jpg"
+    }
+  },
+  {
+    "pk": 86,
+    "model": "products.product",
+    "fields": {
+      "name": "Huggate - Men’s Fleece Waistcoat",
+      "category": "14",
+      "brand": "Rydale",
+      "description": "Top-quality fleece and polyester waistcoat that looks good, feels good and retains durability. Impressive attention to detail in the design and shape of the waistcoat. The top-quality choice for anyone looking for added protection during any gardening activities coming up. Trimmed fleece edging with durable brown contrasting moleskin material for aesthetic appeal.",
+      "rating": "4.4",
+      "sku": "D-0522-K-3",
+      "price": "55.00",
+      "image": "086.jpg"
+    }
+  },
+  {
+    "pk": 87,
+    "model": "products.product",
+    "fields": {
+      "name": "Huggate - Ladies Fleece Waistcoat",
+      "category": "14",
+      "brand": "Rydale",
+      "description": "Smart, stylish design in a rich brown that works with just about any normal country attire. Great for outdoor work and for leisure, giving you an all-year solution that looks great. Comfortable and reliable design that feels good, fits the body well and feels snug. Easy to care for and to look after; made from soft fleece and polyester.",
+      "rating": "4.9",
+      "sku": "7JI-0522-K-3",
+      "price": "55.00",
+      "image": "087.jpg"
+    }
+  },
+  {
+    "pk": 88,
+    "model": "products.product",
+    "fields": {
+      "name": "Portwest Softshell Bodywarmer - Unisex",
+      "category": "14",
+      "brand": "Portwest",
+      "description": "A lightweight alternative to a jacket this softshell body-warmer is ideal for working in the garden. Breathable garment. Phone pocket. Waterproof zips",
+      "rating": "4.3",
+      "sku": "4545-KL60522-K-3",
+      "price": "43.00",
+      "image": "088.jpg"
+    }
+  },
+  {
+    "pk": 89,
+    "model": "products.product",
+    "fields": {
+      "name": "219 Waterproof Jacket - Unisex",
+      "category": "14",
+      "brand": "Stormtex",
+      "description": "A light weight gardening waterproof for gardeners and outdoor workers looking for hard wearing wet weather gear that is durable and comfortable.  The Stormtex 219G is designed to be comfortable to wear and with a heavy duty YKK zipper with storm flap and front pockets for performance and ease of use.",
+      "rating": "4.8",
+      "sku": "333JI-0522T",
+      "price": "45.00",
+      "image": "089.jpg"
+    }
+  },
+  {
+    "pk": 90,
+    "model": "products.product",
+    "fields": {
+      "name": "Brigid  - Women’s Waterproof Jacket",
+      "category": "14",
+      "brand": "Regatta",
+      "description": "Waterproof Hydrafort 100% polyester peached fabric. Taped seams. 100% Polyester. Brigid Waterproof Hydrafort Taped Seams. Durable water repellent finish.",
+      "rating": "4.7",
+      "sku": "4560522-K-KK",
+      "price": "65.00",
+      "image": "090.jpg"
+    }
+  },
+  {
+    "pk": 91,
+    "model": "products.product",
+    "fields": {
+      "name": "iMen's Long Sleeve Shirt with UV Protection",
+      "category": "14",
+      "brand": "Craghoppers ",
+      "description": "The Kiwi long-sleeved shirt is a bona fide outdoor classic. A perennially popular Craghoppers best-seller, it’s built for the trail and makes the ideal partner for Kiwi walking trousers. Constructed from tough, sun-protective and insect bite-proof fabric, with a relaxed fit, this easy-care shirt provides reliable, effective coverage all year round.",
+      "rating": "5",
+      "sku": "0522-ML-66",
+      "price": "57.00",
+      "image": "091.jpg"
+    }
+  },
+  {
+    "pk": 92,
+    "model": "products.product",
+    "fields": {
+      "name": "Heavy Duty Trousers - Unisex",
+      "category": "15",
+      "brand": "UNEEK",
+      "description": "2 front pockets with tuck away pockets. 2 side pockets. 2 Back Pockets with velcro and double fabric at pocket base. Wide Cell Phone pocket on right side pocket. Three slot tool holder on left side pocket. Knee pad pockets with bottom opening. Triple Stitched Seams. 8 X Belt Loops. High Quality YKK Brass Zipper. ToolLoop Knee Pad Pockets.",
+      "rating": "4.8",
+      "sku": "877-K0522",
+      "price": "28.00",
+      "image": "092.jpg"
+    }
+  },
+  {
+    "pk": 93,
+    "model": "products.product",
+    "fields": {
+      "name": "Ladies Workwear Elasticated Cargo Trousers",
+      "category": "15",
+      "brand": "Portwest",
+      "description": "Portwest - Ladies Outdoor Workwear Elasticated Action Cargo Trousers, Tailored specifically to the female form with an array of practical features. 11 Total storage pockets, Half elasticated waist, Hook and bar closure. UPF 50+, Kingsmill 65% Polyester, 35% Cotton",
+      "rating": "5",
+      "sku": "9922-ML-F",
+      "price": "32.00",
+      "image": "093.jpg"
+    }
+  },
+  {
+    "pk": 94,
+    "model": "products.product",
+    "fields": {
+      "name": "Mens Heavy Duty Safety Cargo Trousers",
+      "category": "15",
+      "brand": "WrightFits",
+      "description": "Product Quality: WrightFits is best known to hold the standards of durability, comfortable fitting and machine washable quality. Fabric: These Work. Trousers are made with finest Poly-cotton fabric which contains 65% polyester and 35% cotton and GSM: 300. Knee-Safety Feature: Bring the best safeguards of you while working at site areas as its Cordura Knee pads pockets protect you from several serious injuries.",
+      "rating": "4.6",
+      "sku": "8522-ML-82",
+      "price": "35.00",
+      "image": "094.jpg"
+    }
+  },
+  {
+    "pk": 95,
+    "model": "products.product",
+    "fields": {
+      "name": "Paclite Gore-Tex Waterproof Trousers",
+      "category": "15",
+      "brand": "BERGHAUS",
+      "description": "Waterproof guarantee - stay dry all day long with super-light Gore-Tex Paclite shell fabric. Paclite technology enables the fabric to fold down into a handy ‘stuff sac’ - it’s there when you need it and isn’t a burden when you don’t. 00% Nylon. Long (33 Inches). Elasticated waist provides a more comfortable fit. Made with bluesign approved planet-friendly fabrics.",
+      "rating": "4.8",
+      "sku": "052ML-66-PLO99",
+      "price": "86.00",
+      "image": "095.jpg"
+    }
+  },
+  {
+    "pk": 96,
+    "model": "products.product",
+    "fields": {
+      "name": "Women's Deluge Waterproof Bretahable Overtrousers",
+      "category": "15",
+      "brand": "BERGHAUS",
+      "description": "Feel smug and smile when the heavens open, knowing these overtrousers will keep you dry. Whatever the weather, they won’t let you down as the fully waterproof Hydroshell® is also breathable and extremely tough. Easy to pull on at the first drop of rain due to three-quarter-length side zips, which are also great to let the air in if you get too hot. So whether you’re trekking up your favourite mountain or exploring somewhere new, these are a brilliant companion.",
+      "rating": "4.7",
+      "sku": "0767672-M",
+      "price": "55.00",
+      "image": "096.jpg"
+    }
+  },
+  {
+    "pk": 97,
+    "model": "products.product",
+    "fields": {
+      "name": "Unisex Qikpac Compact Waterproof Trousers ",
+      "category": "15",
+      "brand": "Trespass",
+      "description": "Waterproof up to 5000 mm with taped seems and also is windproof; breathable up to 5000 mvp. Three pocket openings (no pocket gags). 100% Polyamide Pu Coating. Packaway Trousers. Full elasticated cuff and two pockets. Hem stud adjusters. Pack into mesh pouch.",
+      "rating": "4.6",
+      "sku": "968MLF",
+      "price": "30.00",
+      "image": "097.jpg"
+    }
+  },
+  {
+    "pk": 98,
+    "model": "products.product",
+    "fields": {
+      "name": "Unisex Waterproof Gardening Goloshes",
+      "category": "16",
+      "brand": "Dunlop",
+      "description": "100% Waterproof. Deep Cut Grip Soles. Outer Material: Rubber. Inner Material: Synthetic. ole: Rubber. Closure: Pull On. Heel Height: 1 inches. Shoe Width: Medium. Easy Slip on Garden Shoes. Great for pottering around the Garden. Unisex.",
+      "rating": "4.8",
+      "sku": "33477-K0522-P",
+      "price": "22.00",
+      "image": "098.jpg"
+    }
+  },
+  {
+    "pk": 99,
+    "model": "products.product",
+    "fields": {
+      "name": "Ladies Sport Rubber Wellingtons",
+      "category": "16",
+      "brand": "Dunlop",
+      "description": "Genuine rubber uppers. Small sporty style wedge heel . Outer Material: Rubber. Inner Material: Textile. Sole: Rubber. Closure: Pull-On. Heel Height: 0.5 inches. Heel Type: Wedge. Shoe Width: Regular. Dunlop logo.",
+      "rating": "4.5",
+      "sku": "K0522-LKM",
+      "price": "28.00",
+      "image": "099.jpg"
+    }
+  },
+  {
+    "pk": 100,
+    "model": "products.product",
+    "fields": {
+      "name": "Mens Compass Flick Bell Wellingtons",
+      "category": "16",
+      "brand": "Dunlop",
+      "description": "100% Original Dunlop Wellington Boots. Deep Thread for Enhanced Grip. Outer Material: Rubber. Inner Material: Manmade. Sole: Rubber. Closure: Slip-On. Heel Height: 2 CM. Heel Type: Block. Shoe Width: Medium. Shock Absorbent. Fully Waterproof. Easy to Pull On",
+      "rating": "4.8",
+      "sku": "85454K05",
+      "price": "30.00",
+      "image": "100.jpg"
+    }
+  },
+  {
+    "pk": 101,
+    "model": "products.product",
+    "fields": {
+      "name": "Women's Wellibob Wellington Boots",
+      "category": "16",
+      "brand": "Joules",
+      "description": "Classic, practical and stylish. These ankle boots are here so that every outdoor adventure (no matter how big or small!) can be enjoyed in style. So easy to pop on and pull off, you’ll soon wonder how you lived with out them. ",
+      "rating": "4.6",
+      "sku": "8997K0589-L",
+      "price": "80.00",
+      "image": "101.jpg"
+    }
+  },
+  {
+    "pk": 102,
+    "model": "products.product",
+    "fields": {
+      "name": "Luxury Waterproof Wellington Boots ",
+      "category": "16",
+      "brand": "Gardener",
+      "description": "Outer Material: Rubber. Closure: Pull-On. Heel Height: 1 centimetres. Heel Type: Block. Shoe Width: Medium.",
+      "rating": "4.9",
+      "sku": "4329-LK0522",
+      "price": "29.00",
+      "image": "102.jpg"
+    }
+  },
+  {
+    "pk": 103,
+    "model": "products.product",
+    "fields": {
+      "name": "Men’s Appleby Backless Gardening Clogs",
+      "category": "16",
+      "brand": "Lakeland Active",
+      "description": "Premium 100% waterproof multi-purpose design made from natural rubber and neoprene. Backless slip-on styling is perfect for the garden, washing the car or walking the dog. Outer Material: Rubber. Inner Material: Textile. Sole: Rubber. Closure: Pull On. Shoe Width: Medium. Fully lined with breathable neoprene that fits snugly around your foot to keep out water, stones and mud. Luxuriously comfortable removable memory foam insole. Rugged soles to keep their grip on wet paving and grass.",
+      "rating": "5",
+      "sku": "177-K089222-KK",
+      "price": "39.00",
+      "image": "103.jpg"
+    }
+  },
+  {
+    "pk": 104,
+    "model": "products.product",
+    "fields": {
+      "name": "ORIGINAL \"Willow\" Gardening Gloves",
+      "category": "17",
+      "brand": "PAPA GREEN'S",
+      "description": "The Original Gardening Gauntlet takes the tried and tested benefits of leather, and moulds it to Perform Even Better for the modern gardener. Whether you are a seasoned gardener or just starting out, you can't go wrong with the Hazel gardening gauntlet. PAPA GREEN only supplies High-Quality Garden and Greenhouse Accessories - providing premium products to tend to premium gardens. Are you looking for exceptional gardening gloves ladies and gents? Then a pair of PAPA GREEN'S WILLOW will be ideal for you.",
+      "rating": "4.9",
+      "sku": "968MLF34-LL",
+      "price": "15.00",
+      "image": "104.jpg"
+    }
+  },
+  {
+    "pk": 105,
+    "model": "products.product",
+    "fields": {
+      "name": "Leather Gardening Gloves",
+      "category": "17",
+      "brand": "VIRIDESCENT",
+      "description": "These durable garden gloves for men and women can be used for all sorts of gardening tasks, from pruning, plucking, digging, and planting all the way to offering protection to your hands when working with fertilisers or growing mediums. The versatile design is also ideal for all types of renovating tasks around the house and will come in handy when handling sharp objects. Combining premium fabrics and puncture-resistant leather panels, these premium gardening gloves are sure to keep you safe from all sorts of thorns and rough branches. The gardening gloves are thorn-proof and ideal for safely handling bramble bushes, stinging nettles, and rose bushes.",
+      "rating": "4.9",
+      "sku": "B1168MLF-POP",
+      "price": "10.00",
+      "image": "105.jpg"
+    }
+  },
+  {
+    "pk": 106,
+    "model": "products.product",
+    "fields": {
+      "name": "Heavy Duty Leather Gardening Gloves",
+      "category": "17",
+      "brand": "North Skin",
+      "description": "Material: Made with 4 way stretchable in addition foam and playboy inside layer , 4mm knuckle protection by neoprene fabric for flexible movement. Easy to wear with leather patch on wrist elastic. arthritis on finger joint. 100% Genuine and caring work Gloves are made of carefully selected high-quality leather with thickness depth of 1.0mm-1.2mm, also easy and stretchy with moderate oil resistance, puncture resistance and cut resistance hand injuries, including injury to fingernails and fingers.",
+      "rating": "4.9",
+      "sku": "77-OLP68",
+      "price": "12.00",
+      "image": "106.jpg"
+    }
+  },
+  {
+    "pk": 107,
+    "model": "products.product",
+    "fields": {
+      "name": "Women’s Waterproof Bucket Sun Hat UPF 50",
+      "category": "17",
+      "brand": "Comhats",
+      "description": "Hat Sizing Info: 1-Size-Adjustable - Fits 56cm to 58cm comfortably, with a drawstring inside sweatband to allow for a perfect fit.. Crushable & Packable RAIN HAT - much easier to carry around than an umbrella - can be folded very small into your bag or pocket for 'sudden shower' moments. Retains original shape and no weird creases when unfold it. 100% Lightweight. Machine washable / Reshape whilst damp / Do not tumble dry / Do not iron. Fastening: Drawstring. Wide Brim Rain Hat - large enough to keep the rain (or the sun) off your face and glasses but doesn't blind you. Great for dog walking,hiking or when you need to next dash out in the rain.",
+      "rating": "4.9",
+      "sku": "28MLF99-LKL",
+      "price": "18.00",
+      "image": "107.jpg"
+    }
+  },
+  {
+    "pk": 108,
+    "model": "products.product",
+    "fields": {
+      "name": "Men’s Wide Brim Sun Hat with UV Protection",
+      "category": "17",
+      "brand": "JAOAJ",
+      "description": "COTTON BREATHABLE FABRIC:100% Cotton Fabric, which can offer you a more comfortable feeling. sun hats for women with uv protection designed with breathable mesh on both sides of the top of the hat to drive away from the heat of summer. ONE SIZE＆UNISEX:Outdoor Hats for Men fit head circumference for 56-59cm, 22.04”-23.2”. WIND SUN PROTECTION:Gardening Hats for Men provide UPF 50+ sun protection, Beach Hat blocks most sun UV rays and provides excellent full coverage for face&neck while outdoors. PACKABLE &MULTI PURPOSE:Mens Hats &Caps UV Protection Summer Hats easily packed/folded/rolled in a backpack or suitcase. also can wear it as, trekking hat, beach hat, fishing hat, wide brim hat, jungle hats, hiking caps etc. LIGHT MATERIAL & WINDPROOF ROPE: Men's Bucket Hats provided the sun protection you needed while the light material and allowed for airflow and comfort.Adjustable leather chin strap holds hat in place even in windy or rainy conditions.",
+      "rating": "4.9",
+      "sku": "GHBB6",
+      "price": "22.00",
+      "image": "108.jpg"
+    }
+  },
+  {
+    "pk": 109,
+    "model": "products.product",
+    "fields": {
+      "name": "Gardening Bucket Hat",
+      "category": "17",
+      "brand": "HDUK",
+      "description": "\"I'd Rather Be Gardening\" Bush Bucket Hat. Lightweight bucket style hat, ideal for gardening, fishing, walking or any other summer/spring outdoor activity. 100% Cotton. Perfect Gift Idea for the Gardener or Gardening enthusiast in your life !",
+      "rating": "4.9",
+      "sku": "10031976",
+      "price": "10.00",
+      "image": "109.jpg"
+    }
+  }
+]
