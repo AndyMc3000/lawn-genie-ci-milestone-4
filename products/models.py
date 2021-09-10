@@ -1,6 +1,12 @@
 from django.db import models
 
+
 class Category(models.Model):
+
+    # Fixes Django default plural name for Categories (Django simply adds an 's' to the class name by default)
+    class Meta:
+        verbose_name_plural = 'Categories'
+
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
 
