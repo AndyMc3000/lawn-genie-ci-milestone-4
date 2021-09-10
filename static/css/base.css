@@ -23,5 +23,10 @@ body h1, h2, h3, h4, h5, h6, p, button, nav, form, .btn {
 }
 
 .header-search {
-    width: 80%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.card-footer {
+    border-top: 0px;
 }

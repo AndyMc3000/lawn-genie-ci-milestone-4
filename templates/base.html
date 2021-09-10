@@ -40,12 +40,12 @@
     <header class="container-fluid fixed-top">
       <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
         <div class="col-12 col-md-4 my-auto p1 p-lg-0">
-          <ul class="list-inline list-unstyled text-center text-lg-right my-0">
+          <ul class="list-inline list-unstyled text-left text-lg-left my-2 me-0">
             <li class="list-inline-item dropdown">
-              <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true"
+              <a class="text-black nav-link pe-1" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
-                <div class="text-center">
-                  <div><i class="fas fa-user fa-lg"></i></div>
+                <div class="text-center ms-3">
+                  <div><i class="fas fa-user-circle fa-lg"></i></div>
                   <p class="my-0">My Account</p>
                 </div>
               </a>
@@ -63,9 +63,9 @@
               </div>
             </li>
             <li class="list-inline-item">
-              <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
+              <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} px-0 nav-link" href="">
                 <div class="text-center">
-                  <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+                  <div><i class="fas fa-shopping-cart fa-lg"></i></div>
                   <p class="my-0">
                     {% if grand_total %}
                     ${{ grand_total|floatformat:2 }}
@@ -110,7 +110,7 @@
       </div>
       <div id="delivery-banner" class="row text-center">
           <div class="col bg-black text-white">
-              <h4 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>                
+              <h4 class="logo-font my-1">FREE delivery on orders over €{{ free_delivery_threshold }}!</h4>                
           </div>            
       </div>
     </header>
@@ -126,14 +126,14 @@
     {% endblock %}
 
     {% block pagefooter %}
-    <footer class="bg-light text-center text-lg-start">
-      <div class="text-center py-3">
-          <h2>Footer</h2>
-      </div>
-      <div class="text-center pb-2">
-          <i class="far fa-copyright"></i> 2021
-      </div>
-    </footer>
+      <footer class="bg-light text-center text-lg-start">
+        <div class="text-center py-3">
+            <h2>Footer</h2>
+        </div>
+        <div class="text-center pb-2">
+            <i class="far fa-copyright"></i> 2021
+        </div>
+      </footer>
     {% endblock %}
 
     {% block postloadjs %}
