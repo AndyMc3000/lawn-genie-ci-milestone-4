@@ -43,3 +43,13 @@ body h1, h2, h3, h4, h5, h6, p, button, nav, form, .btn {
     max-width: 380px;
     margin: auto;
 }
+
+/* -------------------------------- Media Queries */
+
+  
+  /* fixes padding between header and hero div on mobile */
+@media (max-width: 988px) {
+    .header-container {
+        padding-top: 130px;
+    }
+  }
