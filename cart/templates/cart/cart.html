@@ -12,36 +12,25 @@
 {% block content %}
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="home-welcome-div col-8 text-center">
-                <h1>Welcome!</h1> 
+            <div class="col-8 text-center">
+                <h1>Shopping Cart</h1> 
             </div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="home-new-products-div col-8 text-center">
-                <h2>New Products</h2> 
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="home-email-subscribe-div col-8 text-center">
-                <h3>Get Tips & Tricks in your Inbox</h3> 
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="home-promo-carousel col-12 text-center">
-                <h3>PROMO CAROUSEL</h3>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="home-best-sellers-div col-8 text-center">
-                <h3>Best Sellers</h3> 
+            <div class="col-8 text-center">
+                {% if cart_items %}
+                <div class="table-responsive rounded"></div>
+                {% else %}
+                <h3>Your Cart is currently empty.</h3>
+                <a href="{% url 'products' %}" class="btn buttons rounded-2 btn-lg">
+                    <span class="icon">
+                        <i class="fas fa-chevron-left"></i>
+                    </span>
+                    <span><strong>Continue Shopping</strong></span>
+                </a>
+                {% endif %}
             </div>
         </div>
     </div>
