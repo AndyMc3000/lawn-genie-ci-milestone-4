@@ -3,26 +3,65 @@ body h1, h2, h3, h4, h5, h6, p, button, nav, form, .btn {
 }
 
 .home-top-hero-div  {
-    background: url('') no-repeat center center fixed;
-    background-color: #38b000;
-    background-size: cover;
-    height: 300px;
+    background: url('/media/remi-muller-LlHgaeBwYVE-unsplash-index-header.png') no-repeat center center fixed;
+    background-size: contain;
+    height: 400px;
     color: #f8f9fa;
 }
 
 .header-container {
     padding-top: 180px;
+    background-color: #38b000;
 }
 
 .container-fluid {
     margin: 0px;
     padding: 0px;
     border-color: #38b000;
+    background-color: #38b000;
+    color: #f8f9fa;
 }
 
-.home-shop-now-button {
+.buttons {
     background-color: #e63946;
     color: #f8f9fa;
+}
+
+#topnav {
+    background-color: #38b000;
+    color: #f8f9fa;
+}
+
+.header-container {
+    background-color: #38b000;
+}
+
+.header-container a {
+    background-color: #38b000;
+}
+
+#topnav p 
+#topnav i {
+    color: #f8f9fa;
+}
+
+#main-nav {
+    background-color: #38b000;
+    color: #f8f9fa;
+}
+
+#main-nav ul li a {
+    color: #f8f9fa;
+}
+
+.dropdown-menu {
+    background-color: #38b000;
+}
+
+.dropdown-toggle {
+    background-color: #38b000;
+    border: 2px;
+    border-color: #e63946;
 }
 
 .header-search {
@@ -30,6 +69,11 @@ body h1, h2, h3, h4, h5, h6, p, button, nav, form, .btn {
     margin-left: 5%;
 }
 
+.product-card {
+    color: #000;
+    border-color: #e63946;
+    border-width: 2px;
+}
 .card-footer {
     border-top: 0px;
 }
