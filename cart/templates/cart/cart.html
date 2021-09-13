@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load cart_tools %}
 
 {% block page_header %}
 <div class="container header-container">
@@ -50,7 +51,7 @@
                                     <form class="form update-form" method="POST" action="{% url 'adjust_cart' item.item_id %}">
                                         {% csrf_token %}
                                         <div class="form-group">
-                                            <div class="input-group">
+                                            <div class="mt-4 input-group">
                                                 <div class="input-group-prepend">
                                                     <button class="decrement-qty btn btn-sm btn-black rounded-0" 
                                                         data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}">
@@ -78,10 +79,10 @@
                                         </div>
                                     </form>
                                     <a class="update-link text-info"><small>Update</small></a>
-                                    <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-size="{{ item.size }}"><small>Remove</small></a>
+                                    <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>
                                 </td>
                                 <td class="py-2">
-                                    <p class="my-5"><strong>{{ item.product.price }}</strong></p>
+                                    <p class="my-5"><strong>{{ item.product.price | calc_subtotal:item.quantity }}</strong></p>
                                 </td>
                             </tr>
                         </tbody>
@@ -143,7 +144,7 @@
         var csrfToken = "{{ csrf_token }}";
         var itemId = $(this).attr('id').split('remove_')[1];
         var size = $(this).data('product_size');
-        var url = `/cart/remove/${itemId}`;
+        var url = `/cart/remove/${itemId}/`;
         var data = {'csrfmiddlewaretoken': csrfToken, 'product_size': size};
 
         $.post(url, data)
