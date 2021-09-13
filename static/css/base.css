@@ -2,22 +2,27 @@ body h1, h2, h3, h4, h5, h6, p, button, nav, form, .btn {
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    height: calc(100vh - 290px);
+}
+
 .home-top-hero-div  {
     background: url('/media/remi-muller-LlHgaeBwYVE-unsplash-index-header.png') no-repeat center center fixed;
-    background-size: contain;
+    background-size: cover;
     height: 400px;
     color: #f8f9fa;
+    margin: auto;
 }
 
 .header-container {
-    padding-top: 180px;
+    background-color: #38b000;
+}
+
+.header-container a {
     background-color: #38b000;
 }
 
 .container-fluid {
-    margin: 0px;
-    padding: 0px;
-    border-color: #38b000;
     background-color: #38b000;
     color: #f8f9fa;
 }
@@ -31,14 +36,6 @@ body h1, h2, h3, h4, h5, h6, p, button, nav, form, .btn {
 #topnav {
     background-color: #38b000;
     color: #f8f9fa;
-}
-
-.header-container {
-    background-color: #38b000;
-}
-
-.header-container a {
-    background-color: #38b000;
 }
 
 #topnav p 
@@ -68,8 +65,8 @@ body h1, h2, h3, h4, h5, h6, p, button, nav, form, .btn {
 }
 
 .header-search {
-    width: 90%;
-    margin-left: 5%;
+    width: 75%;
+    margin-left: 4%;
 }
 
 .table-card
@@ -99,12 +96,15 @@ body h1, h2, h3, h4, h5, h6, p, button, nav, form, .btn {
     cursor: pointer;
 }
 
+.message-box {
+    top: 292px;
+    right: 15px;
+    z-index: 99999999999; !important;
+}
+
+.custom-toast {
+    overflow: visible;
+}
 /* -------------------------------- Media Queries */
 
   
-  /* fixes padding between header and hero div on mobile */
-@media (max-width: 988px) {
-    .header-container {
-        padding-top: 130px;
-    }
-  }
