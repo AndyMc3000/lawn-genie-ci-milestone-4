@@ -56,6 +56,8 @@ body h1, h2, h3, h4, h5, h6, p, button, nav, form, .btn {
 
 .dropdown-menu {
     background-color: #38b000;
+    border-color: #e63946;
+    border-width: 2px;
 }
 
 .dropdown-toggle {
@@ -69,11 +71,13 @@ body h1, h2, h3, h4, h5, h6, p, button, nav, form, .btn {
     margin-left: 5%;
 }
 
+.table-card
 .product-card {
     color: #000;
     border-color: #e63946;
     border-width: 2px;
 }
+
 .card-footer {
     border-top: 0px;
 }
