@@ -97,14 +97,16 @@ body {
 }
 
 .message-box {
-    top: 292px;
+    position: absolute;
+    top: 65px;
     right: 15px;
-    z-index: 99999999999; !important;
+    z-index: 999;
 }
 
 .custom-toast {
-    overflow: visible;
+    overflow: scroll;
 }
+
 /* -------------------------------- Media Queries */
 
   
