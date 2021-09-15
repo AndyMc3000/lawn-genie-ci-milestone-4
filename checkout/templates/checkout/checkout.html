@@ -2,6 +2,10 @@
 {% load static %}
 {% load cart_tools %}
 
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
+{% endblock %}
+
 {% block page_header %}
 <div class="container header-container">
     <div class="row">
@@ -87,7 +91,16 @@
         </div>
     </div>
 </div>
-
+<div id="loading-overlay">
+    <h1 class="text-light loading-spinner">
+        <div>
+            <h1>Nearly there, we're processing your payment!</h1>
+        </div>
+        <span class="icon">
+            <i class="fas fa-3x fa-circle-notch fa-spin"></i>
+        </span>
+    </h1>
+</div>
 {% endblock %}
 
 {% block postloadjs %}
