@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col-12"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-8 text-center mt-5 mb-3">
+            <h2>Checkout</h2>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-11 col-sm-10 col-md-7 text-center">
+            <div class="card table-card p-3 mb-5">
+                <div class="card-body">
+                    <div class="row justify-content-center">
+                        <div class="col-10 text-center">
+                            <hr>
+                            <h2 class="mb-4">Thank You</h2>
+                            <hr>
+                            <p class="text-black">Your order information is below. A confirmation email will be sent to <strong>{{ order.email }}</strong>.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10 col-lg-7">
+                            
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-10 col-lg-7 text-center">
+                            <button class="buttons">
+                            <a href="{% url 'products' %}" class="btn btn-black rounded-0 my-2">
+                                <span">Continue Shopping!</span>
+                                <span class="icon mr-2">
+                                    <i class="fas fa-arrow-circle-right"></i>
+                                </span>
+                            </a>
+                            </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+</div>
+
+{% endblock %}
