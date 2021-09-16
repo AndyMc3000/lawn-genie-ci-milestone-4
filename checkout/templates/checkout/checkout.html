@@ -24,14 +24,14 @@
 </div>
 <div class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-11 col-sm-10 col-md-7 text-center">
+        <div class="col-12 col-sm-10 col-md-7 text-center">
             <div class="card table-card p-3 mb-5">
                 <div class="card-body">
                     <div class="row justify-content-center">
                         <div class="div-12 text-center">
                             <div class="row justify-content-center">
-                                <div class="col-12 col-lg-6 order-lg-last mb-5 text-center">
-                                    <p class="text-muted">Order Summary ({{ product_count }})</p>
+                                <div class="col-12 col-lg-10 order-lg-last mb-5 text-center px-0">
+                                    <p>Your Order Summary ({{ product_count }} items)</p>
                                     <div class="row">
                                         <div class="col-8 text-left">
                                             <p class="mb-1 mt-0 small text-muted">Item</p>
@@ -42,7 +42,7 @@
                                     </div>
                                     <hr class="my-3">
                                     {% for item in cart_items %}
-                                        <div class="row">
+                                        <div class="row my-3">
                                             <div class="col-2 mb-1">
                                                 <a href="{% url 'product_detail' item.product.id %}">
                                                     {% if item.product.image %}
@@ -63,16 +63,16 @@
                                         </div>
                                     {% endfor %}
                                     <hr class="my-3">
-                                    <div class="row text-black">
-                                        <div class="col-6 text-left>
+                                    <div class="row text-black justify-content-center">
+                                        <div class="col-8 text-right">
                                             <p class="my-0">Order Total:</p>
                                             <p class="my-0">Delivery:</p>
-                                            <p class="my-0">Grand Total:</p>
+                                            <h5 class="my-0"><strong>Your Price:</strong></h5>
                                         </div>
-                                        <div class="col-4 text-left>
+                                        <div class="col-4 text-right">
                                             <p class="my-0">${{ total | floatformat:2 }}</p>
                                             <p class="my-0">${{ delivery | floatformat:2 }}</p>
-                                            <p class="my-0"><strong>${{ grand_total | floatformat:2 }}</strong></p>
+                                            <h5 class="my-0"><strong>${{ grand_total | floatformat:2 }}</strong></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -90,12 +90,12 @@
                         <fieldset class="rounded px-3 mb-5">
                             <legend class="fieldset-label small text-black px-2 w-auto">Delivery Details</legend>
                             {{ order_form.phone_number | as_crispy_field }}
-                            {{ order_form.country | as_crispy_field }}
-                            {{ order_form.postcode | as_crispy_field }}
-                            {{ order_form.town_or_city | as_crispy_field }}
                             {{ order_form.street_address1 | as_crispy_field }}
                             {{ order_form.street_address2 | as_crispy_field }}
+                            {{ order_form.town_or_city | as_crispy_field }}
                             {{ order_form.county | as_crispy_field }}
+                            {{ order_form.country | as_crispy_field }}
+                            {{ order_form.postcode | as_crispy_field }}
                             <div class="form-check form-check-inline float-right mr-0">
                                 {% if user.is_authenticated %}
                                     <label class="form-check-label" for="id-save-info">Save this delivery information to my profile</label>
@@ -109,7 +109,7 @@
                             </div>
                         </fieldset>
                         <fieldset class="px-3">
-                            <legend class="fieldset-label small text-black px-2 w-auto">Payment</legend>
+                            <legend class="fieldset-label small text-black px-2 w-auto">Enter your Credit Card details here:</legend>
                             <!-- A Stripe card element will go here -->
                             <div class="mb-3" id="card-element"></div>
                             <!-- Used to display form errors -->
@@ -117,27 +117,34 @@
                             <!-- Pass the client secret to the view so we can get the payment intent id -->
                             <input type="hidden" value="{{ client_secret }}" name="client_secret">
                         </fieldset>
-
-                        <div class="submit-button text-right mt-5 mb-2">                    
-                            <a href="{% url 'view_cart' %}" class="btn btn-outline-black rounded-0">
-                                <span class="icon">
-                                    <i class="fas fa-chevron-left"></i>
-                                </span>
-                                <span class="font-weight-bold">Edit my shopping Cart</span>
-                            </a>
-                            <button id="submit-button" class="btn btn-black rounded-0">
-                                <span class="font-weight-bold">Complete Order</span>
-                                <span class="icon">
-                                    <i class="fas fa-lock"></i>
-                                </span>
-                            </button>
-                            <p class="small text-success my-0">
-                                <span class="icon">
-                                    <i class="fas fa-info-circle"></i>
-                                </span>
-                                <span>Your card will be charged <strong>${{ grand_total|floatformat:2 }}</strong></span>
-                            </p>
+                        <div class="row">
+                            <div class="col-12 submit-button text-right mt-1 mb-5">
+                                <p class="small text-success">
+                                    <span class="icon">
+                                        <i class="fas fa-info-circle"></i>
+                                    </span>
+                                    <span>Your card will be charged <strong>${{ grand_total|floatformat:2 }}</strong></span>
+                                </p> 
+                                <button id="submit-button" class="btn btn-black rounded-0 buttons">
+                                    <span class="font-weight-bold">Complete Order</span>
+                                    <span class="icon">
+                                        <i class="fas fa-lock"></i>
+                                    </span>
+                                </button> 
+                            </div>
                         </div>
+                        <div class="row">
+                            <div class="col-12 mt-2">  
+                                <button class="buttons">              
+                                <a href="{% url 'view_cart' %}" class="btn btn-outline-black rounded-0">
+                                    <span class="icon">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </span>
+                                    <span class="font-weight-bold">Edit my shopping Cart</span>
+                                </a>
+                                </button> 
+                            </div>
+                        </div> 
                     </form>
                 </div>
             </div>
