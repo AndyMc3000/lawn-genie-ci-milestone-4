@@ -86,8 +86,8 @@ Please see below details of 'Client Stories' to detail the requirements of the L
 > - [x] “I want to be able to view a list of all products in a category.”
 > - [x] “I want to be able to easily search for products from every page."
 > - [x] “I want to be able to easily sort product listings by price, name, category, and rating."
-> - [x] “I want to be able to add products to a shopping bag and easily view all the products in my shopping bag."
-> - [x] “I want to be able to easily change the quantities or other relevant attributes of the products in my shopping bag."
+> - [x] “I want to be able to add products to a shopping cart and easily view all the products in my shopping cart."
+> - [x] “I want to be able to easily change the quantities or other relevant attributes of the products in my shopping cart."
 > - [x] “I want to be able to be able to see the total cost of my current shopping basket from every page.”
 > - [x] “I want to be able to view a product detail page showing me all relevant information about a product.”
 > - [x] “I want to be able to easily register on the site and store my personal delivery information for automatic retrieval at the checkout when making purchases."
