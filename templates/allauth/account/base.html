@@ -1,1 +1,19 @@
 {% extends "base.html" %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 my-4 container header-container">
+            <div class="overlay"></div>
+            <div class="row my-2">
+                <div class="col-8 mx-4 pb-5">
+                    <div class="allauth-form-inner-content">
+                        {% block inner_content %}
+                        {% endblock %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
