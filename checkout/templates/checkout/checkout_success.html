@@ -199,15 +199,25 @@
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-10 col-lg-7 text-center mb-5">
-                            <button class="buttons">
-                            <a href="{% url 'products' %}" class="btn btn-black rounded-0 my-2">
-                                <span">Continue Shopping!</span>
-                                <span class="icon mr-2">
-                                    <i class="fas fa-arrow-circle-right"></i>
-                                </span>
-                            </a>
-                            </button>
-                            </div>
+                            {% if from_profile %}
+                                <button class="buttons">
+                                    <a href="{% url 'profile' %}" class="btn btn-black rounded-0 my-2">
+                                        <span class="icon mr-2">
+                                        <i class="fas fa-angle-left"></i>
+                                        </span>
+                                        <span class="text-uppercase">Back to Profile</span>
+                                    </a>
+                                </button>
+                            {% else %}
+                                <button class="buttons">
+                                    <a href="{% url 'products' %}" class="btn btn-black rounded-0 my-2">
+                                        <span">Continue Shopping!</span>
+                                        <span class="icon mr-2">
+                                            <i class="fas fa-arrow-circle-right"></i>
+                                        </span>
+                                    </a>
+                                </button>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
