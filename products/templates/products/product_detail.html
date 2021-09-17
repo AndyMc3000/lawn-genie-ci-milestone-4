@@ -16,14 +16,18 @@
                 <div class="image-container my-5">
                     <h1 class="mb-3"><strong>{{ product.brand }}</strong></h1>
                     <h4 class="mb-0">{{ product.name }}</h4>
+                    {% if request.user.is_superuser %}
+                        <small class="ml-3">
+                            <a href="{% url 'edit_product' product.id %}">Edit</a> | 
+                            <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                        </small>
+                    {% endif %}
                     {% if product.image %}
                     <a href="{{ product.image.url }}" target="_blank">
                         <img src="{{ product.image.url }}" class="card-img-top pt-3" alt="{{ product.name }}">
                     </a>
                     {% else %}
-                    <a href="{{ product.image.url }}" target="_blank">
                         <img src="{{ MEDIA_URL }}no-image.jpg" class="card-img-top" alt="{{ product.name }}">
-                    </a>
                     {% endif %}
                 </div>
             </div>
