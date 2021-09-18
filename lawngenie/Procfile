@@ -1,1 +1,1 @@
-web: gunicorn lawngenie.wsgi:application
+web: gunicorn lawn-genie.wsgi:application
