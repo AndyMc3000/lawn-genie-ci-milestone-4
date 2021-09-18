@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ckz8780-boutique-ado.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['lawn-genie.herokuapp.com/', 'localhost']
 
 
 # Application definition
