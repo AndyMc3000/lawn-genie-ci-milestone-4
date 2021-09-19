@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     'blog',
+    'django_extensions',
 
     # Other
     'crispy_forms',
