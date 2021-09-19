@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row mt-0">
+            <div class="all-products-header col-12 text-center pt-4">
+                <h3>Our Blog</h3>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="row w-100 mt-5 justify-content-center">
+                {% for post in post_list %}
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">{{ post.title }}</h2>
+                            <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">Read More &rarr;</a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="buttons btn text-center w-50">
+            <a class="btt-link">
+                <i class="fas fa-arrow-circle-up">Back To Top</i>
+            </a>
+        </div>
+    </div>
+
+{% endblock %}
