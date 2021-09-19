@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-10 text-center">
+            <div class="card my-5">
+                <h2 class="mt-3">Sign-up for our Newsletter</h2>
+                <hr>
+                <form method="POST">
+                    {% csrf_token %}
+                    {{ form|crispy }}
+                    <div class="mt-2 mb-5" >
+                    <input class="btn buttons rounded-2" type="submit" value="subscribe">
+                    </div>  
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
