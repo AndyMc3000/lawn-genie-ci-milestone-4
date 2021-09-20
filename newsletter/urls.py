@@ -5,4 +5,5 @@ urlpatterns = [
     path('', views.newsletter, name='newsletter'),
     path('subscribe/', views.newsletter, name='subscribe'),
     path('send_newsletter/', views.send_newsletter, name='send_newsletter'),
+    path('unsubscribe/', views.unsubscribe, name='unsubscribe'),
 ]

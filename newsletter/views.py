@@ -25,6 +25,25 @@ def newsletter(request):
     return render(request, 'newsletter/subscribe.html', context)
 
 
+def unsubscribe(request):
+    if request.method == 'POST':
+        form = SubscriberForm(request.POST)
+        if form.is_valid():
+            instance = form.save(commit=False)
+            if NewsletterSubscribers.objects.filter(email=instance.email).exists():
+                NewsletterSubscribers.objects.filter(email=instance.email).delete()
+                messages.success(request, 'You have successfully unsubscribed from our Newsletter!')
+            else:
+                messages.error(request, 'We could not find your email address. Please check your spellling and try again')
+            return redirect('unsubscribe')
+    else:
+        form = SubscriberForm
+    context = {
+        'form': form
+    }
+    return render(request, 'newsletter/unsubscribe.html', context)
+
+
 @login_required
 def send_newsletter(request):
     """ Send a Newsletter to the Newsletter subscriber email list """
