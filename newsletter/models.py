@@ -16,4 +16,4 @@ class EmailMessage(models.Model):
     EmailBody = models.TextField(null=True)
 
     def __str__(self):
-        return self.title
+        return self.EmailTitle
