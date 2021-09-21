@@ -2,9 +2,9 @@
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
             <a class="nav-link mr-5 dropdown-toggle" href="#" id="all-products-link" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                All Products
+                <strong>All Products</strong>
             </a>
-            <div class="dropdown-menu border-2" aria-labelledby="all-products-link">
+            <div class="dropdown-menu border-1" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?sort=price&direction=desc" class="dropdown-item">By Price</a>
                 <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
                 <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
@@ -14,9 +14,9 @@
         
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link dropdown-toggle" href="#" id="mowers-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Mowers
+                <strong>Mowers</strong>
             </a>
-            <div class="dropdown-menu border-2" aria-labelledby="mowers-link">
+            <div class="dropdown-menu border-1" aria-labelledby="mowers-link">
                 <a href="{% url 'products' %}?category=self-propelled-mowers" class="dropdown-item">Self-propelled Mowers</a>
                 <a href="{% url 'products' %}?category=robot-mowers" class="dropdown-item">Robot Mowers</a>
                 <a href="{% url 'products' %}?category=tractor-mowers" class="dropdown-item">Tractor Mowers</a>
@@ -27,9 +27,9 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link dropdown-toggle mr-5" href="#" id="tools-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Tools
+                <strong>Tools</strong>
             </a>
-            <div class="dropdown-menu border-2" aria-labelledby="tools-link">
+            <div class="dropdown-menu border-1" aria-labelledby="tools-link">
                 <a href="{% url 'products' %}?category=rakes" class="dropdown-item">Rakes</a>
                 <a href="{% url 'products' %}?category=edging-tools" class="dropdown-item">Edging Tools</a>
                 <a href="{% url 'products' %}?category=aerators" class="dropdown-item">Aerators</a>
@@ -41,9 +41,9 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link dropdown-toggle mr-5" href="#" id="improvers-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Improvers
+                <strong>Improvers</strong>
             </a>
-            <div class="dropdown-menu border-2" aria-labelledby="improvers-link">
+            <div class="dropdown-menu border-1" aria-labelledby="improvers-link">
                 <a href="{% url 'products' %}?category=sprayers" class="dropdown-item">Sprayers</a>
                 <a href="{% url 'products' %}?category=lawn-feed" class="dropdown-item">Lawn Feeds</a>
                 <a href="{% url 'products' %}?category=weeding" class="dropdown-item">Weeding</a>
@@ -54,9 +54,9 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link dropdown-toggle" href="#" id="clothing-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Clothing
+                <strong>Clothing</strong>
             </a>
-            <div class="dropdown-menu border-2" aria-labelledby="clothing-link">
+            <div class="dropdown-menu border-1" aria-labelledby="clothing-link">
                 <a href="{% url 'products' %}?category=jackets" class="dropdown-item">Jackets</a>
                 <a href="{% url 'products' %}?category=trousers" class="dropdown-item">Trousers</a>
                 <a href="{% url 'products' %}?category=boots" class="dropdown-item">Boots &amp; Shoes</a>

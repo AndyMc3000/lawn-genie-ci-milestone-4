@@ -10,7 +10,6 @@ body {
 
 .container-fluid {
     background-color: #38b000;
-    color: #f8f9fa;
 }
 
 .buttons {
@@ -18,6 +17,15 @@ body {
     color: #f8f9fa;
     cursor: pointer;
 }
+
+.buttons:hover {
+    background-color: #f8f9fa;
+    color: #008000;
+    border: 3px;
+    border-color: #e63946;
+    cursor: pointer;
+}
+
 
 .delivery-banner {
     background-color: #e63946;
@@ -33,11 +41,10 @@ body {
     padding: 0px;
 }
 
-.table-card
-.product-card {
-    color: #000;
-    border-color: #e63946;
-    border-width: 2px;
+.card {
+    color: #008000;
+    border-color: #ccff33 !important;
+    border-width: 2px !important;
 }
 
 /* -- END of Global/Template CSS styling --- */
@@ -89,7 +96,7 @@ body {
 
 .dropdown-menu {
     background-color: #008000;
-    border-color: #f8f9fa;
+    border-color: #ccff33;
     border-width: 1px;
     color: #f8f9fa;
 }
