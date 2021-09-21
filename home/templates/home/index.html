@@ -25,147 +25,218 @@
     </div>
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="home-welcome-div col-8 text-center my-3">
-                <div class="card rounded-4 my-3">
-                    <h2 class="mt-4">Welcome to LawnGenie</h2>
-                    <i class="fas fa-seedling fa-lg my-2"></i>
-                    <h4 class="mt-1 mb-2">Where Lawn wishes come true!</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta expedita recusandae architecto quo! Velit beatae provident culpa sit dicta reprehenderit rerum error. Exercitationem modi alias illum illo itaque? Eligendi, vitae!</p>
+            <div class="card new-arrivals-card col-10 rounded-4 text-center px-4 my-4">
+                <h2 class="mt-4 mb-3">Best Sellers</h2>
+                <div class="row justify-content-center pb-5">
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center p-4">
+                        <div class="card">
+                            <div class="p-1">
+                                <a href="{% url 'product_detail' 22 %}">
+                                    <img src="/media/022.jpg" class="card-img-top" alt="Husqvarna Automower 435x AWD Robotic Lawnmower">
+                                </a>
+                                <div class="card-body text-center py-0">
+                                    <h4 class="card-title"><strong>Husqvarna</strong></h4>
+                                    <h6 class="card-title">Automower 435x AWD Robotic Lawnmower</h6>
+                                </div>
+                                <div class="card-footer bg-white text-center pt-0">
+                                    <div>
+                                        <small class="pt-2"><i class="fas fa-thumbs-up mr-2"></i> Rating: 5 / 5</small>
+                                    </div>
+                                    <a href="{% url 'product_detail' 22 %}" class="btn buttons my-2">More Info</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center p-4">
+                        <div class="card">
+                            <div class="p-1">
+                                <a href="{% url 'product_detail' 22 %}">
+                                    <img src="/media/022.jpg" class="card-img-top" alt="Husqvarna Automower 435x AWD Robotic Lawnmower">
+                                </a>
+                                <div class="card-body text-center py-0">
+                                    <h4 class="card-title"><strong>Husqvarna</strong></h4>
+                                    <h6 class="card-title">Automower 435x AWD Robotic Lawnmower</h6>
+                                </div>
+                                <div class="card-footer bg-white text-center pt-0">
+                                    <div>
+                                        <small class="pt-2"><i class="fas fa-thumbs-up mr-2"></i> Rating: 5 / 5</small>
+                                    </div>
+                                    <a href="{% url 'product_detail' 22 %}" class="btn buttons my-2">More Info</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center p-4">
+                            <div class="card">
+                                <div class="p-1">
+                                    <a href="{% url 'product_detail' 22 %}">
+                                        <img src="/media/022.jpg" class="card-img-top" alt="Husqvarna Automower 435x AWD Robotic Lawnmower">
+                                    </a>
+                                    <div class="card-body text-center py-0">
+                                        <h4 class="card-title"><strong>Husqvarna</strong></h4>
+                                        <h6 class="card-title">Automower 435x AWD Robotic Lawnmower</h6>
+                                    </div>
+                                    <div class="card-footer bg-white text-center pt-0">
+                                        <div>
+                                            <small class="pt-2"><i class="fas fa-thumbs-up mr-2"></i> Rating: 5 / 5</small>
+                                        </div>
+                                        <a href="{% url 'product_detail' 22 %}" class="btn buttons my-2">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center p-4">
+                            <div class="card">
+                                <div class="p-1">
+                                    <a href="{% url 'product_detail' 22 %}">
+                                        <img src="/media/022.jpg" class="card-img-top" alt="Husqvarna Automower 435x AWD Robotic Lawnmower">
+                                    </a>
+                                    <div class="card-body text-center py-0">
+                                        <h4 class="card-title"><strong>Husqvarna</strong></h4>
+                                        <h6 class="card-title">Automower 435x AWD Robotic Lawnmower</h6>
+                                    </div>
+                                    <div class="card-footer bg-white text-center pt-0">
+                                        <div>
+                                            <small class="pt-2"><i class="fas fa-thumbs-up mr-2"></i> Rating: 5 / 5</small>
+                                        </div>
+                                        <a href="{% url 'product_detail' 22 %}" class="btn buttons my-2">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>           
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid home-promo-banner-robot">
+        <div class="row justify-content-center">
+            <div class="col-10 rounded-4 text-center p-4 mt-4">
+                <h2 class="shadow"><strong>HUSQVARNA</strong></h>
+                <h4>Automower 315X<h4> 
+                <a href="{% url 'product_detail' 23 %}" class="mx-5 btn buttons my-2">More Info</a> 
+                <div class="text-right">
+                <h4>No Assembly Required!</h4>
+                </div>   
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-8 text-center my-3">
+                <div class="card home-welcome-card rounded-4 my-3 px-4">
+                    <h2 class="mt-4">Check out our Blog</h2>
+                    <a href="{% url 'blog' %}" class="btn buttons my-2">Click to Subscribe</a>
+                    <h4 class="mt-1 mb-2">Get Exclusive Offers!</h4>
+                    <p class="pb-2">Get Lawn car tips and tricks from the pro's, sent straight to your inbox.</p>
                 </div>
             </div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="card col-10 text-center">
-                <h2 class="mt-4 mb-2">New Products</h2>
-                <div class="row justify-content-center">
-                    <div class="card col-2 p-2 mb-3 mx-3">
-                        <div class="p-1">
-                            <a href="">
-                                <img src="" class="card-img-top" alt="">
-                            </a>
-                            <div class="card-body text-center py-0">
-                                <h4 class="card-title"><strong>Brand</strong></h4>
-                                <h6 class="card-title">Name</h6>
-                            </div>
-                            <div class="card-footer bg-white text-center pt-0">
-                                <h4 class="pt-0">
-                                    <strong>€Price</strong>
-                                </h4>
-                                <a href="" class="btn buttons my-2">More Info</a>
-                                <div>
-                                    <small class="pt-2"><i class="fas fa-thumbs-up mr-2"></i> Rating: / 5</small>
-                                    <small class="pt-2">No Rating</small>
+            <div class="card new-arrivals-card col-10 rounded-4 text-center px-4 mt-2">
+                <h2 class="mt-4 mb-3">New Arrivals</h2>
+                <div class="row justify-content-center pb-5">
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center p-4">
+                        <div class="card">
+                            <div class="p-1">
+                                <a href="{% url 'product_detail' 22 %}">
+                                    <img src="/media/022.jpg" class="card-img-top" alt="Husqvarna Automower 435x AWD Robotic Lawnmower">
+                                </a>
+                                <div class="card-body text-center py-0">
+                                    <h4 class="card-title"><strong>Husqvarna</strong></h4>
+                                    <h6 class="card-title">Automower 435x AWD Robotic Lawnmower</h6>
                                 </div>
-                                <div class="mb-4">
-                                    <a class="text-muted" href="">
-                                    <small class="pt-2"><i class="fas fa-tags mr-2"></i> Category:</small>
-                                    </a>
+                                <div class="card-footer bg-white text-center pt-0">
+                                    <div>
+                                        <small class="pt-2"><i class="fas fa-thumbs-up mr-2"></i> Rating: 5 / 5</small>
+                                    </div>
+                                    <a href="{% url 'product_detail' 22 %}" class="btn buttons my-2">More Info</a>
                                 </div>
                             </div>
-                        </div>  
+                        </div>
                     </div>
-                    <div class="card col-2 p-2 mb-3">
-                        <div class="p-1">
-                            <a href="">
-                                <img src="" class="card-img-top" alt="">
-                            </a>
-                            <div class="card-body text-center py-0">
-                                <h4 class="card-title"><strong>Brand</strong></h4>
-                                <h6 class="card-title">Name</h6>
-                            </div>
-                            <div class="card-footer bg-white text-center pt-0">
-                                <h4 class="pt-0">
-                                    <strong>€Price</strong>
-                                </h4>
-                                <a href="" class="btn buttons my-2">More Info</a>
-                                <div>
-                                    <small class="pt-2"><i class="fas fa-thumbs-up mr-2"></i> Rating: / 5</small>
-                                    <small class="pt-2">No Rating</small>
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center p-4">
+                        <div class="card">
+                            <div class="p-1">
+                                <a href="{% url 'product_detail' 22 %}">
+                                    <img src="/media/022.jpg" class="card-img-top" alt="Husqvarna Automower 435x AWD Robotic Lawnmower">
+                                </a>
+                                <div class="card-body text-center py-0">
+                                    <h4 class="card-title"><strong>Husqvarna</strong></h4>
+                                    <h6 class="card-title">Automower 435x AWD Robotic Lawnmower</h6>
                                 </div>
-                                <div class="mb-4">
-                                    <a class="text-muted" href="">
-                                    <small class="pt-2"><i class="fas fa-tags mr-2"></i> Category:</small>
-                                    </a>
+                                <div class="card-footer bg-white text-center pt-0">
+                                    <div>
+                                        <small class="pt-2"><i class="fas fa-thumbs-up mr-2"></i> Rating: 5 / 5</small>
+                                    </div>
+                                    <a href="{% url 'product_detail' 22 %}" class="btn buttons my-2">More Info</a>
                                 </div>
                             </div>
-                        </div>  
+                        </div>
                     </div>
-                    <div class="card col-2 p-2 mb-3 ms-3">
-                        <div class="p-1">
-                            <a href="">
-                                <img src="" class="card-img-top" alt="">
-                            </a>
-                            <div class="card-body text-center py-0">
-                                <h4 class="card-title"><strong>Brand</strong></h4>
-                                <h6 class="card-title">Name</h6>
-                            </div>
-                            <div class="card-footer bg-white text-center pt-0">
-                                <h4 class="pt-0">
-                                    <strong>€Price</strong>
-                                </h4>
-                                <a href="" class="btn buttons my-2">More Info</a>
-                                <div>
-                                    <small class="pt-2"><i class="fas fa-thumbs-up mr-2"></i> Rating: / 5</small>
-                                    <small class="pt-2">No Rating</small>
-                                </div>
-                                <div class="mb-4">
-                                    <a class="text-muted" href="">
-                                    <small class="pt-2"><i class="fas fa-tags mr-2"></i> Category:</small>
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center p-4">
+                            <div class="card">
+                                <div class="p-1">
+                                    <a href="{% url 'product_detail' 22 %}">
+                                        <img src="/media/022.jpg" class="card-img-top" alt="Husqvarna Automower 435x AWD Robotic Lawnmower">
                                     </a>
+                                    <div class="card-body text-center py-0">
+                                        <h4 class="card-title"><strong>Husqvarna</strong></h4>
+                                        <h6 class="card-title">Automower 435x AWD Robotic Lawnmower</h6>
+                                    </div>
+                                    <div class="card-footer bg-white text-center pt-0">
+                                        <div>
+                                            <small class="pt-2"><i class="fas fa-thumbs-up mr-2"></i> Rating: 5 / 5</small>
+                                        </div>
+                                        <a href="{% url 'product_detail' 22 %}" class="btn buttons my-2">More Info</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>  
-                    </div>
-                    <div class="card col-2 p-2 mb-3 mx-3">
-                        <div class="p-1">
-                            <a href="">
-                                <img src="" class="card-img-top" alt="">
-                            </a>
-                            <div class="card-body text-center py-0">
-                                <h4 class="card-title"><strong>Brand</strong></h4>
-                                <h6 class="card-title">Name</h6>
-                            </div>
-                            <div class="card-footer bg-white text-center pt-0">
-                                <h4 class="pt-0">
-                                    <strong>€Price</strong>
-                                </h4>
-                                <a href="" class="btn buttons my-2">More Info</a>
-                                <div>
-                                    <small class="pt-2"><i class="fas fa-thumbs-up mr-2"></i> Rating: / 5</small>
-                                    <small class="pt-2">No Rating</small>
-                                </div>
-                                <div class="mb-4">
-                                    <a class="text-muted" href="">
-                                    <small class="pt-2"><i class="fas fa-tags mr-2"></i> Category:</small>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center p-4">
+                            <div class="card">
+                                <div class="p-1">
+                                    <a href="{% url 'product_detail' 22 %}">
+                                        <img src="/media/022.jpg" class="card-img-top" alt="Husqvarna Automower 435x AWD Robotic Lawnmower">
                                     </a>
+                                    <div class="card-body text-center py-0">
+                                        <h4 class="card-title"><strong>Husqvarna</strong></h4>
+                                        <h6 class="card-title">Automower 435x AWD Robotic Lawnmower</h6>
+                                    </div>
+                                    <div class="card-footer bg-white text-center pt-0">
+                                        <div>
+                                            <small class="pt-2"><i class="fas fa-thumbs-up mr-2"></i> Rating: 5 / 5</small>
+                                        </div>
+                                        <a href="{% url 'product_detail' 22 %}" class="btn buttons my-2">More Info</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>  
+                        </div>           
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid home-promo-banner-robot">
         <div class="row justify-content-center">
-            <div class="home-email-subscribe-div col-8 text-center">
-                <h3>Get Tips & Tricks in your Inbox</h3> 
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="home-promo-carousel col-12 text-center">
-                <h3>PROMO CAROUSEL</h3>
+            <div class="col-10 rounded-4 text-center px-4 mt-4">
+                <h2 class="shadow"><strong>THE PERFECT LAWN</strong></h>
+                <h4>No Assembly Required</h4> 
+                <a href="{% url 'product_detail' 23 %}" class="mx-5 btn buttons my-2">More Info</a>   
             </div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="home-best-sellers-div col-8 text-center">
-                <h3>Best Sellers</h3> 
+            <div class="col-8 text-center my-3">
+                <div class="card home-welcome-card rounded-4 my-3 px-4">
+                    <h2 class="mt-4">Sign-up for our Newsletters</h2>
+                    <a href="{% url 'subscribe' %}" class="btn buttons my-2">Click to Subscribe</a>
+                    <h4 class="mt-1 mb-2">Get Exclusive Offers!</h4>
+                    <p class="pb-2">Get Lawn car tips and tricks from the pro's, sent straight to your inbox.</p>
+                </div>
             </div>
         </div>
     </div>

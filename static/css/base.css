@@ -133,6 +133,30 @@ body {
     margin: auto;
 }
 
+.new-arrivals-card {
+    background-color: #008000;
+    color: #f8f9fa;
+}
+
+.new-arrivals-card .card img {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.home-welcome-card {
+    background-color: #008000;
+    color: #f8f9fa;
+}
+
+.home-promo-banner-robot {
+    background: url('/media/husqvarna-promo-1.jpeg') no-repeat center center;
+    background-size: cover;
+    height: 350px;
+    color: #f8f9fa;
+    margin: auto;
+    z-index: 999;
+}
+
 /* -- END of Homepage  -- */
 
 .card-footer {
