@@ -112,52 +112,24 @@ Based on the outcomes from the Strategy Plane, The Scope Plane determines what f
   * Product detail page - This page should include 2 cards of infromation. One to include a product image, the the brand and product names. The other to show the price, rating, category, a quantity input box, and a product description. This second box should also include an 'Add to Cart' and 'Continue Shopping' buttons.
   * Shopping Cart page - This page should include a card, within which is a table showing a lit of relevant information for each product which a user has added to their cart. It should display a small image, product name, an editable quantity bow, the unit ptice, and the totla price for each product/line item. This page should also include a section at the bottom of the table to display a subtotal, the delivery cost and a grand total for the order. This section should also include 'Checkout' and 'Continue Shopping' buttons.
   * Checkout page - This page should include a card and tabel displaying a users order summary. It should also include a form where a user can input their personal and delivery infromation. Below this a Stripe credit card inpu box should be displaying along with 'Buy Now' and 'Continue Shopping' buttons.
-  * User Registration page - 
-  * User Profile page
-  * Product Add/Edit pages
-  * Blog Page
-  * Blog Post detail page
-  * Blog Post Add/Edit page
-  * Newsletter Subscription page
-  * Nesletter Unsubscribe page
-  * Send Newsletter page
+  * Order Confirmation Page - This page will be accessed following a successful purchase. This page will show a table within a card displaying all information relating to a purchase, i.e.; Order Number, Order Date, Individual items and their individual prices, the delivery address, the Order Total, the Delivery Cost, and the Grand Total.
+  * User Registration page - This page should have a registration form where a user can sign-up for an account. They will be reuired to enter a username, their email twice (for security reasons), and a password twice.
+  * User Profile page - This page will show a users account information. It will contain their delivery address in a form which they can cahnge/update by clicking an Update Information button. This delivery address will be used to autopopulate their checkout form. This page will also contain a table listing their individual past purchases. This list will show the Date, Order Number, Products, and Order Total. A User can click on the order number to open a copy of the Order Confrimation page for that order.  
+  * Product Add/Edit pages - These pages will only be accessible to a site Admin. The Add Product page will contain a form which allows an Admin to enter details for a new product, i.e.; Category name, SKU, Brand name, Product name, Description, Imgae, a Rating, and Sizes. This page will also have an Add button to enter the new product in the database once all details have been entered on the form. The Edit page will be indentical to the Add page, except the form will be pre-populated with the details of a choosen product. This will also have an Update button which allows an Admin to update product information on the database once details have been changed on the form.
+  * Blog Page - This page will show a list of Blog post names in individual cards. Once an item on the list is clicked a User will be brought to the Blog Detail page.
+  * Blog Post detail page - This page will show an entire Blog Post in a card. The card will contain and image, a title, the authors name, the date created, and the post text.
+  * Blog Post Add/Edit page - These pages will only be accessible to a site Admin. The Add Blog Post page will contain a form which allows an Admin to enter details for a new Blog Post, i.e.; Image, Title, Slug, Content, Authos, and the Status. The Staus will show if a post is publised or if it is in draft mode. This page will also have an Add Post button to enter the new post in the database once all details have been entered on the form. The Edit Post page will be indentical to the Add page, except the form will be pre-populated with the details of a choosen post. This will also have an Update Post button which allows an Admin to update the post on the database once details have been changed on the form.
+  * Newsletter Subscription page - This page will will contain a card within which is a form where a user can enter their email address in order to sign-up to the mailing list. This page will also contain a Subscribe button which will add the users email to the database.
+  * Nesletter Unsubscribe page - This page will will contain a scard within which is a form where a user can enter their email address in order to unsubscribe from the Newsletter mailing list. This page will also contain an Unsubscribe button which will delete the users email address from the database.
+  * Send Newsletter page - This page will only be accessible to an Admin. It will contain a card within which is a form. The form will allow an Admin to enter a Newsletter email title, and an email body. This page will also contain a send button which will send the contents of the form to a Newsletter subscriber list by email.
 
 
-* Each of these pages should have a selection of 'feature views'/pages linked from them. The Homepage should have 3 page views linked from it, those being; 'Login', 'Current League Table', and 'Register'. 
-* The Player Homepage should have 3 page views linked from it, those being; 'My League Stats', 'Add Match Result', and 'Edit My Account'. 
-* The Admin Homepage should have 3 page views linked from it, those being; 'Add League', 'Add Player', and 'Edit League'.  
 
-* All Pages:  
-   * All pages should include a Navigation bar to eaily move around the site, and which also highlights the currently accessed page. 
-   * The Navigation bar should have 3 different link views; One for a non-logged in User, one for a logged in Registered Player, and one for an Admin user.
-   * All pages should include a carousel with scrolling banners adverts for CPC sponsors at the bottom of the page.
-   * All pages should include a Footer section which simply has a CPC logo which links to the Homepage, and copyright information. 
-* Homepage, Registration page, Login page, and League Table page:  
-   * The Homepage should include and introduction section and a 'why join us?' section, which should introduce the club and promote the benefits of joining it. 
-   * The Homepage should also have an 'Our Leagues' which describes what the Leagues are and how often they are run. This section should also include a button linking to the current League Table.
-   * The Homepage should include a Contact Us section to show name, telephone, and email contact information for the CPC organisers, as well a contact form where a user can send a message to CPC organisers.
-   * The Register page should have a form which allows a new member to input their; First Name, Nickname, Surname, Telephone Number, Email Address, a Password, and it should also include a Confirm Password field. On clicking a Register button, a user will create a new document in a 'user' collection of a MongoDB database. This document will also contain default values (hidden from the form) for Points, Matches Won, Matches Lost, Games Won, Games Lost, Matches Remaining, and Leagues Entered.
-   * The Login page should have a form where a User can input their email address and password. On clicking a "log In' button, the user should be redirected to their Player Homepage.
-   * The Current League Table should show a table showing up-to-date data for all members in the current League. This table should include columns with headings for; Rank, Player Name, Points, Matches Won, and Matches Lost.
-* Player Homepage:
-   * The 'My League Stats' page should include a table which shows a Players individual current League statistics including their: Points, Matches For, and Matches Against.
-   * The 'Add Match Result' page should contain a form where a Player can record the results of a Match for the current League. The form should contain the following fields; Match Date, Match Referee, Player One, Player One Frames Won, Player Two, and Player Two Frames Won. Two hidden fields should also record a Created By and League value. On clicking a 'Add Result' button, the Player would then create a new Match document in the Matches collection on a MongoDB database. This action would also calculate the Points and Matches Won or Matches Lost for each Player. The League Table would should also be updated with the appropriate increase in Points and Matches Won/Lost for each Player.
-   * The 'Edit My Account' page should include a form which pre-populates with a Players Account information. A Player can edit the details on the form. These details being; First Name, Nickname, Surname, Telephone Number, Email Address, and Password. On clicking an Update Account button, a user will update their document in the user collection on MongoDB.
-* Admin Homepage:
-   * The 'Add League' page should contain a form where an Admin can create a new League by inputting the following values; League Name, League Description, Start Date and End Date. On clicking and 'Add League' button a new document will be created in a League collection on a MongoDB database.
-   * The 'Add Player' page should contain the same form as in the Register page. This feature may be required when a person wants to join the club but is not computer savvy. And so an Admin can then register the user on their behalf.  
-   * The 'Select League' page should contain a dropdown where an Admin can select a League. After clicking a 'Select League' button, the Admin will then be redirected to an Edit League page.
-   * When redirected to the Edit League page, a form will be pre-populated with the following data about the selected League; League Name, League Description, Start Date, and End Date. An Admin can then edit the League details. On clicking an "Update League' button an Admin can then update that leagues document in the League collection of a MongoDB database. Alternatively, an Admin can also click a 'Delete League' button which will delete a League document from the league collection in a MongoDB database.  
+
+
    
 #### Content Requirements: ####
- * The images used on the Homepage Carousel should show people playing pool. The images should be colourful and 'exciting', in order to entice new members to join the club. 
- * The 'Why Join' section on the Homepage should briefly, but completely, convey what the benefits are of joining the Club. 
- * The 'Why Join' section should also contain appropriate images and texts contained within Bootstrap cards to reinforce the 'Why Join' messaging.
- * The 'Our Leagues' section on the Homepage should briefly, but completely, describe what the Club Leagues are and how often they are run. 
- * This 'Our Leagues' section should also contain Bootstrap cards which contain images, texts, and a link button which links to the current League Table page.
- * The Contact Us section should include text to describe how the Club can be contacted, including a telephone nunber and an email address, and which should be placed above a Contact Form.
- * The 'Visit our Sponsors' scrolling carousel section should contain a selection of attractive sponsor marketing banners, and include links to the external sponsor websites.
- * The Footer section should contain a single CPC logo which also serves as a link to the Homepage.
+ * The
 
 ### 3. The Structure Plane ###
 
