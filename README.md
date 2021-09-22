@@ -1,10 +1,10 @@
 ##### <br> #####
-<a name="top-of-page"><img src="readme/readme-assets/logo/lawn-genie-logo-v2.png" width="400"></a>
+<a name="top-of-page"><img src="readme/readme-assets/logo/lawn-genie-nav-logo-v4-resized-546-x-150px.png" width="400"></a>
 # LawnGenie.ie #
 ## 'Everything your Lawn could Wish for!' An e-commerce web application for selling products relating to Lawn Care & Maintenance ## 
 ### Purpose: Full Stack Development Project (Milestone Project 4) for the Diploma in Software Development course at [Code Institute](https://codeinstitute.net/) ###
 ### Developer: Andrew McDonald - Contact me on GitHub :octocat: @ <a href="https://github.com/AndyMc3000"><strong>AndyMc3000</strong></a> ###
-### Website deployed on an Heroku App: TO BE UPDATED [Click Here](https://pool-club.herokuapp.com/) ###
+### Website deployed on an Heroku App: [Click Here](https://lawngenie.herokuapp.com/) ###
 ##### <br> #####
 <hr>
 <img src="/readme-assets/cpc-am-i-responsive-readme-screenshot.png"[TO BE UPDATED Lawn Genie Logo] width="1100">
@@ -48,7 +48,12 @@ Please see below details of 'Client Stories' to detail the requirements of the L
 
 #### Client Stories ####
 > - [x] The business owners want to; "Create a specialist e-commerce store which sells products relating to the care and maintenance of Lawns."
-> - [x] “The store must contain a number of product categories and sub-categories of products which should be easily accessible and identifiable to a user." These categories and sub-categories are;
+> - [x] The store must provide the business owners with an easy to use interface to enable to addition, editing, and deletion of products and their content. This content must include a product name, SKU, category, description, price, a product image, and rating. The interface should also allow for the addition of other attributes which may be unique to certain products, for example, a 'power type' attribute for lawnmowers, or a 'size' attribute for boots."
+> - [x] The store must use the Stripe payment processing platform to ensure an elegant and secure payment process for users."
+> - [x] The store design must allow users to navigate easily and intuitively through the product offering, regardless of what device they are using."
+> - [x] "For ease of use, the store must allow users of the site to register and login so that they can store their personal delivery/account information. This is to facilitate quick purchaing transactions."
+> - [x] The store design must have an About Us/Contact Us page."
+> - [x] “The store must contain a number of product categories of products which should be easily accessible and identifiable to a user." These categories are;
 * Category 1 - Mowers:  
    * Robot Mowers
    * Self-propelled
@@ -70,11 +75,6 @@ Please see below details of 'Client Stories' to detail the requirements of the L
    * Trousers
    * Boots
    * Gloves
-> - [x] The store must provide the business owners with an easy to use interface to enable to addition, editing, and deletion of products and their content. This content must include a product name, SKU, category, description, price, a product image, and rating. The interface should also allow for the addition of other attributes which may be unique to certain products, for example, a 'power type' attribute for lawnmowers, or a 'size' attribute for boots."
-> - [x] The store must use the Stripe payment processing platform to ensure an elegant and secure payment process for users."
-> - [x] The store design must allow users to navigate easily and intuitively through the product offering, regardless of what device they are using."
-> - [x] "For ease of use, the store must allow users of the site to register and login so that they can store their personal delivery/account information. This is to facilitate quick purchaing transactions."
-> - [x] The store design must have an About Us page, and a Contact Us page."
 --------------
 > - [x] NICE TO HAVE # 1 - “The store must give users the option to subscribe to an email mailing list. Marketing/promotional emails can then be sent to users based on topics such as; tips and tricks from gardening professionals and lawn care specialists, new product infromation, and special offers."
 > - [x] NICE TO HAVE # 2 - “The store must have a blog section where users can read articles and get information about lawn care and maintenance etc. A secure interface to add, update, and delete blog posts must be availableprovided to the business owners."
@@ -101,7 +101,28 @@ Please see below details of 'Client Stories' to detail the requirements of the L
 Based on the outcomes from the Strategy Plane, The Scope Plane determines what features, functionality, and types of content should be included within the scope of the project. Listed below are the functional specifications and content requirements decided on for the CPC website. 
 
 #### Functional Specifications: ####
-* Build a responsive Website with 3 main pages - a Homepage, a Player Homepage, and an Admin homepage. 
+* Build a responsive e-commerce Website with the following pages; Homepage, Category pages, Product detail pages, a Shopping Cart page, a Checkout page, a User Registration page, User and Admin Profile pages. Admin Product add/edit pages, A Blog page, a Blog Post detail page, an add/edit Blog Post page, a Newsletter Subscription page, a Newsletter Unsubscribe page, ans a Send Newsletter page.
+* The site should also have relevant 'notice' pages which notify Users of certain actions/requirements, for e.g. on registration a User should be sent to a page telling them that an email has been sent to their email address and that they need to verify their email by clicking on a link in the email before they can login. Or if they attept to login with an incorrect email, they should be taken to a page which tells them that the email address they tried to use does not exist in the database.
+* The Navigation bar should allow users to navigate to all pages on the site. 3 different sets of navigation options should be available to 3 different types of User; a non-registed User, a registered User, and a store Admin.
+* All pages should include a Footer displaying business contact details, and links to the Blog and Newsletter subscribe/unsubscribe pages.
+ 
+* Page Specificationss: 
+  * The Homepage - This page should contain a here banner at the top of the page and contain marketing messaging which conveys what the store does. 
+  * The Cateory listing page - This page should contain a grid list pf 'product cards' showing a product image, brand name, product name, price, rating, category. The cards should also include a 'More Info' button
+  * Product detail page - This page should include 2 cards of infromation. One to include a product image, the the brand and product names. The other to show the price, rating, category, a quantity input box, and a product description. This second box should also include an 'Add to Cart' and 'Continue Shopping' buttons.
+  * Shopping Cart page - This page should include a card, within which is a table showing a lit of relevant information for each product which a user has added to their cart. It should display a small image, product name, an editable quantity bow, the unit ptice, and the totla price for each product/line item. This page should also include a section at the bottom of the table to display a subtotal, the delivery cost and a grand total for the order. This section should also include 'Checkout' and 'Continue Shopping' buttons.
+  * Checkout page - This page should include a card and tabel displaying a users order summary. It should also include a form where a user can input their personal and delivery infromation. Below this a Stripe credit card inpu box should be displaying along with 'Buy Now' and 'Continue Shopping' buttons.
+  * User Registration page - 
+  * User Profile page
+  * Product Add/Edit pages
+  * Blog Page
+  * Blog Post detail page
+  * Blog Post Add/Edit page
+  * Newsletter Subscription page
+  * Nesletter Unsubscribe page
+  * Send Newsletter page
+
+
 * Each of these pages should have a selection of 'feature views'/pages linked from them. The Homepage should have 3 page views linked from it, those being; 'Login', 'Current League Table', and 'Register'. 
 * The Player Homepage should have 3 page views linked from it, those being; 'My League Stats', 'Add Match Result', and 'Edit My Account'. 
 * The Admin Homepage should have 3 page views linked from it, those being; 'Add League', 'Add Player', and 'Edit League'.  
