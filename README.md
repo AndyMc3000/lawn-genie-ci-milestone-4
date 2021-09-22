@@ -4,7 +4,7 @@
 ## 'Everything your Lawn could Wish for!' An e-commerce web application for selling products relating to Lawn Care & Maintenance ## 
 ### Purpose: Full Stack Development Project (Milestone Project 4) for the Diploma in Software Development course at [Code Institute](https://codeinstitute.net/) ###
 ### Developer: Andrew McDonald - Contact me on GitHub :octocat: @ <a href="https://github.com/AndyMc3000"><strong>AndyMc3000</strong></a> ###
-### Website deployed on an Heroku App: [Click Here](https://lawngenie.herokuapp.com/) ###
+### LawnGenie Website deployed on Heroku: [Click Here To Visit](https://lawngenie.herokuapp.com/) ###
 ##### <br> #####
 <hr>
 <img src="/readme-assets/cpc-am-i-responsive-readme-screenshot.png"[TO BE UPDATED Lawn Genie Logo] width="1100">
@@ -38,6 +38,7 @@ LawnGenie.ie represents a project I have undertaken for a fictional client. I ha
 The design of the LawnGenie.ie e-commerce website was determined by assessing and quantifying the goals and objectives of the business owners, as well as the requirements of users who will visit and use the website. 
 
 Following the determination of client and user stories, and their subsequent technical requirements, the site was designed using the principles of Jesse James Garrett's '5 Planes of UX Design'. The outcome or tasks created for each of the 5 design planes is outlined below.
+
 
 ### 1. The Strategy Plane ###
 
@@ -80,6 +81,7 @@ Please see below details of 'Client Stories' to detail the requirements of the L
 > - [x] NICE TO HAVE # 2 - “The store must have a blog section where users can read articles and get information about lawn care and maintenance etc. A secure interface to add, update, and delete blog posts must be availableprovided to the business owners."
 > - [x] NICE TO HAVE # 3 - "The store contact page must have a Google map with a branded marker on it showing the location of the business office." 
 
+
 #### User Stories ####
 > - [x] “I want to learn to immediately understand the overall concept of what the website offers when I land on the homepage, i.e. the online sale of lawn care equipment and associated products.”
 > - [x] “I want to be able to access all product categories from every page.”
@@ -94,11 +96,12 @@ Please see below details of 'Client Stories' to detail the requirements of the L
 > - [x] “I want to get an email confirmation/verification email after I register for an account."
 > - [x] “I want to be able to easily login or logout of my account from every page."
 
-# TO DO #
+
 -----------------------
 ### 2. The Scope Plane ###
 
 Based on the outcomes from the Strategy Plane, The Scope Plane determines what features, functionality, and types of content should be included within the scope of the project. Listed below are the functional specifications and content requirements decided on for the CPC website. 
+
 
 #### Functional Specifications: ####
 * Build a responsive e-commerce Website with the following pages; Homepage, Category pages, Product detail pages, a Shopping Cart page, a Checkout page, a User Registration page, User and Admin Profile pages. Admin Product add/edit pages, A Blog page, a Blog Post detail page, an add/edit Blog Post page, a Newsletter Subscription page, a Newsletter Unsubscribe page, ans a Send Newsletter page.
@@ -122,14 +125,16 @@ Based on the outcomes from the Strategy Plane, The Scope Plane determines what f
   * Newsletter Subscription page - This page will will contain a card within which is a form where a user can enter their email address in order to sign-up to the mailing list. This page will also contain a Subscribe button which will add the users email to the database.
   * Nesletter Unsubscribe page - This page will will contain a scard within which is a form where a user can enter their email address in order to unsubscribe from the Newsletter mailing list. This page will also contain an Unsubscribe button which will delete the users email address from the database.
   * Send Newsletter page - This page will only be accessible to an Admin. It will contain a card within which is a form. The form will allow an Admin to enter a Newsletter email title, and an email body. This page will also contain a send button which will send the contents of the form to a Newsletter subscriber list by email.
+  * Footer - The store Footer shoudl contain a section for contact details for the business, a section for the sitel ogo, and a section for links to the blog and nesletter pages. 
 
 
-
-
-
-   
 #### Content Requirements: ####
- * The
+ * The Homepage should contain a hero image at the top of the page showing a manicured lawn, and include an appropriate marketing message which conveys what the site does.
+ * The Homepage should contain banner images promoting branded products which are available to buy on the store
+ * The Homepage should contain a New Arrivals and a Best Sellers section, showing images of relevant products. These sections should link to individual product detail pages.
+ * The Blog Posts should contain text content relating to topics which engourage the purchase of products on the store. These posts should also include a large relavant image in the post.
+ * The Product Category pages and Product Detail pages which list products in cards should contain bright, clear images of the relevant product. These images should be a clear picture of the product against a white background.
+  
 
 ### 3. The Structure Plane ###
 
@@ -137,30 +142,46 @@ Please find details below about Structure Plane decision based under the followi
 
 #### Interaction Design: ####
 
-Interaction design is defined as the "..development of application flows to facilitate user tasks, defining how the user interacts with site functionality". Inline with this principle, the pages were designed as follows;
+Interaction design is defined as the "..development of application flows to facilitate user tasks, defining how the user interacts with site functionality". Inline with this principle, the site pages and navigation were designed as follows;
 
-* ##### The Homepage and linked pages/views; #####
-  * It should have a navigation bar with individual links to the Registration and Login pages. The navigation bar should also be fixed to the top of the page view.
-  * The 'hero' carousel banners at the top of the Homepage should include a link button linking to the Registration page.
-  * The 'Why Join' section should also contain a link button linking to the Registration page.
-  * The 'Our Leagues' section should contain a button linking a user to the current League Table page.
-  * On completion and submission the Contact Form should send an email (cc'ing the user) to a CPC organiser using the EmailJS email service. 
-  * The sponsor carousel banners in the 'Visit our Sponsor' section should be clickable and link a user to an external sponsor website, where that page opens in a new browser window/tab.
-  * The Current League page should have back buttons above and below the League Table container and link a user back to the Homepage.
-  * The Login page should have back buttons above and below the Log In form container and link a user back to the Homepage.
-  * The Registration page should have back buttons above and below the Registration Form container and link a user back to the Homepage.
+* ##### THe Navigation Bar #####
+  * All pages should have acces to the same navigation bar.
+  * The Navigation bar will contain individual links to all Product Category pages.
+  * The Navigation bar will contain a link to the Blog.
+  * The Naviagtion bar should also have a search box which when used should initiate a search of all product names and all product descriptions. A search should return a page listing all the products which are relevant to the search criteria.
+  * The Navigation bar shoud,also include a link to 'My Account'. When clicked this link/icon should reveal a dropdown of link options for the User. The options should be relevant to the User type, i.e.; A non-logged in user, A resgistered/logged-in user, and a Site Admin user. A non-logged-in User should see; Login and Registration page link options. A registered and logged-in user should see link options for; My Profile page or the Logout page. And a Site Admin should see link options for; Add a Product page, Add a Blog Post page, Send a Newsletter page, My Profile page, and Logout page.
+  * The Navigation bar Should also contain a link/icon for the shopping cart. If a User has added a product to their shopping cart, the icon/link should show the total value of the current cart below the icon. If a user clicks on the cart icon, they should be taken to the shopping cart page.
+  * The Navigation bar should also contain a site logo at the center of the bar. When clicked, this link should take a user back to the homepage.
+ 
+ * ##### The Footer #####
+   * The site Footer should be accessible to all pages on the site.
+   * The Footer should include contact details with a link for a telephone and email address. When the email link is clicked, it should call the users default email appplication and open a draft email pre-populated with the sites email address.
+   * The Footer should contain a logo, which when clicked should bring a User back to the Homepage.
+   * The Footer should also contain a link the the Blog page, to the Newsletter subscription page, and the Newsletter unsubscribe page.
 
-* ##### The Player Homepage and linked pages/views; #####
-  * Once a Player is logged in and is rerouted to their Player Homepage, the navigation bar should change and show individual links for; Home (Homepage), MyHome (Player Homepage), and Log Out (which reroutes a user to the Login page).  
-  * The Player Homepage should have individual Bootstrap cards with clearly visible link buttons for each function a user can perform there.
-  * Each function listed on the Player Homepage should have its own page.
-  * Each of the function pages should have a 'Back' button positioned both below and above the content area, returning a Player to their Player Homepage. The function pages to be included are: 'My League Stats', 'Add Match Result', and 'Edit My Account'.
+* ##### The Homepage #####
+  * The Homepage should contain a hero banner section at the top of the page. This should contain marketing messagin as well as a Shop Now button. When clicked, the Shop Now button should take a User back to a page listing all products in the store.
+  * The Homepage should contain a Best Sellers and a New Products section. Each section should dispaly a product image and a More Info button for each product in the section. If either the product image or More Infrobutton are clicked a User should be sent to the relevant Product Detail page.
+  * The Homepage should also contain graphic banners promoting individual products. Each banner should contain a More Info button which when clicked brings a User to the relevant Product Page.
 
-* ##### The Admin Homepage and linked pages/views; #####
-  * If a Player is also an Admin, and once that Player is logged in and is rerouted to their Player Homepage, the navigation bar should change and show individual links for; Home (Homepage), MyHome (Player Homepage), Admin (Admin Homepage) and Log Out (which should reroute a user to the Login page). 
-  * The Admin Homepage should have individual Bootstrap cards with clearly visible link buttons for each function a user can perform there.
-  * Each function listed on the Admin Homepage should have its own page.
-  * Each of the function pages should have a 'Back' button positioned both below and above the content area, returning an Admin to their Player Homepage. The function pages to be included are: 'Add League', 'Add Player', and 'Edit League'.
+* ##### The Category Listing Page #####
+  * The Category pages should contain a list of relevant prdouct cards. These cards will include an individual product image and a More Info button for each product. When clicked both the image and the button will take a User to the relevant Product Detail page.
+  * The Category page should also contain a Back to Top button at the bottom of a product list. When clicked this will bring a User back to the top of the Category product list.
+
+* ##### The Product Detail Page #####
+  * The Product Detail page should contain a product image which when clicked will open the image in a new browser tab.
+  * The Product Detail page should have a quantity input box with a '+' and '-' link on either side of it. When eith link is clicked the quantity number will increment or decrement.
+  * The Product Detail page should contain a sizes dropdown box for items which have sizes as an attribute. A User can sleect their desired size by cliking on the dropdown.
+  * The Product Detail page should have an Add To Cart button. When clicked, the product with the specified quantity and/or size will be added to the shopping cart.
+  * The Product Detail page should have a Continue Shopping button. When clicked, the User will be taken back to the All Products page.
+
+* ##### The Blog Page #####
+  * The Blog page should contain a list of cards containing a title and small image for each published blog post. The card should also contain a View Post button. When any of the title, image, or button are clicked a User will be taken to the relevant Blog Detail page.
+  * The Blog page should also include a Back To Top button at the bottom of the page. When clicked a User should be taken to the top of the list of blog posts. 
+
+* ##### The Blog Detail Page #####
+  * The Blog Detail page should include a Back button at the bottom of the post.
+
 
 #### Information Architecture: ####
 
