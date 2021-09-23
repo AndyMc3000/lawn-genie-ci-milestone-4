@@ -1,10 +1,10 @@
 ##### <br> #####
-<a name="top-of-page"><img src="readme/readme-assets/logo/lawn-genie-logo-v2.png" width="400"></a>
+<a name="top-of-page"><img src="readme/readme-assets/logo/lawn-genie-nav-logo-v4-resized-546-x-150px.png" width="400"></a>
 # LawnGenie.ie #
 ## 'Everything your Lawn could Wish for!' An e-commerce web application for selling products relating to Lawn Care & Maintenance ## 
 ### Purpose: Full Stack Development Project (Milestone Project 4) for the Diploma in Software Development course at [Code Institute](https://codeinstitute.net/) ###
 ### Developer: Andrew McDonald - Contact me on GitHub :octocat: @ <a href="https://github.com/AndyMc3000"><strong>AndyMc3000</strong></a> ###
-### Website deployed on an Heroku App: TO BE UPDATED [Click Here](https://pool-club.herokuapp.com/) ###
+### LawnGenie Website deployed on Heroku: [Click Here To Visit](https://lawngenie.herokuapp.com/) ###
 ##### <br> #####
 <hr>
 <img src="/readme-assets/cpc-am-i-responsive-readme-screenshot.png"[TO BE UPDATED Lawn Genie Logo] width="1100">
@@ -39,6 +39,7 @@ The design of the LawnGenie.ie e-commerce website was determined by assessing an
 
 Following the determination of client and user stories, and their subsequent technical requirements, the site was designed using the principles of Jesse James Garrett's '5 Planes of UX Design'. The outcome or tasks created for each of the 5 design planes is outlined below.
 
+
 ### 1. The Strategy Plane ###
 
 The Strategy Plane, as defined by Jesse James Garrett "..incorporates not only what the people running the site want to get out of it but what the users want to get out of the site as well." 
@@ -48,7 +49,12 @@ Please see below details of 'Client Stories' to detail the requirements of the L
 
 #### Client Stories ####
 > - [x] The business owners want to; "Create a specialist e-commerce store which sells products relating to the care and maintenance of Lawns."
-> - [x] “The store must contain a number of product categories and sub-categories of products which should be easily accessible and identifiable to a user." These categories and sub-categories are;
+> - [x] The store must provide the business owners with an easy to use interface to enable to addition, editing, and deletion of products and their content. This content must include a product name, SKU, category, description, price, a product image, and rating. The interface should also allow for the addition of other attributes which may be unique to certain products, for example, a 'power type' attribute for lawnmowers, or a 'size' attribute for boots."
+> - [x] The store must use the Stripe payment processing platform to ensure an elegant and secure payment process for users."
+> - [x] The store design must allow users to navigate easily and intuitively through the product offering, regardless of what device they are using."
+> - [x] "For ease of use, the store must allow users of the site to register and login so that they can store their personal delivery/account information. This is to facilitate quick purchaing transactions."
+> - [x] The store design must have an About Us/Contact Us page."
+> - [x] “The store must contain a number of product categories of products which should be easily accessible and identifiable to a user." These categories are;
 * Category 1 - Mowers:  
    * Robot Mowers
    * Self-propelled
@@ -70,15 +76,11 @@ Please see below details of 'Client Stories' to detail the requirements of the L
    * Trousers
    * Boots
    * Gloves
-> - [x] The store must provide the business owners with an easy to use interface to enable to addition, editing, and deletion of products and their content. This content must include a product name, SKU, category, description, price, a product image, and rating. The interface should also allow for the addition of other attributes which may be unique to certain products, for example, a 'power type' attribute for lawnmowers, or a 'size' attribute for boots."
-> - [x] The store must use the Stripe payment processing platform to ensure an elegant and secure payment process for users."
-> - [x] The store design must allow users to navigate easily and intuitively through the product offering, regardless of what device they are using."
-> - [x] "For ease of use, the store must allow users of the site to register and login so that they can store their personal delivery/account information. This is to facilitate quick purchaing transactions."
-> - [x] The store design must have an About Us page, and a Contact Us page."
 --------------
 > - [x] NICE TO HAVE # 1 - “The store must give users the option to subscribe to an email mailing list. Marketing/promotional emails can then be sent to users based on topics such as; tips and tricks from gardening professionals and lawn care specialists, new product infromation, and special offers."
 > - [x] NICE TO HAVE # 2 - “The store must have a blog section where users can read articles and get information about lawn care and maintenance etc. A secure interface to add, update, and delete blog posts must be availableprovided to the business owners."
 > - [x] NICE TO HAVE # 3 - "The store contact page must have a Google map with a branded marker on it showing the location of the business office." 
+
 
 #### User Stories ####
 > - [x] “I want to learn to immediately understand the overall concept of what the website offers when I land on the homepage, i.e. the online sale of lawn care equipment and associated products.”
@@ -94,49 +96,45 @@ Please see below details of 'Client Stories' to detail the requirements of the L
 > - [x] “I want to get an email confirmation/verification email after I register for an account."
 > - [x] “I want to be able to easily login or logout of my account from every page."
 
-# TO DO #
+
 -----------------------
 ### 2. The Scope Plane ###
 
 Based on the outcomes from the Strategy Plane, The Scope Plane determines what features, functionality, and types of content should be included within the scope of the project. Listed below are the functional specifications and content requirements decided on for the CPC website. 
 
-#### Functional Specifications: ####
-* Build a responsive Website with 3 main pages - a Homepage, a Player Homepage, and an Admin homepage. 
-* Each of these pages should have a selection of 'feature views'/pages linked from them. The Homepage should have 3 page views linked from it, those being; 'Login', 'Current League Table', and 'Register'. 
-* The Player Homepage should have 3 page views linked from it, those being; 'My League Stats', 'Add Match Result', and 'Edit My Account'. 
-* The Admin Homepage should have 3 page views linked from it, those being; 'Add League', 'Add Player', and 'Edit League'.  
 
-* All Pages:  
-   * All pages should include a Navigation bar to eaily move around the site, and which also highlights the currently accessed page. 
-   * The Navigation bar should have 3 different link views; One for a non-logged in User, one for a logged in Registered Player, and one for an Admin user.
-   * All pages should include a carousel with scrolling banners adverts for CPC sponsors at the bottom of the page.
-   * All pages should include a Footer section which simply has a CPC logo which links to the Homepage, and copyright information. 
-* Homepage, Registration page, Login page, and League Table page:  
-   * The Homepage should include and introduction section and a 'why join us?' section, which should introduce the club and promote the benefits of joining it. 
-   * The Homepage should also have an 'Our Leagues' which describes what the Leagues are and how often they are run. This section should also include a button linking to the current League Table.
-   * The Homepage should include a Contact Us section to show name, telephone, and email contact information for the CPC organisers, as well a contact form where a user can send a message to CPC organisers.
-   * The Register page should have a form which allows a new member to input their; First Name, Nickname, Surname, Telephone Number, Email Address, a Password, and it should also include a Confirm Password field. On clicking a Register button, a user will create a new document in a 'user' collection of a MongoDB database. This document will also contain default values (hidden from the form) for Points, Matches Won, Matches Lost, Games Won, Games Lost, Matches Remaining, and Leagues Entered.
-   * The Login page should have a form where a User can input their email address and password. On clicking a "log In' button, the user should be redirected to their Player Homepage.
-   * The Current League Table should show a table showing up-to-date data for all members in the current League. This table should include columns with headings for; Rank, Player Name, Points, Matches Won, and Matches Lost.
-* Player Homepage:
-   * The 'My League Stats' page should include a table which shows a Players individual current League statistics including their: Points, Matches For, and Matches Against.
-   * The 'Add Match Result' page should contain a form where a Player can record the results of a Match for the current League. The form should contain the following fields; Match Date, Match Referee, Player One, Player One Frames Won, Player Two, and Player Two Frames Won. Two hidden fields should also record a Created By and League value. On clicking a 'Add Result' button, the Player would then create a new Match document in the Matches collection on a MongoDB database. This action would also calculate the Points and Matches Won or Matches Lost for each Player. The League Table would should also be updated with the appropriate increase in Points and Matches Won/Lost for each Player.
-   * The 'Edit My Account' page should include a form which pre-populates with a Players Account information. A Player can edit the details on the form. These details being; First Name, Nickname, Surname, Telephone Number, Email Address, and Password. On clicking an Update Account button, a user will update their document in the user collection on MongoDB.
-* Admin Homepage:
-   * The 'Add League' page should contain a form where an Admin can create a new League by inputting the following values; League Name, League Description, Start Date and End Date. On clicking and 'Add League' button a new document will be created in a League collection on a MongoDB database.
-   * The 'Add Player' page should contain the same form as in the Register page. This feature may be required when a person wants to join the club but is not computer savvy. And so an Admin can then register the user on their behalf.  
-   * The 'Select League' page should contain a dropdown where an Admin can select a League. After clicking a 'Select League' button, the Admin will then be redirected to an Edit League page.
-   * When redirected to the Edit League page, a form will be pre-populated with the following data about the selected League; League Name, League Description, Start Date, and End Date. An Admin can then edit the League details. On clicking an "Update League' button an Admin can then update that leagues document in the League collection of a MongoDB database. Alternatively, an Admin can also click a 'Delete League' button which will delete a League document from the league collection in a MongoDB database.  
-   
+#### Functional Specifications: ####
+* Build a responsive e-commerce Website with the following pages; Homepage, Category pages, Product detail pages, a Shopping Cart page, a Checkout page, a User Registration page, User and Admin Profile pages. Admin Product add/edit pages, A Blog page, a Blog Post detail page, an add/edit Blog Post page, a Newsletter Subscription page, a Newsletter Unsubscribe page, ans a Send Newsletter page.
+* The site should also have relevant 'notice' pages which notify Users of certain actions/requirements, for e.g. on registration a User should be sent to a page telling them that an email has been sent to their email address and that they need to verify their email by clicking on a link in the email before they can login. Or if they attept to login with an incorrect email, they should be taken to a page which tells them that the email address they tried to use does not exist in the database.
+* The Navigation bar should allow users to navigate to all pages on the site. 3 different sets of navigation options should be available to 3 different types of User; a non-registed User, a registered User, and a store Admin.
+* All pages should include a Footer displaying business contact details, and links to the Blog and Newsletter subscribe/unsubscribe pages.
+ 
+* Page Specificationss: 
+  * The Homepage - This page should contain a here banner at the top of the page and contain marketing messaging which conveys what the store does. 
+  * The Cateory listing page - This page should contain a grid list pf 'product cards' showing a product image, brand name, product name, price, rating, category. The cards should also include a 'More Info' button
+  * Product detail page - This page should include 2 cards of infromation. One to include a product image, the the brand and product names. The other to show the price, rating, category, a quantity input box, and a product description. This second box should also include an 'Add to Cart' and 'Continue Shopping' buttons.
+  * Shopping Cart page - This page should include a card, within which is a table showing a lit of relevant information for each product which a user has added to their cart. It should display a small image, product name, an editable quantity bow, the unit ptice, and the totla price for each product/line item. This page should also include a section at the bottom of the table to display a subtotal, the delivery cost and a grand total for the order. This section should also include 'Checkout' and 'Continue Shopping' buttons.
+  * Checkout page - This page should include a card and tabel displaying a users order summary. It should also include a form where a user can input their personal and delivery infromation. Below this a Stripe credit card inpu box should be displaying along with 'Buy Now' and 'Continue Shopping' buttons.
+  * Order Confirmation Page - This page will be accessed following a successful purchase. This page will show a table within a card displaying all information relating to a purchase, i.e.; Order Number, Order Date, Individual items and their individual prices, the delivery address, the Order Total, the Delivery Cost, and the Grand Total.
+  * User Registration page - This page should have a registration form where a user can sign-up for an account. They will be reuired to enter a username, their email twice (for security reasons), and a password twice.
+  * User Profile page - This page will show a users account information. It will contain their delivery address in a form which they can cahnge/update by clicking an Update Information button. This delivery address will be used to autopopulate their checkout form. This page will also contain a table listing their individual past purchases. This list will show the Date, Order Number, Products, and Order Total. A User can click on the order number to open a copy of the Order Confrimation page for that order.  
+  * Product Add/Edit pages - These pages will only be accessible to a site Admin. The Add Product page will contain a form which allows an Admin to enter details for a new product, i.e.; Category name, SKU, Brand name, Product name, Description, Imgae, a Rating, and Sizes. This page will also have an Add button to enter the new product in the database once all details have been entered on the form. The Edit page will be indentical to the Add page, except the form will be pre-populated with the details of a choosen product. This will also have an Update button which allows an Admin to update product information on the database once details have been changed on the form.
+  * Blog Page - This page will show a list of Blog post names in individual cards. Once an item on the list is clicked a User will be brought to the Blog Detail page.
+  * Blog Post detail page - This page will show an entire Blog Post in a card. The card will contain and image, a title, the authors name, the date created, and the post text.
+  * Blog Post Add/Edit page - These pages will only be accessible to a site Admin. The Add Blog Post page will contain a form which allows an Admin to enter details for a new Blog Post, i.e.; Image, Title, Slug, Content, Authos, and the Status. The Staus will show if a post is publised or if it is in draft mode. This page will also have an Add Post button to enter the new post in the database once all details have been entered on the form. The Edit Post page will be indentical to the Add page, except the form will be pre-populated with the details of a choosen post. This will also have an Update Post button which allows an Admin to update the post on the database once details have been changed on the form.
+  * Newsletter Subscription page - This page will will contain a card within which is a form where a user can enter their email address in order to sign-up to the mailing list. This page will also contain a Subscribe button which will add the users email to the database.
+  * Nesletter Unsubscribe page - This page will will contain a scard within which is a form where a user can enter their email address in order to unsubscribe from the Newsletter mailing list. This page will also contain an Unsubscribe button which will delete the users email address from the database.
+  * Send Newsletter page - This page will only be accessible to an Admin. It will contain a card within which is a form. The form will allow an Admin to enter a Newsletter email title, and an email body. This page will also contain a send button which will send the contents of the form to a Newsletter subscriber list by email.
+  * Footer - The store Footer shoudl contain a section for contact details for the business, a section for the sitel ogo, and a section for links to the blog and nesletter pages. 
+
+
 #### Content Requirements: ####
- * The images used on the Homepage Carousel should show people playing pool. The images should be colourful and 'exciting', in order to entice new members to join the club. 
- * The 'Why Join' section on the Homepage should briefly, but completely, convey what the benefits are of joining the Club. 
- * The 'Why Join' section should also contain appropriate images and texts contained within Bootstrap cards to reinforce the 'Why Join' messaging.
- * The 'Our Leagues' section on the Homepage should briefly, but completely, describe what the Club Leagues are and how often they are run. 
- * This 'Our Leagues' section should also contain Bootstrap cards which contain images, texts, and a link button which links to the current League Table page.
- * The Contact Us section should include text to describe how the Club can be contacted, including a telephone nunber and an email address, and which should be placed above a Contact Form.
- * The 'Visit our Sponsors' scrolling carousel section should contain a selection of attractive sponsor marketing banners, and include links to the external sponsor websites.
- * The Footer section should contain a single CPC logo which also serves as a link to the Homepage.
+ * The Homepage should contain a hero image at the top of the page showing a manicured lawn, and include an appropriate marketing message which conveys what the site does.
+ * The Homepage should contain banner images promoting branded products which are available to buy on the store
+ * The Homepage should contain a New Arrivals and a Best Sellers section, showing images of relevant products. These sections should link to individual product detail pages.
+ * The Blog Posts should contain text content relating to topics which engourage the purchase of products on the store. These posts should also include a large relavant image in the post.
+ * The Product Category pages and Product Detail pages which list products in cards should contain bright, clear images of the relevant product. These images should be a clear picture of the product against a white background.
+  
 
 ### 3. The Structure Plane ###
 
@@ -144,30 +142,46 @@ Please find details below about Structure Plane decision based under the followi
 
 #### Interaction Design: ####
 
-Interaction design is defined as the "..development of application flows to facilitate user tasks, defining how the user interacts with site functionality". Inline with this principle, the pages were designed as follows;
+Interaction design is defined as the "..development of application flows to facilitate user tasks, defining how the user interacts with site functionality". Inline with this principle, the site pages and navigation were designed as follows;
 
-* ##### The Homepage and linked pages/views; #####
-  * It should have a navigation bar with individual links to the Registration and Login pages. The navigation bar should also be fixed to the top of the page view.
-  * The 'hero' carousel banners at the top of the Homepage should include a link button linking to the Registration page.
-  * The 'Why Join' section should also contain a link button linking to the Registration page.
-  * The 'Our Leagues' section should contain a button linking a user to the current League Table page.
-  * On completion and submission the Contact Form should send an email (cc'ing the user) to a CPC organiser using the EmailJS email service. 
-  * The sponsor carousel banners in the 'Visit our Sponsor' section should be clickable and link a user to an external sponsor website, where that page opens in a new browser window/tab.
-  * The Current League page should have back buttons above and below the League Table container and link a user back to the Homepage.
-  * The Login page should have back buttons above and below the Log In form container and link a user back to the Homepage.
-  * The Registration page should have back buttons above and below the Registration Form container and link a user back to the Homepage.
+* ##### THe Navigation Bar #####
+  * All pages should have acces to the same navigation bar.
+  * The Navigation bar will contain individual links to all Product Category pages.
+  * The Navigation bar will contain a link to the Blog.
+  * The Naviagtion bar should also have a search box which when used should initiate a search of all product names and all product descriptions. A search should return a page listing all the products which are relevant to the search criteria.
+  * The Navigation bar shoud,also include a link to 'My Account'. When clicked this link/icon should reveal a dropdown of link options for the User. The options should be relevant to the User type, i.e.; A non-logged in user, A resgistered/logged-in user, and a Site Admin user. A non-logged-in User should see; Login and Registration page link options. A registered and logged-in user should see link options for; My Profile page or the Logout page. And a Site Admin should see link options for; Add a Product page, Add a Blog Post page, Send a Newsletter page, My Profile page, and Logout page.
+  * The Navigation bar Should also contain a link/icon for the shopping cart. If a User has added a product to their shopping cart, the icon/link should show the total value of the current cart below the icon. If a user clicks on the cart icon, they should be taken to the shopping cart page.
+  * The Navigation bar should also contain a site logo at the center of the bar. When clicked, this link should take a user back to the homepage.
+ 
+ * ##### The Footer #####
+   * The site Footer should be accessible to all pages on the site.
+   * The Footer should include contact details with a link for a telephone and email address. When the email link is clicked, it should call the users default email appplication and open a draft email pre-populated with the sites email address.
+   * The Footer should contain a logo, which when clicked should bring a User back to the Homepage.
+   * The Footer should also contain a link the the Blog page, to the Newsletter subscription page, and the Newsletter unsubscribe page.
 
-* ##### The Player Homepage and linked pages/views; #####
-  * Once a Player is logged in and is rerouted to their Player Homepage, the navigation bar should change and show individual links for; Home (Homepage), MyHome (Player Homepage), and Log Out (which reroutes a user to the Login page).  
-  * The Player Homepage should have individual Bootstrap cards with clearly visible link buttons for each function a user can perform there.
-  * Each function listed on the Player Homepage should have its own page.
-  * Each of the function pages should have a 'Back' button positioned both below and above the content area, returning a Player to their Player Homepage. The function pages to be included are: 'My League Stats', 'Add Match Result', and 'Edit My Account'.
+* ##### The Homepage #####
+  * The Homepage should contain a hero banner section at the top of the page. This should contain marketing messagin as well as a Shop Now button. When clicked, the Shop Now button should take a User back to a page listing all products in the store.
+  * The Homepage should contain a Best Sellers and a New Products section. Each section should dispaly a product image and a More Info button for each product in the section. If either the product image or More Infrobutton are clicked a User should be sent to the relevant Product Detail page.
+  * The Homepage should also contain graphic banners promoting individual products. Each banner should contain a More Info button which when clicked brings a User to the relevant Product Page.
 
-* ##### The Admin Homepage and linked pages/views; #####
-  * If a Player is also an Admin, and once that Player is logged in and is rerouted to their Player Homepage, the navigation bar should change and show individual links for; Home (Homepage), MyHome (Player Homepage), Admin (Admin Homepage) and Log Out (which should reroute a user to the Login page). 
-  * The Admin Homepage should have individual Bootstrap cards with clearly visible link buttons for each function a user can perform there.
-  * Each function listed on the Admin Homepage should have its own page.
-  * Each of the function pages should have a 'Back' button positioned both below and above the content area, returning an Admin to their Player Homepage. The function pages to be included are: 'Add League', 'Add Player', and 'Edit League'.
+* ##### The Category Listing Page #####
+  * The Category pages should contain a list of relevant prdouct cards. These cards will include an individual product image and a More Info button for each product. When clicked both the image and the button will take a User to the relevant Product Detail page.
+  * The Category page should also contain a Back to Top button at the bottom of a product list. When clicked this will bring a User back to the top of the Category product list.
+
+* ##### The Product Detail Page #####
+  * The Product Detail page should contain a product image which when clicked will open the image in a new browser tab.
+  * The Product Detail page should have a quantity input box with a '+' and '-' link on either side of it. When eith link is clicked the quantity number will increment or decrement.
+  * The Product Detail page should contain a sizes dropdown box for items which have sizes as an attribute. A User can sleect their desired size by cliking on the dropdown.
+  * The Product Detail page should have an Add To Cart button. When clicked, the product with the specified quantity and/or size will be added to the shopping cart.
+  * The Product Detail page should have a Continue Shopping button. When clicked, the User will be taken back to the All Products page.
+
+* ##### The Blog Page #####
+  * The Blog page should contain a list of cards containing a title and small image for each published blog post. The card should also contain a View Post button. When any of the title, image, or button are clicked a User will be taken to the relevant Blog Detail page.
+  * The Blog page should also include a Back To Top button at the bottom of the page. When clicked a User should be taken to the top of the list of blog posts. 
+
+* ##### The Blog Detail Page #####
+  * The Blog Detail page should include a Back button at the bottom of the post.
+
 
 #### Information Architecture: ####
 
