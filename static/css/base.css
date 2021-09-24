@@ -123,6 +123,18 @@ body {
 
 /* -- END of Top, Main and Mobile navigation bars  -- */
 
+/* -- Footer  -- */
+
+.footer {
+    color: #f8f9fa;
+}
+
+.footer-container {
+    background-color: #008000;
+}
+
+/* -- END Footer -- */
+
 /* -- Homepage  -- */
 
 .home-top-hero-div  {
@@ -155,6 +167,28 @@ body {
     color: #f8f9fa;
     margin: auto;
     z-index: 999;
+}
+
+.home-promo-banner-john-deere {
+    background: url('/media/john-deere-promo-2.jpg') no-repeat center center;
+    background-size: cover;
+    height: 350px;
+    color: #f8f9fa;
+    margin: auto;
+    z-index: 999;
+}
+
+.home-promo-banner-supersoil {
+    background: url('/media/supersoil-promo-3.jpg') no-repeat center center;
+    background-size: cover;
+    height: 350px;
+    color: #f8f9fa;
+    margin: auto;
+    z-index: 999;
+}
+
+.supersoil-banner-button {
+    margin-top: 150px;
 }
 
 /* -- END of Homepage  -- */

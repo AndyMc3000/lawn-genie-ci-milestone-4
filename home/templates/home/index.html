@@ -10,9 +10,11 @@
 {% endblock %}
 
 {% block content %}
+
+<!-- Hero Image Div -->
     <div class="container-fluid">
         <div class="row">
-            <div class="home-top-hero-div col-12 text-center">
+            <div class="home-top-hero-div col-12 text-center mb-4">
                 <h1 class="display-2 mt-5"><i>Everything</i> your Lawn</h1>
                 <h3 class="display-3 mb-5">could Wish for!</h3>
                 <div class="mt-5 mb-3">
@@ -23,6 +25,24 @@
             </div>
         </div>
     </div>
+<!-- END of Hero Image Div -->
+
+<!-- Promo Banner No. 1 -->
+    <div class="container-fluid home-promo-banner-robot pt-4">
+        <div class="row justify-content-center">
+            <div class="col-10 rounded-4 text-center p-4">
+                <h2 class="shadow"><strong>HUSQVARNA</strong></h>
+                <h4>Automower 315X<h4> 
+                <a href="{% url 'product_detail' 23 %}" class="mx-5 btn buttons my-2">More Info</a> 
+                <div class="text-right">
+                <h4>No Assembly Required!</h4>
+                </div>   
+            </div>
+        </div>
+    </div>
+<!-- END of Promo Banner No. 1 -->
+
+<!-- Best Sellers Card -->
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="card new-arrivals-card col-10 rounded-4 text-center px-4 my-4">
@@ -109,33 +129,44 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid home-promo-banner-robot">
+<!-- END of Best Sellers Card -->
+
+<!-- Promo Banner No. 2 -->
+    <div class="container-fluid home-promo-banner-john-deere">
         <div class="row justify-content-center">
             <div class="col-10 rounded-4 text-center p-4 mt-4">
-                <h2 class="shadow"><strong>HUSQVARNA</strong></h>
-                <h4>Automower 315X<h4> 
-                <a href="{% url 'product_detail' 23 %}" class="mx-5 btn buttons my-2">More Info</a> 
+                <h2 class=""><strong>JOHN DEERE</strong></h>
+                <h4>X590 Tractor LawnmowerX<h4> 
+                <a href="{% url 'product_detail' 110 %}" class="mx-5 btn buttons my-2">More Info</a> 
                 <div class="text-right">
-                <h4>No Assembly Required!</h4>
+                <h4>Multi-Terrain, Multi-Talented!</h4>
                 </div>   
             </div>
         </div>
     </div>
+<!-- END of Promo Banner No. 2 -->
+
+<!-- Blog container  -->
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-8 text-center my-3">
                 <div class="card home-welcome-card rounded-4 my-3 px-4">
-                    <h2 class="mt-4">Check out our Blog</h2>
-                    <a href="{% url 'blog' %}" class="btn buttons my-2">Click to Subscribe</a>
-                    <h4 class="mt-1 mb-2">Get Exclusive Offers!</h4>
-                    <p class="pb-2">Get Lawn car tips and tricks from the pro's, sent straight to your inbox.</p>
+                    <h2 class="mt-4 mb-2">Check out our Blog</h2>
+                    <h4 class="mt-1">Learn from the Pro's!</h4>
+                    <p class="pb-1">Read about the latest techniques and equipment in Lawn Care & Maintenance.</p>
+                    <div>
+                        <a href="{% url 'blog' %}" class="btn buttons mb-3">View Blog</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+<!-- END of Blog container  -->
+
+<!-- New Arrivals container  -->
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="card new-arrivals-card col-10 rounded-4 text-center px-4 mt-2">
+            <div class="card new-arrivals-card col-10 rounded-4 text-center px-4 my-4">
                 <h2 class="mt-4 mb-3">New Arrivals</h2>
                 <div class="row justify-content-center pb-5">
                     <div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center p-4">
@@ -219,26 +250,35 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid home-promo-banner-robot">
+<!-- END of New Arrivals container  -->
+
+<!-- Promo Banner No. 3  -->
+    <div class="container-fluid home-promo-banner-supersoil">
         <div class="row justify-content-center">
             <div class="col-10 rounded-4 text-center px-4 mt-4">
-                <h2 class="shadow"><strong>THE PERFECT LAWN</strong></h>
-                <h4>No Assembly Required</h4> 
-                <a href="{% url 'product_detail' 23 %}" class="mx-5 btn buttons my-2">More Info</a>   
+                <div class="supersoil-banner-button">
+                    <a href="{% url 'product_detail' 68 %}" class="mx-5 btn buttons my-2">More Info</a> 
+                </div> 
             </div>
         </div>
     </div>
+<!-- END of Promo Banner No. 3  -->
+
+<!-- Newsletter container -->
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-8 text-center my-3">
                 <div class="card home-welcome-card rounded-4 my-3 px-4">
                     <h2 class="mt-4">Sign-up for our Newsletters</h2>
-                    <a href="{% url 'subscribe' %}" class="btn buttons my-2">Click to Subscribe</a>
+                    <div>
+                        <a href="{% url 'subscribe' %}" class="btn buttons my-2">More Info</a>
+                    </div>
                     <h4 class="mt-1 mb-2">Get Exclusive Offers!</h4>
                     <p class="pb-2">Get Lawn car tips and tricks from the pro's, sent straight to your inbox.</p>
                 </div>
             </div>
         </div>
     </div>
+<!-- END of Newsletter container -->
 
 {% endblock %}
