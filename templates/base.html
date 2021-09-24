@@ -149,7 +149,7 @@
         <div class="container-fluid footer-container p-4 pb-0">
           <section>
             <div class="row">
-              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-center">
                 <a href="{% url 'home' %}" class="nav-link header-logo-link mb-1 pt-0">
                   <img class="w-100 nav-logo" src="media/lawn-genie-nav-logo-v4-resized-546-x-150px.png" alt="Lawn Genie Logo">
                 </a>
@@ -157,85 +157,62 @@
                 Our Team is dedicated to sourcing, supplying, and delivering the highest quality Lawn Care & Maintenance equipment and improvers to our customers.
                 </p>
               </div>
-              <hr class="w-100 clearfix d-md-none"/>
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold">Top Categories</h6>
+              <div class="d-none d-md-block col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold"><strong>Top Categories</strong></h5>
                 <p>
-                  <a href="" class="text-white">Robot Mowers</a>
+                  <a href="{% url 'products' %}?category=robot-mowers" class="btn btn-sm buttons">Robot Mowers</a>
                 </p>
                 <p>
-                  <a href="" class="text-white">MDWordPress</a>
+                  <a href="{% url 'products' %}?category=hand-tools" class="btn btn-sm buttons">Hand Tools</a>
                 </p>
                 <p>
-                  <a href="" class="text-white">BrandFlow</a>
+                  <a href="{% url 'products' %}?category=lawn-feed" class="btn btn-sm buttons">Lawn Feeds</a>
                 </p>
                 <p>
-                  <a href="" class="text-white">Bootstrap Angular</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-    
-              <hr class="w-100 clearfix d-md-none" />
-    
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold">
-                  Useful links
-                </h6>
-                <p>
-                  <a class="text-white">Your Account</a>
-                </p>
-                <p>
-                  <a class="text-white">Become an Affiliate</a>
-                </p>
-                <p>
-                  <a class="text-white">Shipping Rates</a>
-                </p>
-                <p>
-                  <a class="text-white">Help</a>
+                  <a href="{% url 'products' %}?category=tractor-mowers" class="btn btn-sm buttons">Tractor Mowers</a>
                 </p>
               </div>
-    
-              <!-- Grid column -->
+              <div class="d-none d-md-block col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">
+                  <strong>links</strong>
+                </h5>
+                <p>
+                  <a href="{% url 'profile' %}" class="btn btn-sm buttons">My Profile</a>
+                </p>
+                <p>
+                  <a href="{% url 'blog' %}" class="btn btn-sm buttons">Our Blog</a>
+                </p>
+                <p>
+                  <a href="{% url 'subscribe' %}" class="btn btn-sm buttons">Newsletter Sign-up</a>
+                </p>
+                <p>
+                  <a href="{% url 'unsubscribe' %}" class="btn btn-sm buttons">Unsubscribe</a>
+                </p>
+              </div>
               <hr class="w-100 clearfix d-md-none" />
-    
-              <!-- Grid column -->
               <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
-                <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                <h5 class="text-uppercase mb-4"><strong>Contact Us</strong></h5>
+                <p><i class="fas fa-home mr-3"></i> Green Acres Ltd., Kinsale, Cork, Ireland</p>
+                <p><i class="fas fa-envelope mr-3"></i> team.lanwgenie@gmail.com</p>
+                <p><i class="fas fa-phone mr-3"></i> + 021 483 4834</p>
               </div>
-              <!-- Grid column -->
             </div>
-            <!--Grid row-->
           </section>
-          <!-- Section: Links -->
-    
           <hr class="my-3">
-    
-          <!-- Section: Copyright -->
           <section class="p-3 pt-0">
             <div class="row d-flex align-items-center">
-              <!-- Grid column -->
               <div class="col-md-7 col-lg-8 text-center text-md-start">
-                <!-- Copyright -->
                 <div class="p-3">
-                  © 2020 Copyright:
+                  © 2021 Copyright:
                   <a class="text-white" href="https://mdbootstrap.com/"
-                     >MDBootstrap.com</a
+                     >LawnGenie.ie</a
                     >
                 </div>
-                <!-- Copyright -->
               </div>
-              <!-- Grid column -->
-    
-              <!-- Grid column -->
               <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
                 <!-- Facebook -->
                 <a
-                   class="btn btn-outline-light btn-floating m-1"
+                   class="btn btn-lg buttons btn-outline-light btn-floating m-2"
                    class="text-white"
                    role="button"
                    ><i class="fab fa-facebook-f"></i
@@ -243,7 +220,7 @@
     
                 <!-- Twitter -->
                 <a
-                   class="btn btn-outline-light btn-floating m-1"
+                   class="btn btn-lg buttons btn-outline-light btn-floating m-1"
                    class="text-white"
                    role="button"
                    ><i class="fab fa-twitter"></i
@@ -251,7 +228,7 @@
     
                 <!-- Google -->
                 <a
-                   class="btn btn-outline-light btn-floating m-1"
+                   class="btn btn-lg buttons btn-outline-light btn-floating m-1"
                    class="text-white"
                    role="button"
                    ><i class="fab fa-google"></i
@@ -259,16 +236,14 @@
     
                 <!-- Instagram -->
                 <a
-                   class="btn btn-outline-light btn-floating m-1"
+                   class="btn btn-lg buttons btn-outline-light btn-floating m-1"
                    class="text-white"
                    role="button"
                    ><i class="fab fa-instagram"></i
                   ></a>
               </div>
-              <!-- Grid column -->
             </div>
           </section>
-          <!-- Section: Copyright -->
         </div>
       </footer>
     {% endblock %}
