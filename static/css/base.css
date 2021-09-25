@@ -16,6 +16,7 @@ body {
     background-color: #e63946;
     color: #f8f9fa;
     cursor: pointer;
+    border-radius: .4rem;
 }
 
 .buttons:hover {
@@ -45,6 +46,10 @@ body {
     color: #008000;
     border-color: #ccff33 !important;
     border-width: 2px !important;
+}
+
+.card-footer {
+    border-top: 0px;
 }
 
 /* -- END of Global/Template CSS styling --- */
@@ -142,8 +147,8 @@ body {
     box-shadow: rgba(243,8,8,0.1) !important;
 }
 
-.mobile-nav-dropdown {
-    background-color: #008000 !important;
+.navbar {
+    background-color: #38b000;
 }
 
 /* -- END of Top, Main and Mobile navigation bars  -- */
@@ -218,14 +223,62 @@ body {
 
 /* -- END of Homepage  -- */
 
-.card-footer {
-    border-top: 0px;
+/* -- Product Pages -- */
+
+.all-products-header {
+    color: #f8f9fa;
 }
 
 .all-products-header hr {
     width: 80%;
     margin: auto;
 }
+
+.sort-row {
+    color: #f8f9fa;
+}
+
+.all-products-link {
+    color: #f8f9fa;
+}
+
+.form-select {
+    color: #008000;
+}
+
+.category-link {
+    color: #008000;
+}
+
+.category-link:hover {
+    color: #38b000;
+}
+
+.edit-product-button {
+    background-color: #38b000;
+    color: #f8f9fa;
+    cursor: pointer;
+    border-radius: .2rem;
+}
+
+.edit-product-button:hover {
+    background-color: #e63946;
+    color: #ccff33;
+}
+
+.delete-product-button {
+    background-color: #38b000;
+    color: #f8f9fa;
+    cursor: pointer;
+    border-radius: .2rem;
+}
+
+.delete-product-button:hover {
+    background-color: #e63946;
+    color: #ccff33;
+}
+
+/* -- END of Product Pages -- */
 
 .image-container {
     max-width: 380px;
@@ -278,5 +331,8 @@ body {
     }
 }
 
-
-
+@media (max-width: 991px) {
+    .navbar {
+        background-color: #008000
+    }
+}
