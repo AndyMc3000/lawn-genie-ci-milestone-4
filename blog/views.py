@@ -44,7 +44,6 @@ def add_post(request):
     template = 'blog/add_post.html'
     context = {
         'form': form,
-        'post': post
     }
 
     return render(request, template, context)
