@@ -186,7 +186,7 @@ body {
 }
 
 .home-promo-banner-robot {
-    background: url('/media/husqvarna-promo-1.jpg') no-repeat center center;
+    background: url('{{ MEDIA_URL }}husqvarna-promo-1.jpg') no-repeat center center;
     background-size: cover;
     height: 350px;
     color: #f8f9fa;
