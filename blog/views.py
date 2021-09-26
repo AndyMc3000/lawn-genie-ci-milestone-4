@@ -35,7 +35,7 @@ def add_post(request):
         if form.is_valid():
             post = form.save()
             messages.success(request, 'Post successfully added!')
-            return redirect(reverse('post_detail', args=[post.id]))
+            return redirect(reverse('post_detail', args=[post.slug]))
         else:
             messages.error(request, 'Failed to add post. Please ensure the form is valid.')
     else:
@@ -62,7 +62,7 @@ def edit_post(request, post_id):
         if form.is_valid():
             form.save()
             messages.success(request, 'Successfully updated post!')
-            return redirect(reverse('post_detail', args=[post.id]))
+            return redirect(reverse('post_detail', args=[post.slug]))
         else:
             messages.error(request, 'Failed to update post. Please ensure the form is valid.')
     else:

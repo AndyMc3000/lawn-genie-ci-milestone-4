@@ -11,33 +11,46 @@
 
 {% block content %}
     <div class="container-fluid">
-        <div class="row mt-0">
-            <div class="all-products-header col-12 text-center pt-4">
-                <h3>Our Blog</h3>
+        <div class="row justify-content-center">
+            <div class="all-products-header col-10 text-center pt-4 mt-4">
+                <h1>{% block title %} {{ object.title }} {% endblock title %}</h1>
                 <hr>
             </div>
         </div>
     </div>
     <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="row w-100 mt-5 justify-content-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h1>{% block title %} {{ object.title }} {% endblock title %}</h1>
-                        <img src="{{ post.image.url }}" alt="{{ object.title }} Image">
-                        <p class=" text-muted">{{ post.author }} | {{ post.created_on }}</p>
-                        <p class="card-text ">{{ object.content | safe }}</p>
+        <div class="row w-100 pt-3 mt-0 justify-content-center">
+            <div class="card col-10 text-center rounded-4 p-0 mb-5">
+                <img  class="text-center w-100" src="{{ post.image.url }}" alt="{{ object.title }} Image">
+                <div class="card-body px-4 mb-4">
+                    <p class="order-info my-3">Author: {{ post.author }} | {{ post.created_on }}</p>
+                    {% if request.user.is_superuser %}
+                        <div class="my-3">
+                            <small class="ml-3">
+                                <a class="btn btn-sm edit-product-button" href="{% url 'edit_post' post.id %}">Edit Post</a>
+                                    | 
+                                <a class="btn btn-sm delete-product-button" href="{% url 'delete_post' post.id %}">Delete Post</a>
+                            </small>
+                        </div>
+                    {% endif %}
+                    <p class="card-text px-5 pb-2">{{ object.content | safe }}</p>
+                    <div class="w-100 mt-4 mb-2">
+                        <a href="" class="btt-link btn buttons">
+                            <i class="fas fa-arrow-circle-up fa-lg"></i> Back To Top
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row justify-content-center">
-        <div class="buttons btn text-center w-50">
-            <a class="btt-link">
-                <i class="fas fa-arrow-circle-up">Back To Top</i>
-            </a>
-        </div>
-    </div>
 
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    <script type="text/javascript">
+		$('.btt-link').click(function(e) {
+			window.scrollTo(0,0)
+		})
+	</script>
 {% endblock %}

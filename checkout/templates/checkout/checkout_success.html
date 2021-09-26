@@ -198,14 +198,12 @@
                     <div class="row justify-content-center">
                         <div class="col-10 col-lg-7 text-center mb-1">
                             {% if from_profile %}
-                                <button class="buttons">
-                                    <a href="{% url 'profile' %}" class="btn btn-black rounded-0 my-2">
-                                        <span class="icon mr-2">
-                                        <i class="fas fa-angle-left"></i>
-                                        </span>
-                                        <span class="text-uppercase">Back to Profile</span>
-                                    </a>
-                                </button>
+                                <a href="{% url 'profile' %}" class="btn buttons rounded-4 my-3">
+                                    <span class="icon mr-2">
+                                    <i class="fas fa-angle-left"></i>
+                                    </span>
+                                    <span class="text-uppercase">Back to Profile</span>
+                                </a>
                             {% else %}
                                 <a href="{% url 'products' %}" class="btn buttons rounded-4 my-3">
                                     <span>Continue Shopping!</span>
