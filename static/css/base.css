@@ -10,6 +10,7 @@ body {
 
 .container-fluid {
     background-color: #38b000;
+    color: #f8f9fa;
 }
 
 .buttons {
@@ -27,7 +28,6 @@ body {
     cursor: pointer;
 }
 
-
 .delivery-banner {
     background-color: #e63946;
 }
@@ -43,13 +43,17 @@ body {
 }
 
 .card {
-    color: #008000;
+    color: #008000 !important;
     border-color: #ccff33 !important;
     border-width: 2px !important;
 }
 
 .card-footer {
     border-top: 0px;
+}
+
+.table {
+    color: #008000;
 }
 
 /* -- END of Global/Template CSS styling --- */
@@ -177,7 +181,7 @@ body {
 
 .new-arrivals-card {
     background-color: #008000;
-    color: #f8f9fa;
+    color: #f8f9fa !important;
 }
 
 .new-arrivals-card .card img {
@@ -187,11 +191,11 @@ body {
 
 .home-welcome-card {
     background-color: #008000;
-    color: #f8f9fa;
+    color: #f8f9fa !important;
 }
 
 .home-promo-banner-robot {
-    background: url('{{ MEDIA_URL }}husqvarna-promo-1.jpg') no-repeat center center;
+    background: url('/media/husqvarna-promo-1.jpg') no-repeat center center;
     background-size: cover;
     height: 350px;
     color: #f8f9fa;
@@ -263,7 +267,7 @@ body {
 
 .edit-product-button:hover {
     background-color: #e63946;
-    color: #f8f9fa;
+    color: #ccff33;
 }
 
 .delete-product-button {
@@ -280,14 +284,21 @@ body {
 
 /* -- END of Product Pages -- */
 
+/* -- Cart & Checkout Pages -- */
+
+.order-info {
+    color: #e63946;
+}
+
+/* -- END of Cart & Checkout Pages -- */
+
+
 .image-container {
     max-width: 400px;
     margin: auto;
 }
 
-.btt-link,
-.update-link,
-.remove-item {
+.btt-link {
     cursor: pointer;
 }
 
@@ -321,8 +332,7 @@ body {
 
 @media (max-width: 991px) {
     .header-logo-link img {
-        max-width: 200px;
-    }
+        max-width: 150px;
 }
 
 @media (max-width: 991px) {
@@ -334,5 +344,36 @@ body {
 @media (max-width: 991px) {
     .navbar {
         background-color: #008000
+    }
+}
+
+@media (max-width: 991px) {
+    .product-detail-container {
+        margin: 10px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .our-price-text {
+        margin: 0px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .nav-link {
+        margin: 0px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 991px) {
+    .nav-link i {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 991px) {
+    .mowers-dropdown-menu {
+        width: 40% !important;
     }
 }

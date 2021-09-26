@@ -13,10 +13,10 @@
     <div class="container-fluid">
         <div class="row mt-0">
             <div class="all-products-header col-12 text-center pt-4">
-                <h2><strong>Products</strong></h2>
+                <h2><strong>Results</strong></h2>
                 {% for c in current_categories %}
-                    <a href="{% url 'products' %}?category={{ c.name }}">
-                        <button class="buttons btn-sm rounded-4">{{ c.friendly_name }}</button>
+                    <a class="btn buttons btn-sm rounded-3 my-2" href="{% url 'products' %}?category={{ c.name }}">
+                    {{ c.friendly_name }}
                     </a>
                 {% endfor %}
             </div>

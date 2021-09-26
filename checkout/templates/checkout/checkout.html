@@ -24,7 +24,7 @@
 </div>
 <div class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-12 col-sm-10 col-md-7 text-center">
+        <div class="col-12 col-sm-10 col-md-9 text-center">
             <div class="card table-card p-3 mb-5">
                 <div class="card-body">
                     <div class="row justify-content-center">
@@ -118,33 +118,28 @@
                             <input type="hidden" value="{{ client_secret }}" name="client_secret">
                         </fieldset>
                         <div class="row">
-                            <div class="col-12 submit-button text-right mt-1 mb-5">
+                            <div class="col-12 submit-button text-right mt-1 m-1">
                                 <p class="small text-success">
                                     <span class="icon">
                                         <i class="fas fa-info-circle"></i>
                                     </span>
                                     <span>Your card will be charged <strong>${{ grand_total|floatformat:2 }}</strong></span>
                                 </p> 
-                                <button id="submit-button" class="btn btn-black rounded-0 buttons">
-                                    <span class="font-weight-bold">Complete Order</span>
-                                    <span class="icon">
-                                        <i class="fas fa-lock"></i>
-                                    </span>
+                                <button id="submit-button" class="btn rounded-4 btn-lg buttons">
+                                    <h5 class="my-2">Buy Now  <i class="fas fa-lock"></i></h5>
                                 </button> 
+                                <div class="row">
+                                    <div class="col-12 mt-2">               
+                                        <a href="{% url 'view_cart' %}" class="btn buttons rounded-4">
+                                            <span class="icon">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </span>
+                                            <span> Back to Cart</span>
+                                        </a>
+                                    </div>
+                                </div> 
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12 mt-2">  
-                                <button class="buttons">              
-                                <a href="{% url 'view_cart' %}" class="btn btn-outline-black rounded-0">
-                                    <span class="icon">
-                                        <i class="fas fa-chevron-left"></i>
-                                    </span>
-                                    <span class="font-weight-bold">Edit my shopping Cart</span>
-                                </a>
-                                </button> 
-                            </div>
-                        </div> 
                     </form>
                 </div>
             </div>
@@ -152,14 +147,17 @@
     </div>
 </div>
 <div id="loading-overlay">
-    <h1 class="text-light loading-spinner">
-        <div>
-            <h1>Nearly there, we're processing your payment!</h1>
+    <div class="row loading-spinner justify-content-center py-5">
+        <div class="col-12 mb-0 pb-0 text-center">
+            <h1>Nearly there!!</h1>
         </div>
-        <span class="icon">
-            <i class="fas fa-3x fa-circle-notch fa-spin"></i>
-        </span>
-    </h1>
+        <div class="col-12 text-center">
+            <i class="fas fa-3x fa-circle-notch fa-4x fa-spin"></i>
+        </div>
+        <div class="col-12 my-0 text-center">
+            <h3>We're processing your payment.</h3>
+        </div>
+    </div>
 </div>
 {% endblock %}
 

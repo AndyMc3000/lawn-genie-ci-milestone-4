@@ -20,7 +20,7 @@
 </div>
 <div class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-9 text-center">
+        <div class="col-12 col-sm-11 col-md-10 text-center">
             <div class="card table-card p-3 mb-5">
                 <div class="card-body">
                     <table class="table">
@@ -82,8 +82,8 @@
                                             </div>
                                         </div>
                                     </form>
-                                    <a class="update-link text-info"><small>Update</small></a>
-                                    <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>
+                                    <a class="update-link btn buttons btn-sm mt-2 edit-product-button"><small>Update</small></a>
+                                    <a class="remove-item btn buttons btn-sm mt-2 edit-product-button" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>
                                 </td>
                                 <td class="py-2">
                                     <p class="my-5"><strong>{{ item.product.price | calc_subtotal:item.quantity }}</strong></p>
@@ -105,21 +105,11 @@
                         </tr>
                         <tr>
                             <td colspan="5" class="text-right">
-                                <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
-                                    <button class="buttons">
-                                        <span class="icon">
-                                            <i class="fas fa-arrow-circle-left"></i>
-                                        </span>
-                                        <span>Continue Shopping</span>
-                                    </button>
-                                </a>
-                                <a href="{% url 'checkout' %}" class="btn btn-black rounded-0 btn-lg">
-                                    <button class="buttons">
-                                        <span>Checkout</span>
-                                        <span class="icon">
-                                             <i class="fas fa-arrow-circle-right"></i>
-                                        </span>
-                                    </button>
+                                <a href="{% url 'checkout' %}" class="btn buttons btn-lg">
+                                    <span>Checkout</span>
+                                    <span class="icon">
+                                    <i class="fas fa-arrow-circle-right"></i>
+                                    </span>
                                 </a>
                             </td>
                         </tr>
