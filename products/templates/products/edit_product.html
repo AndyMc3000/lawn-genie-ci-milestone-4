@@ -12,29 +12,31 @@
 {% block content %}
 <div class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-8 text-center mt-5 mb-3">
+        <div class="all-products-header col-8 text-center mt-5 mb-3">
             <h2>Product Management</h2>
             <h5>Edit a Product</h5>
         </div>
     </div>
 </div>
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-12 col-md-6">
-            <form method="POST" action="{% url 'edit_product' product.id %}" class="form mb-2" enctype="multipart/form-data">
-                {% csrf_token %}
-                {% for field in form %}
-                    {% if field.name != 'image' %}
-                        {{ field | as_crispy_field }}
-                    {% else %}
-                        {{ field }}
-                    {% endif %}
-                {% endfor %}
-                <div class="text-right">
-                    <a class="btn btn-outline-black rounded-0" href="{% url 'products' %}">Cancel</a>
-                    <button class="btn btn-black rounded-0" type="submit">Update Product</button>
-                </div>
-            </form>
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 text-center">
+            <div class="card p-5 mb-5">
+                <form method="POST" action="{% url 'edit_product' product.id %}" class="form mb-2" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {% for field in form %}
+                        {% if field.name != 'image' %}
+                            {{ field | as_crispy_field }}
+                        {% else %}
+                            {{ field }}
+                        {% endif %}
+                    {% endfor %}
+                    <div class="text-right">
+                        <a class="btn buttons rounded-4" href="{% url 'products' %}">Cancel</a>
+                        <button class="btn buttons rounded-4" type="submit">Update Product</button>
+                    </div>
+                </form>
+            </div>
         </div>            
     </div>
 </div>

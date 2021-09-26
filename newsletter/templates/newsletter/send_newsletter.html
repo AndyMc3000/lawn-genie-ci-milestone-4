@@ -5,16 +5,21 @@
 {% block content %}
 <div class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-10 text-center">
-            <div class="card my-5 mx-3">
-                <h2 class="mt-3">Send a Newsletter</h2>
-                <h4 class="mt-1">Complete the below form to send a Newsletter to all Newsletter subscribers</h4>
-                <hr>
+        <div class="all-products-header col-8 text-center mt-5 mb-3">
+            <h2>Send a Newsletter</h2>
+            <h5 class="mb-2">Complete the below form to send a Newsletter to subscribers</h5>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 text-center">
+            <div class="card p-5 mb-5">
                 <form class="mx-3" method="POST">
                     {% csrf_token %}
                     {{ form|crispy }}
-                    <div class="mt-2 mb-5" >
-                    <input class="btn buttons rounded-2" type="submit" value="subscribe">
+                    <div class="my-4" >
+                    <input class="btn buttons rounded-4" type="submit" value="Send Now">
                     </div>  
                 </form>
             </div>
