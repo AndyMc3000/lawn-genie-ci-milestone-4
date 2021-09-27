@@ -7,7 +7,7 @@
 ### LawnGenie Website deployed on Heroku: [Click Here To Visit](https://lawngenie.herokuapp.com/) ###
 ##### <br> #####
 <hr>
-<img src="/readme-assets/cpc-am-i-responsive-readme-screenshot.png"[TO BE UPDATED Lawn Genie Logo] width="1100">
+<img src="readme/readme-assets/logo/lawn-genie-amiresponsive-screenshot.png" width="1100">
 <hr>
 
 ## Table of Contents ##
