@@ -1,5 +1,6 @@
 ##### <br> #####
-<a name="top-of-page"><img src="readme/readme-assets/logo/lawn-genie-nav-logo-v4-resized-546-x-150px.png" width="400"></a>
+<a name="top-of-page"><img src="/readme/readme-assets/logo/lawn-genie-nav-logo-v4-resized-546-x-150px.png" width="300"></a>
+
 # LawnGenie - Database Schema :floppy_disk: #
 
 ## Heroku PostgreSQL Database Schema ## 
