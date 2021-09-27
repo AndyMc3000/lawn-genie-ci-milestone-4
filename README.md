@@ -277,7 +277,7 @@ Unfortunately I ran out of time to implement all of the site features which I ha
 #### <br> ####
 <hr>
 
-<img src="readme-assets/technologies-used/lawngenie-technologies-used.png" width="630">
+<img src="readme/readme-assets/technologies-used/lawngenie-technologies-used.png" width="630">
 
 I used the following technologies, services, and devices to develop, style, deploy, and test the LawnGenie website;
 <br>
