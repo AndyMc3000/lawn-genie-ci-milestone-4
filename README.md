@@ -211,7 +211,7 @@ The CPC website should be designed to allow a user to Create, Read, Update, and 
  * The 'matches' collection should store information relating to individual matches played. The keys in the documents of this collection will be;
    * 'player_one', 'player_two', 'player_one_won', 'player_two_won', 'date', 'league', 'created_by', and 'referee'. * Please note that some keys will store data for future features - please see the future features section below for more details about future relases.  
   
-* The Data Types for each value in the Collections can be seen in the <a href="readme-assets/cpc-database-schema.md"><strong>Database Schema</strong></a>
+* The Data Types for each value in the Collections can be seen in the <a href="readme/readme-assets/lawngenie-database-schema.md"><strong>Database Schema</strong></a>
 
 ### 4. The Skeleton Plane ###
 
