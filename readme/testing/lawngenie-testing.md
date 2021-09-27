@@ -121,38 +121,23 @@ The W3C CSS Validation Service. The validator highlighted the following warning 
 
 #### CSS ####
 
-The W3C CSS Validation Service. The validator found the following errors. No toher warnings or erros were found.
+The W3C CSS Validation Service. The validator found the following errors. No other warnings or erros were found.
 
-* The validator highlighted 18 Errors and 768 Warnings relating to the bootstrap.min.css style sheet. I queried this with Tutor Support and was advised that these were acceptable issues as I have no control over the CDN-delivered Bootstrap style sheet.
+* The validator highlighted 246 Warnings relating to the bootstrap.min.css style sheet. I queried this with Tutor Support and was advised that these were acceptable issues as I have no control over the CDN-delivered Bootstrap style sheet.
+* ERROR: ".navbar-toggler:focus	rgb(243, 8, 8, 0.1) is not a box-shadow value : rgb(243, 8, 8, 0.1)" - I updated the value to a HEX value and this fixed the error.
 
 #### JavaScript & jQuery ####
 
-I ran my script.js file through the JSHint validator and foucn the following Warnings. No errors were found.
+I ran the below JavaScript files and code blocks through the JSHint validator and foucn the following Warnings. No errors were found.
+countryfield.js
+stripe_elements.js
 
-* Eight warnings - the following show the line number of the warning and the warning description;
-18	Missing semicolon.
-21	Missing semicolon.
-28	Missing semicolon.
-29	Missing semicolon.
-32	Missing semicolon.
-33	Missing semicolon.
-34	Missing semicolon.
-35	Missing semicolon.
 
-* One undefined variable
-63	emailjs
-
-* The warnings described relate to the Bootstrap from validation JavaScript. When I attempted to resolve these warnings, by adding semicolon's in the relvant places, it broke the form validation feature. As a result I reverted to the otiginal Bootstrap code.
-* I also left the EmailJS variable warning 'as is', as I couldn't find a fix for it and didn't wntn to break the Contact Us Form EmailJS feature. 
 
 #### Python ####
 
-I ran my app.py file through the PEP8online.com Python validator and found the following Error. 
+I ran the following files through the PEP8online.com Python validator and found...
 
-* Error Code	Line	Column	Text
-* E128	      89	  13	    continuation line under-indented for visual indent
-
-I fixed this error by continuing the relevant line of code onto the next line in app.py. I then repeated the test and got an 'All right' messgae from the validator.
 
 #### [Back To Top ^ ](#top-of-page) ####
 
