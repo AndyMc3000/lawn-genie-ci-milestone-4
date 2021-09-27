@@ -58,13 +58,12 @@ The Strategy Plane, as defined by Jesse James Garrett "..incorporates not only w
 
 Please see below details of 'Client Stories' to detail the requirements of the LawnGenie.ie business owners, and 'User Stories' which highlight the requiremnts of the website users.
 
-
 #### Client Stories ####
-> - [x] The business owners want to; "Create a specialist e-commerce store which sells products relating to the care and maintenance of Lawns."
-> - [x] The store must provide the business owners with an easy to use interface to enable to addition, editing, and deletion of products and their content. This content must include a product name, SKU, category, description, price, a product image, and rating. The interface should also allow for the addition of other attributes which may be unique to certain products, for example, a 'power type' attribute for lawnmowers, or a 'size' attribute for boots."
-> - [x] The store must use the Stripe payment processing platform to ensure an elegant and secure payment process for users."
-> - [x] The store design must allow users to navigate easily and intuitively through the product offering, regardless of what device they are using."
-> - [x] "For ease of use, the store must allow users of the site to register and login so that they can store their personal delivery/account information. This is to facilitate quick purchaing transactions."
+> - [x] "The business owners want to; "Create a specialist e-commerce store which sells products relating to the care and maintenance of Lawns."
+> - [x] "The store must provide the business owners with an easy to use interface to enable to addition, editing, and deletion of products and their content. This content must include a product name, SKU, category, description, price, a product image, and rating. The interface should also allow for the addition of other attributes which may be unique to certain products, for example, a 'size' attribute for boots."
+> - [x] "The store must use the Stripe payment processing platform to ensure an elegant and secure payment process for users."
+> - [x] "The store design must allow users to navigate easily and intuitively through the product offering, regardless of what device they are using."
+> - [x] "For ease of use, the store must allow users of the site to register and login so that they can store their personal delivery/account information and. This is to facilitate quick purchaing transactions. They should also be able to view their past order history."
 > - [x] “The store must give users the option to subscribe to an email mailing list. Marketing/promotional emails can then be sent to users based on topics such as; tips and tricks from gardening professionals and lawn care specialists, new product infromation, and special offers."
 > - [x]  “The store must have a blog section where users can read articles and get information about lawn care and maintenance etc. A secure interface to add, update, and delete blog posts must be provided to the business owners."
 > - [x] “The store must contain a number of product categories of products which should be easily accessible and identifiable to a user." These categories are;
@@ -97,13 +96,13 @@ Please see below details of 'Client Stories' to detail the requirements of the L
 > - [x] “I want to be able to easily search for products from every page."
 > - [x] “I want to be able to easily sort product listings by price, name, category, and rating."
 > - [x] “I want to be able to add products to a shopping cart and easily view all the products in my shopping cart."
-> - [x] “I want to be able to easily change the quantities or other relevant attributes of the products in my shopping cart."
+> - [x] “I want to be able to easily change the quantities of the products in my shopping cart."
 > - [x] “I want to be able to be able to see the total cost of my current shopping basket from every page.”
 > - [x] “I want to be able to view a product detail page showing me all relevant information about a product.”
 > - [x] “I want to be able to easily register on the site and store my personal delivery information for automatic retrieval at the checkout when making purchases."
 > - [x] “I want to get an email confirmation/verification email after I register for an account."
 > - [x] “I want to be able to easily login or logout of my account from every page."
-> - [x] “I want to be able to view a Blog page and relvant infromative Blog post articles."
+> - [x] “I want to be able to view a Blog page and relvant informative Blog post articles."
 > - [x] “I want to be able to sign up to receive a newsletter in order to get information about new products, promotions, and lawn care advice/articles."
 
 
