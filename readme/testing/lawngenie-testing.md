@@ -133,10 +133,20 @@ countryfield.js
 stripe_elements.js
 
 
-
 #### Python ####
 
-I ran the following files through the PEP8online.com Python validator and found...
+I ran the following files through the PEP8online.com Python validator and found some errors relating to some lines of code being too long, some whitespace on blank lines, and some files had no blank line at the end of the page. I fixed all errors.
+
+* Blog App - admin.py, apps.py, forms.py, models.py, urls.py, views.py, widgets.py
+* Cart App - cart_tools.py, apps.py, contexts.py, urls.py, views.py
+* Checkout App - admin.py, apps.py, forms.py, models.py, signals.py, urls.py, views.py, webhook_handler.py, webhooks.py
+* Home App - apps.py, urls.py, views.py
+* LawnGenie App - asgi.py, settings.py, urls.py, wsgi.py
+* Newsletter App - admin.py, apps.py, forms.py, models.py, tests.py, urls.py, views.py
+* Products App - admin.py, apps.py, forms.py, models.py, tests.py, urls.py, views.py, widgets.py
+* Profiles App - admin.py, apps.py, forms.py, models.py, tests.py, urls.py, views.py
+* custom_storages.py
+* manage.py
 
 
 #### [Back To Top ^ ](#top-of-page) ####
