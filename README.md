@@ -190,15 +190,13 @@ Information Architechture is defined as; "The structural design of the informati
 With this in mind, please ind details below about the CPC sitemap, navigation, and security considerations.
 
 * ##### Sitemap #####
-  * The structure of the website is outlined in the Sitemap. Click here to view the <a href="readme-assets/cpc-sitemap.png"><strong>Sitemap.</strong></a>
+  * The structure of the website is outlined in the Sitemap. Click here to view the <a href="readme/readme-assets/sitemap/lawn-genie-sitemap.png"><strong>Sitemap.</strong></a>
 
 * ##### Navigation & Security #####
-  * The CPC website should also be designed to allow users to easily and securely navigate throughout the site. For example, the navigation bar should be fixed to the top of the page view so that it is always immediately accessible. 
+  * The website should be designed to allow users to easily and securely navigate throughout the site using the Navbar and Footer. 
   * Buttons and links should be clearly visible and communicate their purpose in an unambiguous way. 
-  * User feature/function pages should have two 'Back' buttons situated at the top and bottom of the page view to allow for an easy back and forth between pages.
-  * The site should not allow users to access areas without access privileges. For example, a user should not be able to access another users Player Homepage or be able to edit another players account details. Or, A non-Admin should not be able to edit matches or access the Admin Homepage.
-  * MongoDB Atlas access credentials should not be visible anywhere on the site.
-  * A user should not be able to access another users password. 
+  * The site should not allow users to access areas without access privileges. For example, a Non-registered User should not be able to access a Registered Users profile page. Nor should a Registered or Non-Registered User be able to acces and Admin pages or functionality.
+  * No access credentials, keys, or environment variables should be visible anywhere on the site or in the sites repository.
   * Errors should be handled gracefully through exception handling functions, where an user is shown a site page when an error occurs as opposed to a generic browser-rendered error message. The error page should briefly explain the error and offer the user redirection back to the homepage. 
 
 #### Data & Database Schema ####
