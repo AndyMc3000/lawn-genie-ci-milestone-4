@@ -200,90 +200,48 @@ With this in mind, please ind details below about the CPC sitemap, navigation, a
   * Errors should be handled gracefully through exception handling functions, where an user is shown a site page when an error occurs as opposed to a generic browser-rendered error message. The error page should briefly explain the error and offer the user redirection back to the homepage. 
 
 #### Data & Database Schema ####
-The CPC website should be designed to allow a user to Create, Read, Update, and Delete data intuitively and quickly. CPC will use a NoSql MongoDB Atlas database to store all data. The database will be called 'pool_club'. It will store data in three Collections named: 'user', 'league', and 'matches'. Each Collection will contain documents with unique 'id's, and store key:value pairs of relevant information. The user features/functions on the CPC site will interact with and/or populate the database documents with relevant values.
-
- * The 'user' collection should store information relating to registered club members. The keys in this collection will be;
-   * 'first_name', 'nickname', 'surname', 'email', 'telephone', 'password', 'admin', 'points' 'matches_played', 'matches_won', 'matches_lost', 'games_won', 'games_lost, and 'entered_leagues'. * Please note that some keys will store data for future features - please see the future features section below for more details about future relases.  
-
- * The 'league' collection should store information relating to the current league. The keys in this collection will be;
-   * 'name', 'description', 'start_date', 'end_date', and 'participating_players'. * Please note that some keys will store data for future features - please see the future features section below for more details about future relases.   
+The LawnGenie website should be designed to allow a user to Create, Read, Update, and Delete data intuitively and quickly. LawnGenie will use a Heroku PostgreSQL database to store all data. The Database will contain data based on model classes which are unique to LawnGenie, as well as builtin Django model classes 
   
- * The 'matches' collection should store information relating to individual matches played. The keys in the documents of this collection will be;
-   * 'player_one', 'player_two', 'player_one_won', 'player_two_won', 'date', 'league', 'created_by', and 'referee'. * Please note that some keys will store data for future features - please see the future features section below for more details about future relases.  
-  
-* The Data Types for each value in the Collections can be seen in the <a href="readme/readme-assets/lawngenie-database-schema.md"><strong>Database Schema</strong></a>
+* The Database Table names and key:value in those Tables can be seen in the <a href="readme/readme-assets/lawngenie-database-schema.md"><strong>Database Schema</strong></a>
 
 ### 4. The Skeleton Plane ###
 
 Following on from the tasks decided upon in the Structure Plane, the Skeleton Plane is defined as follows; ".. The skeleton is designed to optimize the arrangement of these elements (such as the placement of buttons, tabs, photos's and blocks of text) for maximum effect and efficiency..".
 
-With this in mind I created the below wireframes, to detail the layout of the website pages and individual sections/containers etc. Due to the number of pages involved, I created multiple wireframes and split them into groups. I created two wireframes for the Homepage and the pages directly linked from the Homapgae. I also created two wireframes for the Player Homepage and the pages directly linked from the Player Homepage. And I created two wireframes for the Admin Homepage and the pages directly linked from the Admin Homepage. 
-
-Please click on the the links below to view these wireframes. * Please note that these wireframes include references to sectionsfeatures which are not yet available on the live Heroku site. Please see the Future Features sectuin below for more details on future functionality.
+With this in mind I created the below wireframes, to detail the layout of the website pages and individual sections/containers etc. Please click on the the links below to view these wireframes. 
 
 ##### Wireframes #####
-* Wireframes for the Homepage and related pages;
-  * <a href="readme-assets/wireframes/lawn-genie-large-screen-ver1.png"><strong>Homepage on Large Screen Devices</strong></a>
-  * <a href="readme-assets/cpc-homepage-and-related-pages-wireframes-mobile.png"><strong>Homepage on Mobile Devices</strong></a>
-
-* Wireframes for the Player Homepage and related pages;
-  * <a href="readme-assets/cpc-player-homepage-and-linked-pages-wireframes-large.png"><strong>Player Homepage on Large Screen Devices</strong></a>
-  * <a href="readme-assets/cpc-player-homepage-and-linked-pages-wireframes-mobile.png"><strong>Player Homepage on Mobile Devices</strong></a>
-
-* Wireframes for the Admin Homepage and related pages;
-  * <a href="readme-assets/cpc-admin-homepage-and-linked-pages-wireframes-large.png"><strong>Admin Homepage on Large Screen Devices</strong></a>
-  * <a href="readme-assets/cpc-admin-homepage-and-linkeded-pages-wireframes-mobile.png"><strong>Admin Homepage on Mobile Devices</strong></a>
-
+  * <a href="readme-assets/wireframes/lawn-genie-large-screen-ver1.png"><strong>Large Screen Devices</strong></a>
+  * <a href="readme-assets/cpc-homepage-and-related-pages-wireframes-mobile.png"><strong>Small screen/Mobile Devices</strong></a>
 
 ### 5. The Surface Plane ###
 
 Having completed the previous 4 stages in the UX design process, I moved on to making decisions around the design and styling of the website. The Surface Plane focuses on the styling of images, backgrounds, fonts, and colours used on a website. The details of these decisions are listed here;
 
-1. Colours - The color scheme for the website was chosen from a selection of colours I considered when using the tools on the [Coolors.co](https://coolors.co/) website. I only used 2 dark site colours in order to meet the requirement that the site have dark background colours. I found a suitable dark colour and then found a related tint of that colour to use for the background colours. The colours chosen, along with their HEX values, are shown here;
-<img src="readme-assets/cpc-coolors-colour-pallette.png" width="500">
+1. Colours - The color scheme for the website was chosen from a selection of colours I considered when using the tools on the [Coolors.co](https://coolors.co/) website. I created and intial color palette of 3 colours, and then also added extra tints/shades of the orinal colours. The colours chosen, along with their HEX values, are shown here;
+<img src="/readme/readme-assets/lawngenie-coolors-colour-palette.png" width="500">
 
-1. Font - I used the Google Fonts website to help me decide on a font to use for site texts. I decided on a font called 'Audiowide' for all texts. I also used the Canva.com free trial service to help me find a font for my logo (I sourced the image part of the logo elswhere). On Canva I found and used a font called ARCHIVE (Designed by Slava Kirilenko – a graphic designer from Almaty, Kazakhstan) for the logo. Please see an example of both fonts here;  
-<img src="readme-assets/cpc-fonts.png" width="600">
+1. Font - I used the Google Fonts website and Canva.com to help me decide on fonts to use for site texts and the Logo. I decided on a font from Google Fonts called 'Poppins' for all website texts. On Canva.com I found and used a font called 'Intro Rust Based Shade' for the Logo. Please see an example of both fonts here;  
+<img src="/readme/readme-assets/lawngenie-fonts.png" width="500">
 
-1. Logo Design - I created the CPC logo using tools on [Canva.com](https://www.canva.com/). The logo contains an image and some text. I got the image from Clipart.com and then uploaded it to Canva where I used its editor to add text and produce the final logo.
+1. Logo Design - I created the LawnGenie logo using tools on [Canva.com](https://www.canva.com/).
 
-1. Images - I mainly used free photos taken from the [Unsplash.com](https://unsplash.com/) website. On Unspalsh.com I was able to create a collection of relevant phtotos. The naming convention for each photograph includes a referenece to the photographer name and the Unsplash item code. The Alt attribute for each photograph also includes the photographer name. All other images use the providers naming convention along with a CPC prefix, e.g. 'cpc-feature-<provider filename>.png.
+1. Images - I used free photos taken from the [Unsplash.com](https://unsplash.com/) website. The naming convention for each photograph includes a referenece to the photographer name and the Unsplash item code. I also found promotional banners from the following websites; Husqvarna.com, Deere.co.uk, and Supersoil.ie
 
-1. Icons - I used [Font Awesome](https://fontawesome.com/) icons to add icons to section headings. 
+1. Icons - I used [Font Awesome](https://fontawesome.com/) icons throughout the site. 
 
-1. Favicons - I use the Real Favicon Generator online service to create browser, desktop, and mobile favicons for the site. I uploaded a single favicon image to the Real Favison Generator service, and it generated a package of individual files for different devices and browser which I then downloaded. I then uplodaed these files to a favicon directory in my repository, and added a list of links to the header of my base.html page. These links then served the correct favicon to the appropriate device or browser. You can learn more about this service here: [RealFaviconGenerator](https://realfavicongenerator.net/)
+1. Favicons - I used the Real Favicon Generator online service to create browser, desktop, and mobile favicons for the site. I uploaded a single favicon image to the Real Favison Generator service, and it generated a package of individual files for different devices and browser which I then downloaded. I then uplodaed these files to a favicon directory in my repository, and added a list of links to the header of my base.html page. These links should then served the correct favicon to the appropriate device or browser. Unfortunately I was unable to get this working intitially. If I have time at the end of the project I will try to fix this bug. You can learn more about this service here: [RealFaviconGenerator](https://realfavicongenerator.net/)
 
 #### [Back To Top ^ ](#top-of-page) #### 
 
 <hr>
 
 #### <br> ####
-## 3. <a name="development-process">Development Process</a> ##
+## 3. <a name="website-features">Website Features</a> ##
 #### <br> ####
 <hr>
 
-I drew up a process to follow for developing the CPC website. This is listed in sequence below.
-
-1. Design - I firstly designed the site based on the Client/User Stories requirements, and by creating wireframes/sketches etc.
-2. Setup - I then setup my GitPod IDE by creating a python (.py) file, and by installing Flask, PyMongo, flask-pymongo, and dnspython. I then created a new Database on MongoDB and added new Collections to it. I also created a new app on Heroku. I then created an env.py file for my sensitive environment variables, and listed that file in my .gitignore file so that it would not be pushed(or published) to my public GitHub repository. I created a requirements.txt file so that Heroku would understand what the site/app requirements are. I also added my environment variables to Heroku, and integrated Heroku with my GitHub repository for automatic updates (so that when I push changes to GitHub, the changes are also automatically picked up and deployed by Heroku too.  
-3. HTML & CSS - I then used Flask and Jinja to create template pages for the site. I then added HTML to a base.html template page, and then all other pages for the site. I also add CSS styling as I went along.
-4. Flask & Python - I then added Flask routes and Python functions to my app.py file to create relevant functionality for each page. Site functionality mainly revolves around CRUD operations with my MondoDB Atlas database. 
-5. JavaScript/jQuery - I added JavaScript and jQuery to my script.js file for functions such as Bootstrap Form Validation, Bootstrap Data Table functionality, and for the EMailJS email service functionality for the Contact Us form. I also added a jQuery script to the select-league.html page.
-5. Resonsiveness - I made sure all texts/headings, images, and container elements transform approprately and look good when viewed on different devices such as: mobile phones, tablets, laptops, large screen PC's, and large TV's. 
-7. Code validation - I validated all code using appropriate validators - W3.org validators, JSHint.com, and PEP8online.com
-8. Documentation - I added relevant documentation and information to my README.md file.
-9. Testing - I tested functionality of site elements across a range of different devices and browsers, and fixed any bugs found. I documented this activity in my Testinh.md file.
-
-#### [Back To Top ^ ](#top-of-page) ####
-
-<hr>
-
-#### <br> ####
-## 4. <a name="website-features">Website Features</a> ##
-#### <br> ####
-<hr>
-
-The CPC site employs the following features/functionality;
+The LawnGenie site employs the following features/functionality;
 
 * Bootstrap Navigation Bar on all pages.
 * Bootstrap 'Hero' Carousel on index.html, and Carousels for sponsor banner adverts on all pages.
@@ -296,18 +254,10 @@ The CPC site employs the following features/functionality;
 * Page Footer on all pages.
 
 #### Future Features ####
-Unfortunately I ran out of time to implement all of the site features which I had planned to implement at the beginning of the project. These items can be seen in the site Wireframes, in routes/function in the app.py file, and in HTML pages in the Templates folder. These and other additional possible features are listed below. I wss advised to leave the HTML pages and Flask/Python code for these features in place to show the intended 'direction of travel' for the site.
+Unfortunately I ran out of time to implement all of the site features which I had planned to implement at the beginning of the project. 
 
-1. A 'League Archive' which can be accessed from the Homepage. This would allow a user to select an historical League from a droppdown listand view the final Table for that League. An Archived League would be created when a current/active league is deleted from the edit-league.html page. It would capture all the league stats for the users in the current league and create a new document in a MongoDB 'archive' collection. There is a 'Coming Soon' section on index.html to show where this feature would be positioned/accessed from.
-1. A 'Find a Player' feature. Accessible from the Player Homepage, this would allow a registered user to search for and find information about another player. This infromation would include a players contact details (telephone & email), and would also show the current League statistics for that user. This would enable to player to get in touch with another member in order to organise a league match, and to understand where that player sits in the League Table without having to search through the League Table on the Homepage. 
-1. A 'My Match List' feature. Accesible from the Player Homepage, this would allow a user to see a list of all League participants, along with the number of matches they have played against each player. 
-1. A 'My League History' feature. Acceesible from the Player Homepage, this would allow a user to select an Archived league and view what their final statistics were in that League.
-1. An 'Add Admin' feature. Accessible from the Admin Homepage, this would allow an Admin to select a member from a dropdown list, and enable them to make that memeber an Admin by updating a boolean Admin value in that members user document in MongoDB. 
-1. An 'Edit a Match' feature. Accessible from the Admin Homepage, this would allow an Admin to select a Match from a dropdown list and then edit and update the values of that Match document. It would also allow an Admin to delete a Match record.
-1. An 'Edit a Player' feature. Accessible from the Admin Homepage, this would allow an Admin to select a Player from a dropdown list and then edit and update the values of that Player document. It would also allow an Admin to delete a Player record.
-1. The Club may decide it wants to charge members an annual membership fee. The CPC site could be used to collect this fee from members. This would require the integration of a billing system.
-1. The Club may want to run a Pool Championship (a knockout tournament) in addition to Leagues, at particular times, e.g an Xmas Pool Championship. The site could be updated to add logic and a data schema for a Championship bracket system.
-1. The Club may want to sell merchandise in order to raise funds for prizes and tours. The site could be updated to add a shop selling Club themed merchandise. 
+1. Social Media Sign-up. 
+2. Newsletter subscriber list Admin page.
 
 #### [Back To Top ^ ](#top-of-page) ####
 
