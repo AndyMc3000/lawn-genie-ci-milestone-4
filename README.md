@@ -65,7 +65,8 @@ Please see below details of 'Client Stories' to detail the requirements of the L
 > - [x] The store must use the Stripe payment processing platform to ensure an elegant and secure payment process for users."
 > - [x] The store design must allow users to navigate easily and intuitively through the product offering, regardless of what device they are using."
 > - [x] "For ease of use, the store must allow users of the site to register and login so that they can store their personal delivery/account information. This is to facilitate quick purchaing transactions."
-> - [x] The store design must have an About Us/Contact Us page."
+> - [x] “The store must give users the option to subscribe to an email mailing list. Marketing/promotional emails can then be sent to users based on topics such as; tips and tricks from gardening professionals and lawn care specialists, new product infromation, and special offers."
+> - [x]  “The store must have a blog section where users can read articles and get information about lawn care and maintenance etc. A secure interface to add, update, and delete blog posts must be provided to the business owners."
 > - [x] “The store must contain a number of product categories of products which should be easily accessible and identifiable to a user." These categories are;
 * Category 1 - Mowers:  
    * Robot Mowers
@@ -89,11 +90,6 @@ Please see below details of 'Client Stories' to detail the requirements of the L
    * Boots
    * Gloves
 
-> - [x] NICE TO HAVE # 1 - “The store must give users the option to subscribe to an email mailing list. Marketing/promotional emails can then be sent to users based on topics such as; tips and tricks from gardening professionals and lawn care specialists, new product infromation, and special offers."
-> - [x] NICE TO HAVE # 2 - “The store must have a blog section where users can read articles and get information about lawn care and maintenance etc. A secure interface to add, update, and delete blog posts must be availableprovided to the business owners."
-> - [x] NICE TO HAVE # 3 - "The store contact page must have a Google map with a branded marker on it showing the location of the business office." 
-
-
 #### User Stories ####
 > - [x] “I want to learn to immediately understand the overall concept of what the website offers when I land on the homepage, i.e. the online sale of lawn care equipment and associated products.”
 > - [x] “I want to be able to access all product categories from every page.”
@@ -107,6 +103,8 @@ Please see below details of 'Client Stories' to detail the requirements of the L
 > - [x] “I want to be able to easily register on the site and store my personal delivery information for automatic retrieval at the checkout when making purchases."
 > - [x] “I want to get an email confirmation/verification email after I register for an account."
 > - [x] “I want to be able to easily login or logout of my account from every page."
+> - [x] “I want to be able to view a Blog page and relvant infromative Blog post articles."
+> - [x] “I want to be able to sign up to receive a newsletter in order to get information about new products, promotions, and lawn care advice/articles."
 
 
 -----------------------
@@ -269,6 +267,7 @@ Unfortunately I ran out of time to implement all of the site features which I ha
 
 1. Django Social Media Sign-up. Required to allow users to register for an Account using their preferred Social Media account.
 2. Newsletter subscriber list Admin page. Required to allow an admin to edit or delete email addresses from the Newsletter subscriber list.
+3. About Us/Contact Us page. This page should also have a Google map with a branded marker on it showing the location of the business office." 
 
 #### [Back To Top ^ ](#top-of-page) ####
 
