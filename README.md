@@ -22,6 +22,7 @@
 
 #### <br> ####
 ## 1. <a name="introduction-heading">Introduction</a> ##
+#### <br> ####
 
 The LawnGenie.ie web application is my Milestone 4 (MS4) project for the Diploma in Fullstack Software Development course at Code Institute. The underlying goal of the project is to meet and exceed the requirements laid out for the MS4 project by Code Institute. The high-level requirement of the MS4 project is to "..build a full-stack site based around business logic used to control a centrally-owned dataset. You will set up an authentication mechanism and provide paid access to the site's data and/or other activities based on the dataset, such as the purchase of a product/service." 
 
@@ -44,6 +45,7 @@ All of the LawnGenie website features and functionality can be tested using one 
 
 #### <br> ####
 ## 2. <a name="user-experience-design">User Experience Design (UX)</a> ##
+#### <br> ####
 
 The design of the LawnGenie.ie e-commerce website was determined by assessing and quantifying the goals and objectives of the business owners, as well as the requirements of users who will visit and use the website. 
 
@@ -212,7 +214,7 @@ With this in mind, please ind details below about the CPC sitemap, navigation, a
 #### Data & Database Schema ####
 The LawnGenie website should be designed to allow a user to Create, Read, Update, and Delete data intuitively and quickly. LawnGenie will use a Heroku PostgreSQL database to store all data. The Database will contain data based on model classes which are unique to LawnGenie, as well as builtin Django model classes 
   
-* The Database Table names and key:value in those Tables can be seen in the <a href="readme/readme-assets/lawngenie-database-schema.md"><strong>Database Schema</strong></a>
+* The Database Table names and key:value in those Tables can be seen in the <a href="readme/readme-assets/database-schema/lawngenie-database-schema.md"><strong>Database Schema</strong></a>
 
 ### 4. The Skeleton Plane ###
 
@@ -229,10 +231,10 @@ With this in mind I created the below wireframes, to detail the layout of the we
 Having completed the previous 4 stages in the UX design process, I moved on to making decisions around the design and styling of the website. The Surface Plane focuses on the styling of images, backgrounds, fonts, and colours used on a website. The details of these decisions are listed here;
 
 1. Colours - The color scheme for the website was chosen from a selection of colours I considered when using the tools on the [Coolors.co](https://coolors.co/) website. I created and intial color palette of 3 colours, and then also added extra tints/shades of the orinal colours. The colours chosen, along with their HEX values, are shown here;
-<img src="/readme/readme-assets/lawngenie-coolors-colour-palette.png" width="500">
+<img src="/readme/readme-assets/coolors/lawngenie-coolors-colour-palette.png" width="500">
 
 1. Font - I used the Google Fonts website and Canva.com to help me decide on fonts to use for site texts and the Logo. I decided on a font from Google Fonts called 'Poppins' for all website texts. On Canva.com I found and used a font called 'Intro Rust Based Shade' for the Logo. Please see an example of both fonts here;  
-<img src="/readme/readme-assets/lawngenie-fonts.png" width="500">
+<img src="/readme/readme-assets/fonts/lawngenie-fonts.png" width="500">
 
 1. Logo Design - I created the LawnGenie logo using tools on [Canva.com](https://www.canva.com/).
 
@@ -277,7 +279,7 @@ Unfortunately I ran out of time to implement all of the site features which I ha
 #### <br> ####
 <hr>
 
-<img src="readme-assets/cpc-technologies-used-logos.png" width="630">
+<img src="readme-assets/technologies-used/lawngenie-technologies-used.png" width="630">
 
 I used the following technologies, services, and devices to develop, style, deploy, and test the LawnGenie website;
 <br>
