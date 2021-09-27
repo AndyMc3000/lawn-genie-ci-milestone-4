@@ -13,7 +13,6 @@
 ## Table of Contents ##
 1. [Introduction](#introduction-heading)
 1. [User Experience Design (UX)](#user-experience-design)
-1. [Development Process](#development-process)
 1. [Website Features](#website-features)
 1. [Technologies Used](#technologies-used)
 1. [Testing](#testing)
@@ -28,6 +27,17 @@ The LawnGenie.ie web application is my Milestone 4 (MS4) project for the Diploma
 
 LawnGenie.ie represents a project I have undertaken for a fictional client. I have been hired to develop an e-commerce store for a Garden Centre who want a specialist website which focuses on selling products related to the care and maintenance of lawns. 
 
+### User Accounts  ###
+
+All of the LawnGenie website features and functionality can be tested using one or other of the below User Accounts.
+
+* SuperUser - Website Admin and Django Admin Account
+  * UN: johndeere
+  * PW: husqvarna
+
+* Registed Customer Account
+  * UN: larrylawn
+  * PW: greenfingers
 
 #### [Back To Top ^ ](#top-of-page) ####
 <hr>
@@ -76,7 +86,7 @@ Please see below details of 'Client Stories' to detail the requirements of the L
    * Trousers
    * Boots
    * Gloves
---------------
+
 > - [x] NICE TO HAVE # 1 - “The store must give users the option to subscribe to an email mailing list. Marketing/promotional emails can then be sent to users based on topics such as; tips and tricks from gardening professionals and lawn care specialists, new product infromation, and special offers."
 > - [x] NICE TO HAVE # 2 - “The store must have a blog section where users can read articles and get information about lawn care and maintenance etc. A secure interface to add, update, and delete blog posts must be availableprovided to the business owners."
 > - [x] NICE TO HAVE # 3 - "The store contact page must have a Google map with a branded marker on it showing the location of the business office." 
@@ -244,46 +254,43 @@ Having completed the previous 4 stages in the UX design process, I moved on to m
 The LawnGenie site employs the following features/functionality;
 
 * Bootstrap Navigation Bar on all pages.
-* Bootstrap 'Hero' Carousel on index.html, and Carousels for sponsor banner adverts on all pages.
+* Bootstrap 'Hero' image with marketing messaging on index.html.
 * Bootstrap Cards on all pages to contain content sections.
 * Bootstrap Responsive Grid system.
-* JavaScript for Bootstrap validation.
-* JavaScript for EmailJS for sending contact form data by email.
-* JQuery code for resetting the contact form following submission.
-* Python CRUD operations with the MongoDB Atlas database.
+* Django Crispy Forms for forms and form validation.
+* Djano Send Mail library for sending emails for order confirmation, registration validation and Newsletters.
+* Python CRUD operations with a Heroku PostgreSQL database.
 * Page Footer on all pages.
 
 #### Future Features ####
 Unfortunately I ran out of time to implement all of the site features which I had planned to implement at the beginning of the project. 
 
-1. Social Media Sign-up. 
-2. Newsletter subscriber list Admin page.
+1. Django Social Media Sign-up. Required to allow users to register for an Account using their preferred Social Media account.
+2. Newsletter subscriber list Admin page. Required to allow an admin to edit or delete email addresses from the Newsletter subscriber list.
 
 #### [Back To Top ^ ](#top-of-page) ####
 
 <hr>
 
 #### <br> ####
-## 5. <a name="technologies-used">Technologies Used</a> ##
+## 4. <a name="technologies-used">Technologies Used</a> ##
 #### <br> ####
 <hr>
 
 <img src="readme-assets/cpc-technologies-used-logos.png" width="630">
 
-I used the following technologies, services, and devices to develop, style, deploy, and test the CPC website;
+I used the following technologies, services, and devices to develop, style, deploy, and test the LawnGenie website;
 <br>
 * HTML5 - The site pages were developed using HTML5 markup language.
 * CSS3 - The site was styled and in some cases made responsive using CSS3.
-* Python - CRUD functionaiity with a MongoDB Atlas database was done using Python functions.
-* Flask - I used the Flask framework along with the Jinja template engine and the Werkzeug toolkit to develop the CPC web app.
-* JavaScript & jQuery - I used JavaScript and jQuery for functioonality around Bootstrap validation, the EMailJS email service, and the Bootstrap Data Tables table sorting functionality.
-* Bootstrap - I used the Bootstrap framework for many of the HTML elements, including the Navbars, container Cards, the Carousels, the Forms, and the Tables.
-* Bootstrap Table - I used the Bootstrap Table library for Table sorting and numbering.
-* EmailJS - I used the EmailJS email service to send Contact Us Form data by email to the CPC organisers and the user.
+* Python3 - All views, models, and CRUD functionaiity with the database was done using Python functions and classes.
+* Django - I used the Django framework, libraries, and templating language to develop the LawnGenie web app.
+* JavaScript & jQuery - I used JavaScript and jQuery to include functioonality for; 'Back to Top' buttons, Updating product quantities, Stripe payment processing, Stripe div/card validation, and for changing the Country field requirement on the Stripe payment form. 
+* Bootstrap - I used the Bootstrap framework for many of the HTML elements, including the Navbars, container Cards, and the Tables.
 * GitHub - I set up a free repository on GitHub.com to maintain a master of all website files, content, and resources.
 * GitPod - I used the free GitPod.io Integrated Development Environment to write and develop the code for the website.
-* MongoDB Atlas - All data is stored in a MongoDB Atlas database. The Pythons functions used to create site operations/functionality interact with the Collections in the MongoDB Atlas database. The functions complete one of four database CRUD operations; Create documents in a Collection, Read documents in a Collection, Update documents in a Collection, or Delete documents in a Collection.    
-* Heroku - I used the Heroku cloud-based and container-based platform-as-a-service to host and deploy the CPC web app.
+* PostgreSQL Database - All data is stored in a PostgreSQL database. The Pythons functions used to create site operations/functionality interact with this database.   
+* Heroku - I used the Heroku cloud-based and container-based platform-as-a-service to host and deploy the LawnGenie web app.
 * Balsamiq - I used the Balsamiq application to create the website sitemap, and to create the page wireframes for PC & Tablet/Mobile views.
 * W3C validators - I used the W3C HTML5 and CSS3 code validators to validate my HTML and CSS.
 * JSHint - I used jshint.com to validate my JavaScript code.
@@ -300,30 +307,30 @@ I used the following technologies, services, and devices to develop, style, depl
 <hr>
 
 #### <br> ####
-## 6. <a name="testing">Testing</a> ##
+## 5. <a name="testing">Testing</a> ##
 #### <br> ####
 <hr>
 
-Testing was completed under the below headings. A detailed testing document can be seen <a href="readme-assets/testing.md"><strong>Here</strong></a>
-
-Any bugs or issues discovered are also listed below along with remedies if applicable.
+Testing of the LawnGenis store was completed using the below headings. A detailed testing document can be seen <a href="readme/readme-assets/testing.md"><strong>Here</strong></a>
 
 #### Testing Headings ####
-1. Development Testing
-1. User & Client stories Testing
-1. Code Validation
-1. Device Testing
-1. Browser Testing
-1. Bugs Discovered
+1. Manual Testing
+2. User & Client stories Testing
+3. Code Validation
+4. Device Testing
+5. Browser Testing
+6. Bugs Discovered
 
 #### [Back To Top ^ ](#top-of-page) ####
 
 <hr>
 
 #### <br> ####
-## 7. <a name="deployment">Deployment</a> ##
+## 6. <a name="deployment">Deployment</a> ##
 #### <br> ####
 <hr>
+
+## TO DO ##
 
 The deployment of the CPC site was dependent on the setup of, and integration between, a number of platforms/frameworks/tools and a NoSQL MongoDB database.
   
@@ -384,7 +391,7 @@ The live version of the CPC website deployed via Heroku can be seen: [Here!](htt
 <hr>
 
 #### <br> ####
-## 8. <a name="credits">Credits</a> ##
+## 7. <a name="credits">Credits</a> ##
 #### <br> ####
 <hr>
 
