@@ -1,5 +1,5 @@
-<a name="top-of-page">![LawnGenie Logo](/readme/readme-assets/logo/lawn-genie-nav-logo-v4-resized-546-x-150px.png)</a>
 
+<a name="top-of-page"><img src="/readme/readme-assets/logo/lawn-genie-nav-logo-v4-resized-546-x-150px.png" width="300"></a>
 
 # LawnGenie - Testing Document :microscope: #  
 
@@ -155,303 +155,153 @@ I ran the following files through the PEP8online.com Python validator and found 
 
 ## 4. <a name="manual-testing">Manual Testing</a> ##
 
-I manually tested the CPC site elements/components under the following headings;
+I manually tested the LawnGenie site elements and functionality under the below headings. Where appropriate I tested each item on a large screen device and a mobile device.
+
+I also tested these while logged in as the SuperUser to ensure all features/functions were visible.
 
 ## Homepage ##
 
-#### Navbar ####
+#### Navbar (Common to all pages) ####
+* Tested Logo/Home Link. -> Result: Worked as expected.
+* Tested Search link. -> Result: Worked as expected.
+* Tested Search functionality. -> Result: Worked as expected.
+* Tested My Account dropdown link. -> Result: Worked as expected.
+* Tested My Account links:
+ * Tested My Account Add a Product link -> Result: Worked as expected.
+ * Tested My Account Create Blog Post link -> Result: Worked as expected.
+ * Tested My Account Send a Newsletter link -> Result: Worked as expected.
+ * Tested My Account My Profile link -> Result: Worked as expected.
+ * Tested My Account Logout link -> Result: Worked as expected.
+ * Tested My Account Register link -> Result: Worked as expected.
+ * Tested My Account Login link -> Result: Worked as expected.
+* Tested Cart link. -> Result: Worked as expected.
+* Tested Cart Total functionality. -> Result: Worked as expected.
+* Tested Category Dropdown links in main navbar -> Result: Worked as expected.
+* Tested 25 subcategory links -> Result: Worked as expected.
+* Tested Our Blog link -> Result: Worked as expected.
+* Tested Mobile Nav Toggler link/dropdown  -> Result: Worked as expected.
+
+#### Footer Section (Common to all pages) ####
+* Tested Logo link. -> Result: Worked as expected.
+* Tested Copyright link. -> Result: Worked as expected.
+* Tested Email link. -> Result: Worked as expected.
+* Tested Social Media links. -> Result: Worked as expected.
+* Tested Top Category buttons. -> Result: Worked as expected.
+* Tested Links buttons. -> Result: Worked as expected.
+
+#### Homepage Body ####
+* Tested Hero div 'SHOP NOW' button. -> Result: Worked as expected.
+* Tested Husqvarna Promo Banner 1. -> Result: Worked as expected.
+* Tested John Deere Promo Banner 2. -> Result: Worked as expected.
+* Tested Supersoil Promo Banner 3. -> Result: Worked as expected.
+* Tested Best Sellers Image and Button links. -> Result: Worked as expected.
+* Tested New Arrivals Image and Button links. -> Result: Worked as expected.
+* Tested Blog section button link. -> Result: Worked as expected.
+* Tested Newsletter section button link. -> Result: Worked as expected.
+
+## Product List/Results Page ##
+
+#### Sorting and Back To Top button (common to all category listing/results pages) ####
+* Tested All Sort options in sorting dropdown. -> Result: Worked as expected.
+* Tested Product number count. Result: -> Result: Worked as expected.
+* Tested Back To Top button. Result: -> Result: Worked as expected.
+
+#### Product links (common to all category listing/results pages) ####
+* Tested Product image link. -> Result: Worked as expected.
+* Tested Product More Info button. -> Result: Worked as expected.
+* Tested Product Category button. -> Result: Worked as expected.
+* Tested Product Edit button. -> Result: Worked as expected.
+* Tested Product Delete button. -> Result: Worked as expected.
+
+## Product Page ##
+ 
+#### Links ####
+* Tested Image link. -> Result: Worked as expected.
+* Tested Category link. -> Result: Worked as expected.
+* Tested Category link. -> Result: Worked as expected.
+* Tested Product Edit button. -> Result: Worked as expected.
+* Tested Product Delete button. -> Result: Worked as expected.
+* Tested Add To Cart button. -> Result: Worked as expected.
+
+#### Inputs ####
+* Tested Quantity increment/decrement icons. -> Result: Worked as expected.
+* Tested Quantity increment/decrement icons and Add To Cart to check correct quantity in cart. -> Result: Worked as expected.
+* Tested Size selector. -> Result: Worked as expected.
+* Tested Size selector and Add To Cart to check correct size in cart. -> Result: Worked as expected.
+* Tested Size selector for same product of different size and Add To Cart to check additional line item with new size in cart. -> Result: Worked as expected.
+
+
+
+## Cart Page ##
+ 
+#### Links ####
+* Tested Image link. -> Result: Worked as expected.
+
+## Checkout Page ##
+ 
+#### Links ####
+* Tested Image link. -> Result: Worked as expected.
+
+## Checkout Success Page ##
+ 
+#### Links ####
+* Tested Image link. -> Result: Worked as expected.
+
+## Blog and Blog Post Pages ##
+ 
+#### Links ####
+* Tested Image link. -> Result: Worked as expected.
+
+
+
+
+## Profile Page ##
+ 
+#### Links ####
+* Tested Image link. -> Result: Worked as expected.
+
+## Newsletter Subscribe and unsubscribe pages ##
+ 
+#### Links ####
+* Tested Image link. -> Result: Worked as expected.
+
+## Add a Product Page ##
+ 
+#### Links ####
+* Tested Image link. -> Result: Worked as expected.
+
+## Create a Blog Post Page ##
+ 
+#### Links ####
+* Tested Image link. -> Result: Worked as expected.
+
+## Send a Newsletter Page ##
+ 
+#### Links ####
+* Tested Image link. -> Result: Worked as expected.
+
+
+
+
+
+## Django Template pages ##
+
+#### Registration Page  ####
 * Tested Logo Link. -> Result: Worked as expected.
-* Tested Join link. -> Result: Worked as expected.
-* Tested Home link. -> Result: Worked as expected.
-* Tested Log In link. -> Result: Worked as expected.
-* Tested Registered User view. -> Result: Worked as expected.
 
-#### Hero Carousel ####
-* Tested Sign Me Up! button on three slides. -> Result: Worked as expected.
-
-#### Why Join Us Section ####
-* Tested Join Today button. -> Result: Worked as expected.
-
-#### League Section ####
-* Tested League Table button. -> Result: Worked as expected.
-
-#### Contact Us Section ####
-* Tested Contact Us Form.
-* * Tested Form validation. -> Result: Worked as expected.
-* * Tested Success message. -> Result: Worked as expected.
-* * Tested EmailJS send feature. -> Result: Worked as expected.
-
-#### Banner Adverts ####
-* Tested banner links. -> Result: Worked as expected.
-
-#### Footer Section ####
-* Tested Logo link. -> Result: Worked as expected.
-
-
-
-## League Table Page ##
-
-#### Navbar ####
+#### Login Page ####
 * Tested Logo Link. -> Result: Worked as expected.
-* Tested Home Link. -> Result: Worked as expected.
-* Tested Join link. -> Result: Worked as expected.
-* Tested Log in link. -> Result: Worked as expected.
-* Tested Registered User view. -> Result: Worked as expected.
 
-#### Body ####
-* Tested Back buttons -> Result: Worked as expected.
-
-#### Banner Adverts ####
-* Tested banner links. -> Result: Worked as expected.
-
-#### Footer Section ####
-* Tested Logo link. -> Result: Worked as expected.
-
-
-
-## Registration Page ##
-
-#### Navbar ####
+#### Log Out Page ####
 * Tested Logo Link. -> Result: Worked as expected.
-* Tested Join link. -> Result: Worked as expected.
-* Tested Home link. -> Result: Worked as expected.
-* Tested Log in link. -> Result: Worked as expected.
 
-#### Body ####
-* Tested Back buttons. -> Result: Worked as expected.
-
-#### Registration Form Section ####
-* Tested Registration Form.
-* * Tested Form validation. -> Result: Worked as expected.
-* * Tested Flash Success & Error messages. -> Result: Worked as expected.
-* * Tested 'register' Python function. -> Result: Worked as expected.
-* * Tested Already Registered link. -> Result: Worked as expected.
-
-#### Banner Adverts ####
-* Tested banner links. -> Result: Worked as expected.
-* 
-#### Footer Section ####
-* Tested Logo link. -> Result: Worked as expected.
-
-
-
-
-
-## Login Page ##
-
-#### Navbar ####
+#### Email Confirmation Page ####
 * Tested Logo Link. -> Result: Worked as expected.
-* Tested Join link. -> Result: Worked as expected.
-* Tested Home link. -> Result: Worked as expected.
-* Tested Log in link. -> Result: Worked as expected.
 
-#### Log In Form Section ####
-* Tested Registration Form.
-* * Tested Form validation. -> Result: Worked as expected.
-* * Tested Flash Success & Error messages. -> Result: Worked as expected.
-* * Tested 'loginr' Python function. -> Result: Worked as expected.
-
-#### Banner Adverts ####
-* Tested banner links. -> Result: Worked as expected.
-
-#### Footer Section ####
-* Tested Logo link. -> Result: Worked as expected.
-
-
-
-## Player Homepage ##
-
-#### Navbar ####
+#### Email Validation Page ####
 * Tested Logo Link. -> Result: Worked as expected.
-* Tested MyHome link. -> Result: Worked as expected.
-* Tested Home link. -> Result: Worked as expected.
-* Tested Admin link. -> Result: Worked as expected.
 
-#### Body ####
-* Tested Feature button link. -> Result: Worked as expected.
 
-#### Banner Adverts ####
-* Tested banner links. -> Result: Worked as expected.
-
-#### Footer Section ####
-* Tested Logo link. -> Result: Worked as expected.
-
-
-
-## Admin Homepage ##
-
-#### Navbar ####
-* Tested Logo Link. -> Result: Worked as expected.
-* Tested MyHome link. -> Result: Worked as expected.
-* Tested Home link. -> Result: Worked as expected.
-* Tested Admin link. -> Result: Worked as expected.
-
-#### Body ####
-* Tested Feature button link. -> Result: Worked as expected.
-
-#### Banner Adverts ####
-* Tested banner links. -> Result: Worked as expected.
-
-#### Footer Section ####
-* Tested Logo link. -> Result: Worked as expected.
-
-
-
-## My League Stats Page ##
-
-#### Navbar ####
-* Tested Logo Link.
-* Tested MyHome link.
-* Tested Home link.
-* Tested Admin link.
-
-#### Body ####
-* Tested Back buttons. -> Result: Worked as expected.
-
-#### Banner Adverts ####
-* Tested banner links. -> Result: Worked as expected.
-
-#### Footer Section ####
-* Tested Logo link. -> Result: Worked as expected.
-
-
-
-## Edit My Account Page ##
-
-#### Navbar ####
-* Tested Logo Link. -> Result: Worked as expected.
-* Tested MyHome link. -> Result: Worked as expected.
-* Tested Home link. -> Result: Worked as expected.
-* Tested Admin link. -> Result: Worked as expected.
-
-#### Edit Account Form Section ####
-* Tested Edit Account Form.
-* * Tested Form validation. -> Result: Worked as expected.
-* * Tested Flash Success & Error messages. -> Result: Worked as expected.
-* * Tested 'player_edit_account' Python function. -> Result: Worked as expected.
-
-#### Banner Adverts ####
-* Tested banner links. -> Result: Worked as expected.
-
-#### Footer Section ####
-* Tested Logo link. -> Result: Worked as expected.
-
-
-
-
-
-## Add Match Result Page ##
-
-#### Navbar ####
-* Tested Logo Link. -> Result: Worked as expected.
-* Tested MyHome link. -> Result: Worked as expected.
-* Tested Home link. -> Result: Worked as expected.
-* Tested Admin link. -> Result: Worked as expected.
-
-#### Add Match Result Form Section ####
-* Tested Add Match Result Form.
-* * Tested Form validation. -> Result: Worked as expected.
-* * Tested Flash Success & Error messages. -> Result: Worked as expected.
-* * Tested 'padd_match_result' Python function. -> Result: Worked as expected.
-
-#### Banner Adverts ####
-* Tested banner links. -> Result: Worked as expected.
-
-#### Footer Section ####
-* Tested Logo link. -> Result: Worked as expected.
-
-
-
-
-
-## Add a League Page ##
-
-#### Navbar ####
-* Tested Logo Link. -> Result: Worked as expected.
-* Tested MyHome link. -> Result: Worked as expected.
-* Tested Home link. -> Result: Worked as expected.
-* Tested Admin link. -> Result: Worked as expected.
-
-#### Add League Form Section ####
-* Tested Add League Form.
-* * Tested Form validation. -> Result: Worked as expected.
-* * Tested Flash Success & Error messages. -> Result: Worked as expected.
-* * Tested 'add_league' Python function. -> Result: Worked as expected.
-
-#### Banner Adverts ####
-* Tested banner links. -> Result: Worked as expected.
-
-#### Footer Section ####
-* Tested Logo link. -> Result: Worked as expected.
-
-
-
-
-## Add a Player Page ##
-
-#### Navbar ####
-* Tested Logo Link. -> Result: Worked as expected.
-* Tested MyHome link. -> Result: Worked as expected.
-* Tested Home link. -> Result: Worked as expected.
-* Tested Admin link. -> Result: Worked as expected.
-
-#### Add Player Form Section ####
-* Tested Add Player Form.
-* * Tested Form validation. -> Result: Worked as expected.
-* * Tested Flash Success & Error messages. -> Result: Worked as expected.
-* * Tested 'add_player' Python function. -> Result: Worked as expected.
-
-#### Banner Adverts ####
-* Tested banner links. -> Result: Worked as expected.
-
-#### Footer Section ####
-* Tested Logo link. -> Result: Worked as expected.
-
-
-
-
-## Select A League Page ##
-
-#### Navbar ####
-* Tested Logo Link. -> Result: Worked as expected.
-* Tested MyHome link. -> Result: Worked as expected.
-* Tested Home link. -> Result: Worked as expected.
-* Tested Admin link. -> Result: Worked as expected.
-
-#### Select League Form Section ####
-* Tested Select League Form.
-* * Tested Form validation. -> Result: Worked as expected.
-* * Tested Flash Success & Error messages. -> Result: Worked as expected.
-* * Tested 'select_league' Python function. -> Result: Worked as expected.
-* 
-#### Banner Adverts ####
-* Tested banner links. -> Result: Worked as expected.
-
-#### Footer Section ####
-* Tested Logo link. -> Result: Worked as expected.
-
-
-
-
-### Edit A League Page ###
-
-#### Navbar ####
-* Tested Logo Link. -> Result: Worked as expected.
-* Tested MyHome link. -> Result: Worked as expected.
-* Tested Home link. -> Result: Worked as expected.
-* Tested Admin link. -> Result: Worked as expected.
-
-#### Edit League Form Section ####
-* Tested Edit League Form.
-* * Tested Form validation. -> Result: Worked as expected.
-* * Tested Flash Success & Error messages. -> Result: Worked as expected.
-* * Tested 'edit_league' Python function. -> Result: Worked as expected.
-
-#### Banner Adverts ####
-* Tested banner links. -> Result: Worked as expected.
-
-#### Footer Section ####
-* Tested Logo link. -> Result: Worked as expected.
 
 
 
@@ -478,16 +328,11 @@ I completed the above manual testing of the CPC site on the following browsers. 
 
 ## 6. <a name="bugs-discovered">Bugs Discovered / Remedies</a> ##
 
-While developing and testing the site I discovered the below bugs/issues. If I founc a remedy to a bug I have listed this below.
+While developing and testing the site I discovered the below bugs/issues. If I found a remedy to a bug I have listed this below.
 
 #### Bugs Discovered / Remedies ####
-1. Bootstrap form validation - When I tried to validate the JavaScript code I got from Bootsrap on JSHint.com, it thrw back warnings saying the code was missing semi-colons. So, I added them to my code. However this stopped the vaidation so I had to revert to the original code.
-1. CSS animation error - I added the animation property to my style.css along with the required vendor prefixes and @keyframe syntax. When I ran my code through the W3 Jigsaw validator, it threw errors for my animation code. I did some research and it seems that W3/CSS specification don't yet recognise vendor prefixes. As such I removed the animation code to ensure I ran no errors.
-1. Bootstrap CSS errors. When I ran my site through the W3 Jigsaw CSS validator it through multiple warnings and erros for the Bootstrap CDN-linked CSS file in my base.html. I discussed this with Student Support and was advised that as it was a Bootstra file (and I have no control over it), it was acceptable to leave this as is. 
-1. EMailJS Console error - The EmailJS JavaScript code produces and 'AddEventListener' error in the console. I didn't have time to find a solution to this.
-1. HTML validator warning - The W3 HTML validator produced a Warning in regard to a section not having an accetable heading. It relates to the Introduction section on index.html. I decided to leave this issue as is, as it looks better on the page to have a H1 there instead of a H2 to H6 version of the text.
+
 1. Floating Footer - When I initally created my base.html and index.html templates and added a navbar and footer, the footbar did not behave itself. It was 'floating' up from the bottom of the page and hugging the bottom of the last container on the page. I did some research and found that I could fix it by applying some CSS to it. I added the 'Margin-Top: auto' property and value and it fixed the issue.
-1. On a previous project I had a bug with form submission where Bootstrap was validating a contact form after it had been 'submit' and 'reset'. As the form had been reset, this resulted in Bootstrap validation errors appearing on the blank form after form submission. This may give a user the impression that their message/form had not been sent, even though an Alert had been sent to the browser to confirm that the message had been sent. This is a known issue with Bootstrap. With help from Tutor support and a Google search I found some jQuery code on a GitHub chat thread which fixed the problem. When I added the code to my EmailJS JavaScript code on script.js it fixed the problem. See that GitHub thread here - ['Resetting form doesn't clear validation errors'](https://github.com/1000hz/bootstrap-validator/issues/68). 
-1. Safari datepicker. I found that Safari does not HTML datepicker. I found a jQuery-based solution on [StackOverflow](https://stackoverflow.com/questions/35682138/html5-date-picker-doesnt-show-on-safari), but didn't have time to implement/test it.
+
 
 #### [Back To Top ^ ](#top-of-page) ####
