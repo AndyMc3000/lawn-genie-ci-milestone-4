@@ -112,13 +112,26 @@ body {
     background-color: #008000;
     border-color: #ccff33;
     border-width: 1px;
-    color: #f8f9fa;
+    color: #f8f9fa !important;
 }
 
 .dropdown-item:focus,
 .dropdown-item:hover {
     color: #008000 !important;
     background-color: #f8f9fa !important;
+}
+
+.mobile-dropdown-menu {
+    right: 70px;
+}
+
+.mobile-dropdown-item {
+    color: #f8f9fa;
+    padding: 5px;;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: -25%;
 }
 
 .header-search {
@@ -374,6 +387,8 @@ body {
 
 /* -------------------------------- Media Queries---------------- */
 
+/* --- At 991px and below ---------------- */
+
 @media (max-width: 991px) {
     #main-nav ul {
         margin: 0px !important;
@@ -391,7 +406,7 @@ body {
 
 @media (max-width: 991px) {
     .header-logo-link img {
-        max-width: 150px;
+        max-width: 200px;
 }
 
 @media (max-width: 991px) {
@@ -434,6 +449,69 @@ body {
 @media (max-width: 991px) {
     .mowers-dropdown-menu {
         width: 40% !important;
+    }
+}
+
+/* --- At 650px and below ---------------- */
+
+@media (max-width: 650px) {
+    .nav-link {
+        margin: 0px;
+        padding: 3px;
+    }
+}
+
+@media (max-width: 650px) {
+    .nav-link i {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 650px) {
+    .header-logo-link img {
+        max-width: 150px;
+    }
+}
+
+/* --- At 525px screen width and below ---------------- */
+
+@media (max-width: 650px) {
+    .nav-link {
+        margin: 0px;
+        padding: 1px;
+    }
+}
+
+@media (max-width: 650px) {
+    .nav-link i {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 650px) {
+    .nav-link p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 650px) {
+    .header-logo-link img {
+        max-width: 120px;
+    }
+}
+
+@media (max-width: 650px) {
+    .mobile-nav-list {
+        padding-right: 10px;
+    }
+}
+
+/* --- At 455px screen width and below ---------------- */
+
+@media (max-width: 455px) {
+    .header-logo-link img {
+        max-width: 190px;
+        margin-left: 25px;
     }
 }
 }
