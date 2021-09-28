@@ -157,7 +157,7 @@ I ran the following files through the PEP8online.com Python validator and found 
 
 I manually tested the LawnGenie site elements and functionality under the below headings. Where appropriate I tested each item on a large screen device and a mobile device.
 
-I also tested these items while logged in as the SuperUser to ensure all features/functions were visible. I have also included a section at the bottom of this section where I tested security/user access where I tested access to restricted functionality of non-registered and registered users.
+I tested these items while logged in as the store SuperUser to ensure all features/functions were visible. I have also included a section where I tested access to restricted functionality for non-registered and registered users.
 
 ## Homepage ##
 
@@ -343,14 +343,6 @@ I also tested these items while logged in as the SuperUser to ensure all feature
 * Tested unsubscribing the new email address from the mailing list. -> Result: Worked as expected.
 
 
-## Bootstrap TOASTS ##
- 
-#### Links ####
-* Tested when viewing orders in MyProfile. -> Result: Worked as expected.
-
-
-
-
 ## Django Template pages ##
 
 #### Registration Page  ####
@@ -368,21 +360,32 @@ I also tested these items while logged in as the SuperUser to ensure all feature
 #### Email Validation Page ####
 * Tested Logo Link. -> Result: Worked as expected.
 
+# TO DO #
 
+## Bootstrap TOASTS ##
+ 
+#### TOASTS ####
+* Tested when viewing orders in MyProfile. -> Result: Worked as expected.
 
 
 ## Security & User Functionality ##
 
 #### Registered User  ####
-* Tested Cart page 'save delivery info' check box. -> Result: Worked as expected.
+* Tested Cart page and appearnace of 'save delivery info' check box. -> Result: Worked as expected.
+* Tested Navbar to check list of options available (should be My Profile or Logout only). -> Result: Worked as expected.
+* Tested hacking URL to access /products/add/ page. -> Result: Worked as expected, access denied.
+* Tested hacking URL to access /products/edit/id page. -> Result: Worked as expected, access denied.
+* Tested hacking URL to access /blog/add_post/ page. -> Result: Worked as expected, access denied.
+* Tested hacking URL to access /blog/edit_post/id page. -> Result: Worked as expected, access denied.
+
 
 #### Non-Registered User  ####
 * Tested Cart page and appearance of Login/Create an Account links and message. -> Result: Worked as expected.
-
-
-
-
-
+* Tested Navbar  page 'save delivery info' check box. -> Result: Worked as expected.
+* Tested hacking URL to access /products/add/ page. -> Result: Worked as expected, access denied.
+* Tested hacking URL to access /products/edit/id page. -> Result: Worked as expected, access denied.
+* Tested hacking URL to access /blog/add_post/ page. -> Result: Worked as expected, access denied.
+* Tested hacking URL to access /blog/edit_post/id page. -> Result: Worked as expected, access denied.
 
 
 
@@ -392,23 +395,23 @@ I also tested these items while logged in as the SuperUser to ensure all feature
 
 ## 5. <a name="browser-testing">Browser Testing</a> ##
 
-I completed the above manual testing of the CPC site on the following browsers. Please see results below.
+I completed the above manual testing of the LawnGenie site on the following browsers. Please see results below.
 
 ### Chrome ###
 * All tests ran OK.
 
 ### Firefox ###
-* All tests ran OK. 
+* All tests ran ok
 
 ### Safari ###
-* Issue discovered with the fact that Safari doesn't support Form DatePicker by default. Pleasee see Bugs Discovered section for more detail.
-* All other tests ran OK. 
+* All tests ran ok
 
 #### [Back To Top ^ ](#top-of-page) ####
 
 
 ## 6. <a name="bugs-discovered">Bugs Discovered / Remedies</a> ##
 
+# TO DO #
 While developing and testing the site I discovered the below bugs/issues. If I found a remedy to a bug I have listed this below.
 
 #### Bugs Discovered / Remedies ####
