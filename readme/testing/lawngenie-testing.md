@@ -128,7 +128,7 @@ The W3C CSS Validation Service. The validator found the following errors. No oth
 
 #### JavaScript & jQuery ####
 
-I ran the below JavaScript files and code blocks through the JSHint validator and foucn the following Warnings. No errors were found.
+I ran the below JavaScript files and code blocks through the JSHint validator and found no errors.
 countryfield.js
 stripe_elements.js
 
@@ -157,7 +157,7 @@ I ran the following files through the PEP8online.com Python validator and found 
 
 I manually tested the LawnGenie site elements and functionality under the below headings. Where appropriate I tested each item on a large screen device and a mobile device.
 
-I also tested these while logged in as the SuperUser to ensure all features/functions were visible.
+I also tested these items while logged in as the SuperUser to ensure all features/functions were visible. I have also included a section at the bottom of this section where I tested security/user access where I tested access to restricted functionality of non-registered and registered users.
 
 ## Homepage ##
 
@@ -199,6 +199,8 @@ I also tested these while logged in as the SuperUser to ensure all features/func
 * Tested Blog section button link. -> Result: Worked as expected.
 * Tested Newsletter section button link. -> Result: Worked as expected.
 
+
+
 ## Product List/Results Page ##
 
 #### Sorting and Back To Top button (common to all category listing/results pages) ####
@@ -212,6 +214,8 @@ I also tested these while logged in as the SuperUser to ensure all features/func
 * Tested Product Category button. -> Result: Worked as expected.
 * Tested Product Edit button. -> Result: Worked as expected.
 * Tested Product Delete button. -> Result: Worked as expected.
+
+
 
 ## Product Page ##
  
@@ -235,51 +239,114 @@ I also tested these while logged in as the SuperUser to ensure all features/func
 ## Cart Page ##
  
 #### Links ####
-* Tested Image link. -> Result: Worked as expected.
+* Tested Quantity increment and decrement buttons. -> Result: Worked as expected.
+* Tested Quantity Update button. -> Result: Worked as expected.
+* Tested Quantity Delete button. -> Result: Worked as expected.
+* Tested update of line item Subtotal figure on using update button. -> Result: Worked as expected.
+* Tested update of Cart Total figure on using update button. -> Result: Worked as expected.
+* Tested update of Delivery figure using update button. -> Result: Worked as expected.
+* Tested update of Total Price figure on using update button. -> Result: Worked as expected.
+* Tested appearance of Free Delivery message when Cart Total figure is reduced to below €100  -> Result: Worked as expected.
+* Tested Checkout button. -> Result: Worked as expected.
 
-## Checkout Page ##
+
+
+
+## Checkout & Stripe Payment Page ##
  
-#### Links ####
-* Tested Image link. -> Result: Worked as expected.
+#### Form and Links ####
+* Tested Order summary values were correct. -> Result: Worked as expected.
+* Tested that form pre-populated with my saved delivery. -> Result: Worked as expected.
+* Tested 'Your card will be charged' message value was correct. -> Result: Worked as expected.
+* Tested 'Back to Cart' button. -> Result: Worked as expected.
+
+#### Stripe Payment Functionality ####
+* Tested entering incomplete card details error message. -> Result: Worked as expected.
+* Tested order by hitting Buy Now button using correct details and regular Stripe test card number - 4242 4242 4242 4242. -> Result: Worked as expected.
+* Tested order by hitting Buy Now button using correct details and the extra validation Stripe method. Using test card number - 4242 4242 4242 4242. -> Result: Worked as expected.
+* Tested 'Order Processing overlay and spinner. -> Result: Worked as expected.
+* Tested Order was entered correctly in the database. -> Result: Worked as expected.
+* Tested Email confirmation was sent ok. -> Result: Worked as expected.
+* Tested order events appeared correctly on Stripe Dashboard and that the order was created, charged, and succeeded. -> Result: Worked as expected.
+* Tested webhooks were sent correctly without errors on Stripe Dashboard. -> Result: Worked as expected.
+* Tested that order is recorded correctly in MyProfile page. -> Result: Worked as expected.
+
 
 ## Checkout Success Page ##
  
 #### Links ####
-* Tested Image link. -> Result: Worked as expected.
+* Tested that Order Detail information and user email address was showing up correctly. -> Result: Worked as expected.
+* Tested Continue Shopping button at bottom. -> Result: Worked as expected.
+
+
 
 ## Blog and Blog Post Pages ##
  
-#### Links ####
-* Tested Image link. -> Result: Worked as expected.
+#### Blog Page ####
+* Tested Image link and Read Post button. -> Result: Worked as expected.
 
+#### Post Page ####
+* Tested Back to Blog button. -> Result: Worked as expected.
+* Tested Back to Top button. -> Result: Worked as expected.
+* Tested Product Edit button. -> Result: Worked as expected.
+* Tested Product Delete button. -> Result: Worked as expected.
+
+#### Edit Post Page ####
+* Tested updating form text content and image. -> Result: Worked as expected.
+* Tested Cancel. -> Result: Worked as expected.
 
 
 
 ## Profile Page ##
  
-#### Links ####
-* Tested Image link. -> Result: Worked as expected.
+#### Links and Form ####
+* Tested that form populates with my delivery details correctly. -> Result: Worked as expected.
+* Tested that when I change my delivery details and click the Update button, that new the infromation is saved correctly. -> Result: Worked as expected.
+* Tested that my changed delivery details pre-populate a checkout form with the new details correctly. -> Result: Worked as expected.
+* Tested Previous order history table is displaying with correct information. -> Result: Worked as expected.
+* Tested that when accessing an order/past order confirmation page from My Profile page, the button at the bottom of the order confimation page returns a user to the My Profile page. -> Result: Worked as expected.
 
-## Newsletter Subscribe and unsubscribe pages ##
- 
-#### Links ####
-* Tested Image link. -> Result: Worked as expected.
+
 
 ## Add a Product Page ##
  
-#### Links ####
-* Tested Image link. -> Result: Worked as expected.
+#### Links and Form ####
+* Tested adding new product details to form and adding image. -> Result: Worked as expected.
+* Tested Cancel button. -> Result: Worked as expected.
+* Tested deleting a product after creation. -> Result: Worked as expected.
+
+
 
 ## Create a Blog Post Page ##
  
-#### Links ####
-* Tested Image link. -> Result: Worked as expected.
+#### Links and From ####
+* Tested adding a new post with contaent and image -> Result: Worked as expected.
+* Tested Cancel button. -> Result: Worked as expected.
+* Tested deleting a blog post after creation. -> Result: Worked as expected.
+
+
 
 ## Send a Newsletter Page ##
  
 #### Links ####
-* Tested Image link. -> Result: Worked as expected.
+* Tested sending a new Nesletter email by adding test content to from and hitting send -> Result: Worked as expected.
+* Tested receipt of Newsletter in my inbox -> Result: Worked as expected.
+* Tested Cancel button. -> Result: Worked as expected.
 
+
+
+## Newsletter Subscribe and Unsubscribe pages ##
+ 
+#### Links ####
+* Tested adding a new email address to the mailing list. -> Result: Worked as expected.
+* Tested new subscriber was added to database. -> Result: Worked as expected.
+* Tested unsubscribing the new email address from the mailing list. -> Result: Worked as expected.
+
+
+## Bootstrap TOASTS ##
+ 
+#### Links ####
+* Tested when viewing orders in MyProfile. -> Result: Worked as expected.
 
 
 
@@ -300,6 +367,20 @@ I also tested these while logged in as the SuperUser to ensure all features/func
 
 #### Email Validation Page ####
 * Tested Logo Link. -> Result: Worked as expected.
+
+
+
+
+## Security & User Functionality ##
+
+#### Registered User  ####
+* Tested Cart page 'save delivery info' check box. -> Result: Worked as expected.
+
+#### Non-Registered User  ####
+* Tested Cart page and appearance of Login/Create an Account links and message. -> Result: Worked as expected.
+
+
+
 
 
 
