@@ -319,6 +319,12 @@ body {
     cursor: pointer;
 }
 
+blog-page-card-image {
+    max-width: 200px;
+    margin: auto;
+}
+}
+
 /* -- Bootstrap Toasts-- */
 
 .message-box {

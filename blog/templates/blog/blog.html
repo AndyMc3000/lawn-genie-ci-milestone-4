@@ -13,32 +13,46 @@
     <div class="container-fluid">
         <div class="row mt-0 justify-content-center">
             <div class="all-products-header col-10 text-center pt-4">
-                <h3>Our Blog</h3>
-                <hr>
+                <h3 class="my-4">Our Blog</h3>
+                <p class="p-4">Our Blog is manned by experts in the field, and a number of them are also accredited members of different lawn professional groups, like the National Association of Landscape Professionals and Professional Landscape Network. We provide you with dvice on emerging trends and best practices for your lawn, from new turf design developments and builds, to snow and ice management for the winter days. We've got you covered.</p>
             </div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-12 col-md-8 mt-5">
+            <div class="col-12 col-md-8 mb-3 text-center">
                 {% for post in post_list %}
-                    <div class="card p-5 mb-5 text-center">
-                        <img  class="text-center w-50" src="{{ post.image.url }}" alt="{{ object.title }} Image">
-                        <div class="card-body">
+                    <div class="card px-4 mb-3 text-center">
+                        <div class="row justify-content-center">
+                        <div class="col-3 p-1 text-center">
+                            <img class="img-fluid align-middle img-thumbnail m-auto" src="{{ post.image.url }}" alt="{{ object.title }} Image">
+                        </div>
+                        <div class="col-8 p-1 my-2">
                             <h2 class="card-title">{{ post.title }}</h2>
+                            <p class="order-info my-3">Author: {{ post.author }} | {{ post.created_on }}</p>
                             <a href="{% url 'post_detail' post.slug  %}" class="btn buttons">Read Post &rarr;</a>
                         </div>
+                    </div>
                     </div>
                 {% endfor %}
             </div>
         </div>
-    </div>
-    <div class="row justify-content-center">
-        <div class="buttons btn text-center w-50">
-            <a class="btt-link">
-                <i class="fas fa-arrow-circle-up">Back To Top</i>
-            </a>
+        <div class="row justify-content-center">
+            <div class="text-center py-4">
+                <a href="" class="btt-link btn buttons">
+                    <i class="fas fa-arrow-circle-up fa-lg"></i> Back To Top
+                </a>
+            </div>
         </div>
     </div>
 
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    <script type="text/javascript">
+		$('.btt-link').click(function(e) {
+			window.scrollTo(0,0)
+		})
+	</script>
 {% endblock %}
