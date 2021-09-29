@@ -462,6 +462,15 @@ blog-page-card-image {
     }
 }
 
+.mobile-logo-container {
+    background-color: #008000;
+}
+
+.mobile-logo-top img {
+    max-width: 250px;
+}
+
+
 /* --- At 650px and below ---------------- */
 
 @media (max-width: 650px) {
