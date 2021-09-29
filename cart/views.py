@@ -92,14 +92,14 @@ def remove_from_cart(request, item_id):
             del cart[item_id]['items_by_size'][size]
             if not cart[item_id]['items_by_size']:
                 cart.pop(item_id)
-            messages.success(request, f'You removed size {size.upper()} {product.name} from your cart.')
+                messages.success(request, f'You have removed size {size.upper()} {product.name} from your cart.')
         else:
             cart.pop(item_id)
-            messages.success(request, f'You removed {product.name} from your cart')
+            messages.success(request, f'You have removed {product.name} from your cart')
 
         request.session['cart'] = cart
         return HttpResponse(status=200)
 
     except Exception as e:
-        messages.error(request, f'There was an error removing item: {e}')
+        messages.error(request, f'There was an error removing your item: {e}')
         return HttpResponse(status=500)
