@@ -323,15 +323,14 @@ blog-page-card-image {
     max-width: 200px;
     margin: auto;
 }
-}
 
 /* -- Bootstrap Toasts-- */
 
 .message-box {
-    position: absolute;
-    top: 70px;
-    right: 15px;
-    z-index: 999;
+    position: fixed;
+    top:110px;
+    right: 10px;
+    z-index: 999999999;
 }
 
 .custom-toast {
@@ -339,7 +338,12 @@ blog-page-card-image {
 }
 
 .toast-capper {
-    height: 2px;
+    height: 6px;
+    margin-top: 2px;
+}
+
+.toast-body {
+    background-color: #f8f9fa;
 }
 
 /* -- from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ -- */
@@ -350,8 +354,8 @@ blog-page-card-image {
     border-right: 10px solid transparent; 
     border-bottom: 10px solid black;
     position: absolute;
-    top: -10px;
-    right: 100px;
+    top: -20px;
+    right: 130px;
 }
 
 /* -- Convenience classes - colors copied from Bootstrap -- */
@@ -376,7 +380,7 @@ blog-page-card-image {
 }
 
 .arrow-info {
-    border-bottom-color: #17a2b8 !important;
+    border-bottom-color: #f8f9fa !important;
 }
 
 .arrow-light {
