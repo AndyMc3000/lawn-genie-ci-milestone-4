@@ -1,18 +1,39 @@
-<div class="toast custom-toast rounded-2 fade show" data-bs-autohide="false">
+<div class="toast rounded-4 shadow-lg fade show" data-bs-autohide="false">
     <div class="arrow-up arrow-success"></div>
-    <div class="w-100 toast-capper bg-danger"></div>
-    <div class="toast-header bg-white text-dark">
-        <strong class="mr-auto">Info</strong>
-        <button type="button" class="ml-2 mb-1 close text-dark" data-bs-dismiss="toast" aria-label="Close">
-            <span aria-hidden="true">true</span>
+    <div class="w-100 toast-capper bg-success"></div>
+    <div class="toast-header py-2">
+        <h6 class="me-auto"><strong>INFO!</strong></h6>
+        <button type="button" class="btn btn-sm close buttons" data-bs-dismiss="toast" aria-label="Close">
+            <span aria-hidden="true">Close</span>
         </button>
     </div>
-    <div class="toast-body bg-white">
+    <div class="toast-body">
         <div class="row">
             <div class="col">
-                {{ message }}
-                <hr class="mt-1 mb-3">
+                <p><strong>" {{ message }} "</strong></p
+                <hr class="mt-1 mb-1">
             </div>
         </div>
+        {% if grand_total %}
+            <div class="row">
+                <div class="col py-2">
+                    <p class="">Your have <strong>{{ product_count }}</strong> items in yourt Cart</p>
+                    <p>Cart Total{% if free_delivery_delta > 0 %} (Exc. delivery){% endif %}: 
+                        <span class="float-right">€{{ total|floatformat:2 }}</span>
+                    </p>
+                    {% if free_delivery_delta > 0 %}
+                        <p class="mb-0 p-2 bg-success text-center">
+                            Spend <strong>${{ free_delivery_delta }}</strong> more to get FREE delivery!
+                        </p>
+                    {% endif %}
+                    <a href="{% url 'view_cart' %}" class=" my-2 btn buttons rounded-4">
+                        <span class="my-2">Checkout</span>
+                        <span class="icon">
+                            <i class="fas fa-lock"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        {% endif %}
     </div>
 </div>

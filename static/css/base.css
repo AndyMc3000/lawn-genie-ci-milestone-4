@@ -324,7 +324,7 @@ blog-page-card-image {
     margin: auto;
 }
 
-/* -- Bootstrap Toasts-- */
+/* -- Message Box & Bootstrap Toasts-- */
 
 .message-box {
     position: fixed;
@@ -333,13 +333,18 @@ blog-page-card-image {
     z-index: 999999999;
 }
 
-.custom-toast {
-    overflow: scroll;
+.toast {
+    width: 280px;
 }
 
 .toast-capper {
-    height: 6px;
-    margin-top: 2px;
+    height: 8px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.toast-header h6 {
+    color: #e63946;
 }
 
 .toast-body {
@@ -358,7 +363,7 @@ blog-page-card-image {
     right: 130px;
 }
 
-/* -- Convenience classes - colors copied from Bootstrap -- */
+/* -- Convenience classes - colors copied from Bootstrap for TOAST arrow -- */
 .arrow-primary {
     border-bottom-color: #007bff !important;
 }
@@ -466,14 +471,32 @@ blog-page-card-image {
     }
 }
 
-.mobile-logo-container {
-    background-color: #008000;
+@media (max-width: 991px) {
+    .mobile-logo-container {
+        background-color: #008000;
+    }
 }
 
-.mobile-logo-top img {
-    max-width: 250px;
+@media (max-width: 991px) {
+    .mobile-logo-top img {
+        max-width: 250px;
+    }
 }
 
+@media (max-width: 991px) {
+    .message-box {
+        position: fixed;
+        top: 195px;
+        right: 10px;
+        z-index: 999999999;
+    }
+}
+
+@media (max-width: 991px) {
+    .toast {
+        width: 250px;
+    }
+}
 
 /* --- At 650px and below ---------------- */
 
