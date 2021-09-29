@@ -17,33 +17,37 @@
 <div class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-8 text-center mt-5 mb-3">
-            <h2>My Profile</h2>
-            <p class="p-4">Welcome to your Profile page. Here you can view or edit your delivery information, and view your past orders. </p>
+            <h2>Your Profile</h2>
+            <p class="p-3">Welcome to your Profile page. Here you can view or edit your delivery information, and view your past orders. </p>
         </div>
     </div>
 </div>
 <div class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-12 col-sm-10 col-md-7 text-center">
+        <div class="col-12 col-md-10 text-center">
             <div class="card table-card p-3 mb-5">
                 <div class="card-body">
                     <div class="row justify-content-center">
                         <div class="col-12 text-center">
-                            <p class="text-muted">Default Delivery Information</p>
+                            <h5 class="order-info">Your Delivery Information</h5>
+                            <p class="p-1">Please find your Delivery details bolw. You can update this infromation by editing the form and clicking the Update button</p>
                             <form class="mt-3" action="{% url 'profile' %}" method="POST" id="profile-update-form">
                                 {% csrf_token %}
                                 {{ form|crispy }}
-                                <button class="btn btn-black rounded-0 text-uppercase float-right">Update Information</button>
+                                <div class="pt-3 pb-5">
+                                    <button class="btn buttons py-2">Update</button>
+                                </div>
                             </form>
                         </div>
-                        <div class="col-12 col-lg-6">
-                            <p class="text-muted">Order History</p>
+                        <div class="col-12">
+                            <h5 class="order-info">You Order History</h5>
+                            <p class="p-1">Please see your order history. Click on an Order Number to view all information about an order.</p>
                             <div class="order-history table-responsive">
                                 <table class="table table-sm table-borderless">
                                     <thead>
                                         <tr>
                                             <th>Order Number</th>
-                                            <th>Date</th>
+                                            <th class="d-none d-sm-table-cell">Date</th>
                                             <th>Items</th>
                                             <th>Order Total</th>
                                         </tr>
@@ -57,7 +61,7 @@
                                                         {{ order.order_number|truncatechars:6 }}
                                                     </a>
                                                 </td>
-                                                <td>{{ order.date }}</td>
+                                                <td class="d-none d-sm-table-cell"  >{{ order.date }}</td>
                                                 <td>
                                                     <ul class="list-unstyled">
                                                         {% for item in order.lineitems.all %}
