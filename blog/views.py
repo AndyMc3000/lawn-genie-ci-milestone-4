@@ -12,7 +12,7 @@ from .models import Post
 class PostList(generic.ListView):
     """ A view to return a list of all blog posts """
 
-    queryset = Post.objects.filter(status=1).order_by('-created_on')
+    queryset = Post.objects.order_by('-created_on')
     template_name = 'blog/blog.html'
 
 
