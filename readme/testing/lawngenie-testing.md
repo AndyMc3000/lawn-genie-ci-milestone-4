@@ -25,7 +25,7 @@ All of the LawnGenie website features and functionality can be tested using one 
 
 * Registed Customer Account
   * UN: larrylawn
-  * PW: greenfingers
+  * PW: manicured
   
 <br>
 
@@ -159,6 +159,7 @@ I manually tested the LawnGenie site elements and functionality under the below 
 
 I tested these items while logged in as the store SuperUser to ensure all features/functions were visible. I have also included a section where I tested access to restricted functionality for non-registered and registered users.
 
+
 ## Homepage ##
 
 #### Navbar (Common to all pages) ####
@@ -200,7 +201,6 @@ I tested these items while logged in as the store SuperUser to ensure all featur
 * Tested Newsletter section button link. -> Result: Worked as expected.
 
 
-
 ## Product List/Results Page ##
 
 #### Sorting and Back To Top button (common to all category listing/results pages) ####
@@ -214,7 +214,6 @@ I tested these items while logged in as the store SuperUser to ensure all featur
 * Tested Product Category button. -> Result: Worked as expected.
 * Tested Product Edit button. -> Result: Worked as expected.
 * Tested Product Delete button. -> Result: Worked as expected.
-
 
 
 ## Product Page ##
@@ -235,7 +234,6 @@ I tested these items while logged in as the store SuperUser to ensure all featur
 * Tested Size selector for same product of different size and Add To Cart to check additional line item with new size in cart. -> Result: Worked as expected.
 
 
-
 ## Cart Page ##
  
 #### Links ####
@@ -248,8 +246,6 @@ I tested these items while logged in as the store SuperUser to ensure all featur
 * Tested update of Total Price figure on using update button. -> Result: Worked as expected.
 * Tested appearance of Free Delivery message when Cart Total figure is reduced to below €100  -> Result: Worked as expected.
 * Tested Checkout button. -> Result: Worked as expected.
-
-
 
 
 ## Checkout & Stripe Payment Page ##
@@ -279,7 +275,6 @@ I tested these items while logged in as the store SuperUser to ensure all featur
 * Tested Continue Shopping button at bottom. -> Result: Worked as expected.
 
 
-
 ## Blog and Blog Post Pages ##
  
 #### Blog Page ####
@@ -296,7 +291,6 @@ I tested these items while logged in as the store SuperUser to ensure all featur
 * Tested Cancel. -> Result: Worked as expected.
 
 
-
 ## Profile Page ##
  
 #### Links and Form ####
@@ -307,14 +301,12 @@ I tested these items while logged in as the store SuperUser to ensure all featur
 * Tested that when accessing an order/past order confirmation page from My Profile page, the button at the bottom of the order confimation page returns a user to the My Profile page. -> Result: Worked as expected.
 
 
-
 ## Add a Product Page ##
  
 #### Links and Form ####
 * Tested adding new product details to form and adding image. -> Result: Worked as expected.
 * Tested Cancel button. -> Result: Worked as expected.
 * Tested deleting a product after creation. -> Result: Worked as expected.
-
 
 
 ## Create a Blog Post Page ##
@@ -325,14 +317,12 @@ I tested these items while logged in as the store SuperUser to ensure all featur
 * Tested deleting a blog post after creation. -> Result: Worked as expected.
 
 
-
 ## Send a Newsletter Page ##
  
 #### Links ####
 * Tested sending a new Nesletter email by adding test content to from and hitting send -> Result: Worked as expected.
 * Tested receipt of Newsletter in my inbox -> Result: Worked as expected.
 * Tested Cancel button. -> Result: Worked as expected.
-
 
 
 ## Newsletter Subscribe and Unsubscribe pages ##
@@ -345,27 +335,75 @@ I tested these items while logged in as the store SuperUser to ensure all featur
 
 ## Django Template pages ##
 
-#### Registration Page  ####
-* Tested Logo Link. -> Result: Worked as expected.
+#### Login Page  ####
+* Tested Login functionality. -> Result: Worked as expected.
+* Tested Sign-uo here button. -> Result: Worked as expected.
+* Tested Home button. -> Result: Worked as expected.
+* Tested Forgot Password button. -> Result: Worked as expected.
 
-#### Login Page ####
-* Tested Logo Link. -> Result: Worked as expected.
+#### Logout Page  ####
+* Tested Logout functionality. -> Result: Worked as expected.
 
-#### Log Out Page ####
-* Tested Logo Link. -> Result: Worked as expected.
+#### Rigistration Pages ####
+* Tested email verification sent page -> Result: Worked as expected.
+* Tested sending of verification email. -> Result: Worked as expected.
+* Tested confirm email page. -> Result: Worked as expected.
 
-#### Email Confirmation Page ####
-* Tested Logo Link. -> Result: Worked as expected.
+#### Password Reset Pages ####
+* Tested Password Change page -> Result: Worked as expected.
+* Tested Password Reset page -> Result: Worked as expected.
+* Tested sending of Password Reset link email. -> Result: Worked as expected.
+* Tested Password Set page -> Result: Worked as expected.
+* Tested Password Reset From Key page. -> Result: Worked as expected.
+* Tested Password Reset From Key Done page. -> Result: Worked as expected.
 
-#### Email Validation Page ####
-* Tested Logo Link. -> Result: Worked as expected.
 
-# TO DO #
-
-## Bootstrap TOASTS ##
+## Bootstrap TOASTS/Message Box ##
  
-#### TOASTS ####
-* Tested when viewing orders in MyProfile. -> Result: Worked as expected.
+#### Homepage / Products Page TOASTS ####
+* Tested Success: 'Successfully added product!' -> Result: Worked as expected.
+* Tested Success: 'Successfully updated product!' -> Result: Worked as expected.
+* Tested Success: 'You have successfully sent a Newsletter to our subscribers!' -> Result: Worked as expected.
+* Tested Success: 'You are editing {product.name}' -> Result: Worked as expected.
+* Tested Info: 'You are editing {product.name}' -> Result: Worked as expected.
+* Tested Error: 'Please enter a search request' -> Result: Worked as expected.
+* Tested Error: 'Sorry, only store owners can do that.' -> Result: Worked as expected.
+* Tested Error: 'Failed to add product. Please ensure the form is valid.' -> Result: Worked as expected.
+* Tested Error: 'Failed to update product. Please ensure the form is valid.' -> Result: Worked as expected.
+
+#### Shopping Cart TOASTS ####
+* Tested Success: 'You updated size {size.upper()} {product.name} quantity to {cart[item_id]["items_by_size"][size]}' -> Result: Worked as expected.
+* Tested Success: 'You added size {size.upper()} {product.name} to your shopping cart' -> Result: Worked as expected.
+* Tested Success: 'You updated {product.name} quantity to {cart[item_id]}' -> Result: Worked as expected. -> Result: Worked as expected.
+* Tested Success: 'You removed size {size.upper()} {product.name} from your cart' -> Result: Worked as expected. -> Result: Worked as expected.
+* Tested Success: 'You removed {product.name} from your cart') -> Result: Worked as expected. -> Result: Worked as expected.
+* Tested Success: 'You updated {product.name} quantity to {cart[item_id]}' -> Result: Worked as expected. -> Result: Worked as expected.
+* Tested Success: 'You updated {product.name} quantity to {cart[item_id]}' -> Result: Worked as expected. -> Result: Worked as expected.
+* Tested Success: 'You updated {product.name} quantity to {cart[item_id]}' -> Result: Worked as expected. -> Result: Worked as expected.
+* Tested Error: 'There was an error removing your item: {e}' -> Result: Worked as expected.
+
+#### Checkout / Stripe TOASTS ####
+* Tested Success: 'Order successfully processed! \' -> Result: Worked as expected.
+* Tested Error: 'There was an error with your form. \' -> Result: Worked as expected.
+
+#### Profile Page TOASTS ####
+* Tested Success: 'Profile updated successfully' -> Result: Worked as expected.
+
+#### Blog TOASTS ####
+* Tested Success: 'Post successfully added!' -> Result: Worked as expected.
+* Tested Success: 'Successfully updated post!' -> Result: Worked as expected.
+* Tested Success: 'Post deleted!' -> Result: Worked as expected.
+* Tested Info: 'You are editing {post.title}' -> Result: Worked as expected.
+* Tested Error: 'Sorry, only store owners can do that.' -> Result: Worked as expected.
+* Tested Error: 'Failed to add post. Please ensure the form is valid.' -> Result: Worked as expected.
+* Tested Error: 'Failed to update post. Please ensure the form is valid.' -> Result: Worked as expected.
+* 
+#### Newsletter Pages TOASTS ####
+* Tested Success: 'You have successfully subscribed to our Newsletter!' -> Result: Worked as expected.
+* Tested Success: 'You have successfully unsubscribed from our Newsletter!' -> Result: Worked as expected.
+* Tested Success: 'You have successfully sent a Newsletter to our subscribers!' -> Result: Worked as expected.
+* Tested Error: 'We could not find your email address. Please check your spellling and try again' -> Result: Worked as expected.
+* Tested Error: 'Sorry, only store owners can do that.' -> Result: Worked as expected.
 
 
 ## Security & User Functionality ##
@@ -377,7 +415,6 @@ I tested these items while logged in as the store SuperUser to ensure all featur
 * Tested hacking URL to access /products/edit/id page. -> Result: Worked as expected, access denied.
 * Tested hacking URL to access /blog/add_post/ page. -> Result: Worked as expected, access denied.
 * Tested hacking URL to access /blog/edit_post/id page. -> Result: Worked as expected, access denied.
-
 
 #### Non-Registered User  ####
 * Tested Cart page and appearance of Login/Create an Account links and message. -> Result: Worked as expected.
