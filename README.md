@@ -253,10 +253,14 @@ Having completed the previous 4 stages in the UX design process, I moved on to m
 The LawnGenie site employs the following features/functionality;
 
 * Bootstrap Navigation Bar on all pages.
-* Bootstrap 'Hero' image with marketing messaging on index.html.
 * Bootstrap Cards on all pages to contain content sections.
+* An interface to allow store admins to add, edit, and delete products.
 * Bootstrap Responsive Grid system.
+* A Profile page for registered users to view/edit their delivery information and to view their order history.
+* A Blog page, including an interface to allow store admins to create Blog posts.
 * Django Crispy Forms for forms and form validation.
+* Django ClearableFileInput from Django Forms for forms where image upload is required.
+* A Newsletter subscription/unsubscribe app, including an interface to allow store admins to create Newsletters.
 * Djano Send Mail library for sending emails for order confirmation, registration validation and Newsletters.
 * Python CRUD operations with a Heroku PostgreSQL database.
 * Page Footer on all pages.
@@ -266,7 +270,10 @@ Unfortunately I ran out of time to implement all of the site features which I ha
 
 1. Django Social Media Sign-up. Required to allow users to register for an Account using their preferred Social Media account.
 2. Newsletter subscriber list Admin page. Required to allow an admin to edit or delete email addresses from the Newsletter subscriber list.
-3. About Us/Contact Us page. This page should also have a Google map with a branded marker on it showing the location of the business office." 
+3. About Us/Contact Us page. This page should also have a Google map with a branded marker on it showing the location of the business office.
+4. A WYSIWYG text editor for Blog Posts and Newsletters. This would allow store admin to add text formatting to blog posts, which would make them easier to read.
+5. Draft Blog Posts. I would like to add the concept of a draft for blog posts and Newsletters. This would allow and Admin to add content to a post or Newsletter and then save it without publishing.
+6. A Discount Code system. Enable a user to anter a discount code in order to receive a discount.
 
 #### [Back To Top ^ ](#top-of-page) ####
 
@@ -311,15 +318,16 @@ I used the following technologies, services, and devices to develop, style, depl
 #### <br> ####
 <hr>
 
-Testing of the LawnGenis store was completed using the below headings. A detailed testing document can be seen <a href="readme/readme-assets/testing.md"><strong>Here</strong></a>
+Testing of the LawnGenis store was completed using the below headings. A detailed testing document can be seen <a href="readme/testing/lawngenie-testing.md"><strong>Here</strong></a>
 
 #### Testing Headings ####
-1. Manual Testing
+1. Test User Accounts
 2. User & Client stories Testing
 3. Code Validation
-4. Device Testing
+4. Manual Testing
 5. Browser Testing
 6. Bugs Discovered
+
 
 #### [Back To Top ^ ](#top-of-page) ####
 
@@ -330,10 +338,100 @@ Testing of the LawnGenis store was completed using the below headings. A detaile
 #### <br> ####
 <hr>
 
-## TO DO ##
+The deployment of the LanGenie site was dependent on the setup of, and integration between, a number of platforms, frameworks, tools, and a database. The below describes the steps I took in order to complete this project. These steps are split between two distinct areas, those being; Local Deployment and Remote Deployment.
 
-The deployment of the CPC site was dependent on the setup of, and integration between, a number of platforms/frameworks/tools and a NoSQL MongoDB database.
-  
+### Local Deployment ###
+
+#### 1. Project Planning ####
+
+The first step I undertook was to create a project plan, and to organise my approach to the project. This can be described best using the following headings;
+
+* UX Design Planning
+  * This site wa
+
+* Sitemap & Wireframes
+  * This site wa
+* Database Schema 
+* Development Plan
+ 
+#### 2. Initial Setup ####
+
+The first task I completed was the setup of a local developemnt environment, and the installation of essentials tools. This can be described best using the following headings;
+
+* Setup IDE
+  * This site was deployed by firstly setting up a GitHub repository to store the website files. GitHub is a free online code hosting platform for websites or web applications, which enables version control and collaboration during the development of a project. A repository on GitHub containes all of a project's files and each file's revision history.
+
+#### 3. Adding Django Apps ####
+
+The first step I undertook was to create a project plan, and to organise my approach to the project. This can be described best using the following headings;
+
+* Django AllAuth
+* Base Temaplte
+* Home App
+* Products App (incl filtering & search, sorting, category linking, product count
+* Shopping Cart App (incl adding products, modifying qty's, 
+* Bootstrap TOASTS
+* Checkout App
+* Profile App - After Stripe setup(incl emails
+* Product Admin App (incl Add, Edit, Delete, security, widget)
+* Blog App
+* Newsletter App
+  * This site wa
+
+#### 4. Integrating Stripe ####
+
+The first step I undertook was to create a project plan, and to organise my approach to the project. This can be described best using the following headings;
+
+* UX Design Planning
+  * This site wa
+Remote Deployment
+
+
+
+### Remote Deployment ###
+
+#### 1. Creating a Heroku App ####
+
+The first step I undertook was to create a project plan, and to organise my approach to the project. This can be described best using the following headings;
+
+* Heroku (incl PostgreSQL
+* 
+  * This site wa
+
+#### 1. Creating a Heroku App ####
+
+The first step I undertook was to create a project plan, and to organise my approach to the project. This can be described best using the following headings;
+
+* Heroku (incl PostgreSQL
+* 
+  * This site wa
+
+#### 1. Deployng to Heroku ####
+
+The first step I undertook was to create a project plan, and to organise my approach to the project. This can be described best using the following headings;
+
+* Heroku (incl PostgreSQL
+* 
+  * This site wa
+
+#### 1. AWS S3 Cloud Storage ####
+
+The first step I undertook was to create a project plan, and to organise my approach to the project. This can be described best using the following headings;
+
+* Heroku (incl PostgreSQL
+* 
+  * This site wa
+
+#### 1. Email & Refactoring ####
+
+The first step I undertook was to create a project plan, and to organise my approach to the project. This can be described best using the following headings;
+
+* Heroku (incl PostgreSQL
+* 
+  * This site wa
+
+
+
 This site was deployed by firstly setting up a GitHub repository to store the website files. GitHub is a free online code hosting platform for websites or web applications, which enables version control and collaboration during the development of a project. A repository on GitHub containes all of a project's files and each file's revision history. You can learn more about GitHub and repositories here: [Click here to go to GitHub](https://docs.github.com/en/free-pro-team@latest/github)
 
 I then used the online GitPod Integrated Development Environment (or GitPod IDE) to write the code for the website. Once I was happy with a section of new code I commited or saved that to a staging area. Then, on a regular basis, I commited changes to the working version of the website on GitPod. These commits included a short description of what the changes do. I would then 'push' those changes from the GitPod IDE to my GitHub repository where the master set of files was updated. You can learn more about GitPod here: [Click here to go to GitPod](https://docs.github.com/en/free-pro-team@latest/github)
