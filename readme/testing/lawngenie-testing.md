@@ -218,7 +218,7 @@ I tested these items while logged in as the store SuperUser to ensure all featur
 
 ## Product Page ##
  
-#### Links ####
+#### Product Page Links ####
 * Tested Image link. -> Result: Worked as expected.
 * Tested Category link. -> Result: Worked as expected.
 * Tested Category link. -> Result: Worked as expected.
@@ -234,9 +234,9 @@ I tested these items while logged in as the store SuperUser to ensure all featur
 * Tested Size selector for same product of different size and Add To Cart to check additional line item with new size in cart. -> Result: Worked as expected.
 
 
-## Cart Page ##
+## Shopping Cart Page ##
  
-#### Links ####
+#### Cart Links ####
 * Tested Quantity increment and decrement buttons. -> Result: Worked as expected.
 * Tested Quantity Update button. -> Result: Worked as expected.
 * Tested Quantity Delete button. -> Result: Worked as expected.
@@ -270,7 +270,7 @@ I tested these items while logged in as the store SuperUser to ensure all featur
 
 ## Checkout Success Page ##
  
-#### Links ####
+#### Checkout Success Links ####
 * Tested that Order Detail information and user email address was showing up correctly. -> Result: Worked as expected.
 * Tested Continue Shopping button at bottom. -> Result: Worked as expected.
 
@@ -319,7 +319,7 @@ I tested these items while logged in as the store SuperUser to ensure all featur
 
 ## Send a Newsletter Page ##
  
-#### Links ####
+#### Newsletter Links ####
 * Tested sending a new Nesletter email by adding test content to from and hitting send -> Result: Worked as expected.
 * Tested receipt of Newsletter in my inbox -> Result: Worked as expected.
 * Tested Cancel button. -> Result: Worked as expected.
@@ -327,7 +327,7 @@ I tested these items while logged in as the store SuperUser to ensure all featur
 
 ## Newsletter Subscribe and Unsubscribe pages ##
  
-#### Links ####
+#### Subscribe/Unsubscribe Links ####
 * Tested adding a new email address to the mailing list. -> Result: Worked as expected.
 * Tested new subscriber was added to database. -> Result: Worked as expected.
 * Tested unsubscribing the new email address from the mailing list. -> Result: Worked as expected.
@@ -453,7 +453,10 @@ While developing and testing the site I discovered the below bugs/issues. If I f
 
 #### Bugs Discovered / Remedies ####
 
-1. Floating Footer - When I initally created my base.html and index.html templates and added a navbar and footer, the footbar did not behave itself. It was 'floating' up from the bottom of the page and hugging the bottom of the last container on the page. I did some research and found that I could fix it by applying some CSS to it. I added the 'Margin-Top: auto' property and value and it fixed the issue.
+1. Category Friendly Names - I found that the 'friendly name' of a Category was not appearing in the Category listing in the Django admin console. This occurred even though I had defined the friendly_name in products/models.py and listed it as a required field in products/admin.py. I did try to troubleshoot it at the time but could not fix it. If I have time at the end of the project I will give more time to finding a fix for it.
+2. Collapsed Navbar - When I set up my navbar initially I found that the collapsed nav bar remained expanded. And when I would click the toggler, it would remain open. I found after some time working on it that as the navr was sitting inside a div with a Boostrap class of container-fluid, the toggler would not work. I easily fixed this by removing the container-fluid div and moving it one level up.
+3. Add new Product or new Blog Post - I am using crispy forms and the ClearableFileInput package, which comes with the Django forms library, to add new posts or create new products. However if I tried to add a post/product without an image, the item would be creatd in the database but it would also cause a 500 error. I had to clear my browser cookies in order to get the site running again. I resolved the issue by making an image a required field for a new post/product in the ClearableFileInput variable in products/forms.py and blog/forms.py. 
+4. Delete a Product with sizes from Cart - I found an issue where if a product had sizes, It could not be removed from the shopping cart. The was down to an error in my code where instead of calling 'cart.pop' to remove the item, my code was calling 'cart.cart'.
 
 
 #### [Back To Top ^ ](#top-of-page) ####
