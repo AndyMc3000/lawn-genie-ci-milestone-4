@@ -1,77 +1,74 @@
 from django.shortcuts import render, redirect, reverse
 from django.contrib import messages
-from . models import NewsletterSubscribers
+from .models import NewsletterSubscribers
 from django.core.mail import send_mail
 from django_pandas.io import read_frame
 from django.contrib.auth.decorators import login_required
 
-from . forms import SubscriberForm, NewsletterForm
+from .forms import SubscriberForm, NewsletterForm
 
 # Create your views here.
 
 
 def newsletter(request):
-    if request.method == 'POST':
+    if request.method == "POST":
         form = SubscriberForm(request.POST)
         if form.is_valid():
             form.save()
-            messages.success(request, 'You have successfully subscribed to our Newsletter!')
-            return redirect('home')
+            messages.success(
+                request, "You have successfully subscribed to our Newsletter!"
+            )
+            return redirect("home")
     else:
         form = SubscriberForm
-    context = {
-        'form': form
-    }
-    return render(request, 'newsletter/subscribe.html', context)
+    context = {"form": form}
+    return render(request, "newsletter/subscribe.html", context)
 
 
 def unsubscribe(request):
-    if request.method == 'POST':
+    if request.method == "POST":
         form = SubscriberForm(request.POST)
         if form.is_valid():
             instance = form.save(commit=False)
             if NewsletterSubscribers.objects.filter(email=instance.email).exists():
                 NewsletterSubscribers.objects.filter(email=instance.email).delete()
-                messages.success(request, 'You have successfully unsubscribed from our Newsletter!')
+                messages.success(
+                    request, "You have successfully unsubscribed from our Newsletter!"
+                )
             else:
-                messages.error(request, 'We could not find your email address. Please check your spellling and try again')
-            return redirect('unsubscribe')
+                messages.error(
+                    request,
+                    "We could not find your email address. Please check your spellling and try again",
+                )
+            return redirect("unsubscribe")
     else:
         form = SubscriberForm
-    context = {
-        'form': form
-    }
-    return render(request, 'newsletter/unsubscribe.html', context)
+    context = {"form": form}
+    return render(request, "newsletter/unsubscribe.html", context)
 
 
 @login_required
 def send_newsletter(request):
-    """ Send a Newsletter to the Newsletter subscriber email list """
+    """Send a Newsletter to the Newsletter subscriber email list"""
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only store owners can do that.')
-        return redirect(reverse('home'))
-    
+        messages.error(request, "Sorry, only store owners can do that.")
+        return redirect(reverse("home"))
+
     emails = NewsletterSubscribers.objects.all()
-    data_frame = read_frame(emails, fieldnames=['email'])
-    email_list = data_frame['email'].values.tolist()
-    if request.method == 'POST':
+    data_frame = read_frame(emails, fieldnames=["email"])
+    email_list = data_frame["email"].values.tolist()
+    if request.method == "POST":
         form = NewsletterForm(request.POST)
         if form.is_valid():
             form.save()
-            title = form.cleaned_data.get('EmailTitle')
-            message = form.cleaned_data.get('EmailBody')
-            send_mail(
-                title,
-                message,
-                '',
-                email_list,
-                fail_silently=False
+            title = form.cleaned_data.get("EmailTitle")
+            message = form.cleaned_data.get("EmailBody")
+            send_mail(title, message, "", email_list, fail_silently=False)
+            messages.success(
+                request, "You have successfully sent a Newsletter to our subscribers!"
             )
-            messages.success(request, 'You have successfully sent a Newsletter to our subscribers!')
-            return redirect('home')
+            return redirect("home")
     else:
         form = NewsletterForm
-    context = {
-        'form': form
-    }
-    return render(request, 'newsletter/send_newsletter.html', context)
+    context = {"form": form}
+    return render(request, "newsletter/send_newsletter.html", context)

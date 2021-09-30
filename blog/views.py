@@ -10,40 +10,42 @@ from .models import Post
 
 
 class PostList(generic.ListView):
-    """ A view to return a list of all blog posts """
+    """A view to return a list of all blog posts"""
 
-    queryset = Post.objects.order_by('-created_on')
-    template_name = 'blog/blog.html'
+    queryset = Post.objects.order_by("-created_on")
+    template_name = "blog/blog.html"
 
 
 class PostDetail(generic.DetailView):
-    """ A view to return the full detail of an individual blog post """
+    """A view to return the full detail of an individual blog post"""
 
     model = Post
-    template_name = 'blog/post_detail.html'
+    template_name = "blog/post_detail.html"
 
 
 @login_required
 def add_post(request):
-    """ Add a post to the Blog """
+    """Add a post to the Blog"""
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only store owners can do that.')
-        return redirect(reverse('blog'))
+        messages.error(request, "Sorry, only store owners can do that.")
+        return redirect(reverse("blog"))
 
-    if request.method == 'POST':
+    if request.method == "POST":
         form = PostForm(request.POST, request.FILES)
         if form.is_valid():
             post = form.save()
-            messages.success(request, 'Post successfully added!')
-            return redirect(reverse('post_detail', args=[post.slug]))
+            messages.success(request, "Post successfully added!")
+            return redirect(reverse("post_detail", args=[post.slug]))
         else:
-            messages.error(request, 'Failed to add post. Please ensure the form is valid.')
+            messages.error(
+                request, "Failed to add post. Please ensure the form is valid."
+            )
     else:
         form = PostForm()
-        
-    template = 'blog/add_post.html'
+
+    template = "blog/add_post.html"
     context = {
-        'form': form,
+        "form": form,
     }
 
     return render(request, template, context)
@@ -51,28 +53,30 @@ def add_post(request):
 
 @login_required
 def edit_post(request, post_id):
-    """ Edit a post in the Blog """
+    """Edit a post in the Blog"""
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only store owners can do that.')
-        return redirect(reverse('blog'))
+        messages.error(request, "Sorry, only store owners can do that.")
+        return redirect(reverse("blog"))
 
     post = get_object_or_404(Post, pk=post_id)
-    if request.method == 'POST':
+    if request.method == "POST":
         form = PostForm(request.POST, request.FILES, instance=post)
         if form.is_valid():
             form.save()
-            messages.success(request, 'Successfully updated post!')
-            return redirect(reverse('post_detail', args=[post.slug]))
+            messages.success(request, "Successfully updated post!")
+            return redirect(reverse("post_detail", args=[post.slug]))
         else:
-            messages.error(request, 'Failed to update post. Please ensure the form is valid.')
+            messages.error(
+                request, "Failed to update post. Please ensure the form is valid."
+            )
     else:
         form = PostForm(instance=post)
-        messages.info(request, f'You are editing {post.title}')
+        messages.info(request, f"You are editing {post.title}")
 
-    template = 'blog/edit_post.html'
+    template = "blog/edit_post.html"
     context = {
-        'form': form,
-        'post': post,
+        "form": form,
+        "post": post,
     }
 
     return render(request, template, context)
@@ -80,12 +84,12 @@ def edit_post(request, post_id):
 
 @login_required
 def delete_post(request, post_id):
-    """ Delete a product from the store """
+    """Delete a product from the store"""
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only store owners can do that.')
-        return redirect(reverse('blog'))
-        
+        messages.error(request, "Sorry, only store owners can do that.")
+        return redirect(reverse("blog"))
+
     post = get_object_or_404(Post, pk=post_id)
     post.delete()
-    messages.success(request, 'Post deleted!')
-    return redirect(reverse('blog'))
+    messages.success(request, "Post deleted!")
+    return redirect(reverse("blog"))

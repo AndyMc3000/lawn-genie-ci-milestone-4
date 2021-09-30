@@ -4,9 +4,10 @@ from .models import Post
 
 
 class PostForm(forms.ModelForm):
-
     class Meta:
         model = Post
-        fields = '__all__'
+        fields = "__all__"
 
-    image = forms.ImageField(label='Image', required=True, widget=CustomClearableFileInput)
+    image = forms.ImageField(
+        label="Image", required=True, widget=CustomClearableFileInput
+    )
