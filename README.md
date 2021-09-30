@@ -198,7 +198,7 @@ Information Architechture is defined as; "The structural design of the informati
 
 With this in mind, please ind details below about the CPC sitemap, navigation, and security considerations.
 
-* ##### Sitemap #####
+* ##### <a name="sitemap-file">Sitemap</a> #####
   * The structure of the website is outlined in the Sitemap. Click here to view the <a href="readme/readme-assets/sitemap/lawn-genie-sitemap.png"><strong>Sitemap.</strong></a>
 
 * ##### Navigation & Security #####
@@ -208,7 +208,8 @@ With this in mind, please ind details below about the CPC sitemap, navigation, a
   * No access credentials, keys, or environment variables should be visible anywhere on the site or in the sites repository.
   * Errors should be handled gracefully through exception handling functions, where an user is shown a site page when an error occurs as opposed to a generic browser-rendered error message. The error page should briefly explain the error and offer the user redirection back to the homepage. 
 
-#### Data & Database Schema ####
+#### <a name="database-schema">Data & Database Schema</a> #### 
+
 The LawnGenie website should be designed to allow a user to Create, Read, Update, and Delete data intuitively and quickly. LawnGenie will use a Heroku PostgreSQL database to store all data. The Database will contain data based on model classes which are unique to LawnGenie, as well as builtin Django model classes 
   
 * The Database Table names and key:value in those Tables can be seen in the <a href="readme/readme-assets/database-schema/lawngenie-database-schema.md"><strong>Database Schema</strong></a>
@@ -219,7 +220,8 @@ Following on from the tasks decided upon in the Structure Plane, the Skeleton Pl
 
 With this in mind I created the below wireframes, to detail the layout of the website pages and individual sections/containers etc. Please click on the the links below to view these wireframes. 
 
-##### Wireframes #####
+#### <a name="wireframe-files">Wireframes</a> #### 
+
   * <a href="readme-assets/wireframes/lawn-genie-large-screen-ver1.png"><strong>Large Screen Devices</strong></a>
   * <a href="readme-assets/cpc-homepage-and-related-pages-wireframes-mobile.png"><strong>Small screen/Mobile Devices</strong></a>
 
@@ -342,42 +344,73 @@ The deployment of the LanGenie site was dependent on the setup of, and integrati
 
 ### Local Deployment ###
 
+
 #### 1. Project Planning ####
 
 The first step I undertook was to create a project plan, and to organise my approach to the project. This can be described best using the following headings;
 
 * UX Design Planning
-  * This site wa
-
+  * This involved working through the principles of Jesse James Garrett's '5 Planes of UX Design'. This allowed me to create a series of goals and objectives for the site. The detail around this process can be seen above [Here](#user-experience-design).
 * Sitemap & Wireframes
-  * This site wa
-* Database Schema 
+  * As part of the UX Design processm I created an intial Sitemap [Here](#sitemap-file) and Mockups/Wireframes [Here](#wireframe-files) to understand how the site would be structured and what it might look like. This changed over the course of the project, but it was essential to have a specific goal in mind at the start of the project.
+* Database Schema
+  * Also as part of the UX Design process, I drew up an intial database schema [Here](#database-schema) to understand what kind of data would need to be stored. This changed over time, but again it was esssential to understand the data requirements before starting development of the site.
 * Development Plan
+  * Having studied the Boutique Ado mini-project as part of my CI coursework, I drew up a rough development plan based on what I had learned in that mini-project. The below steps/activities more or less align to that intial plan.
  
 #### 2. Initial Setup ####
 
-The first task I completed was the setup of a local developemnt environment, and the installation of essentials tools. This can be described best using the following headings;
+The first technical task I completed was the setup of a local developemnt environment, and the installation of essentials tools. This can be described best using the following headings;
 
-* Setup IDE
+* GitHub Repository
   * This site was deployed by firstly setting up a GitHub repository to store the website files. GitHub is a free online code hosting platform for websites or web applications, which enables version control and collaboration during the development of a project. A repository on GitHub containes all of a project's files and each file's revision history.
-
+* GitPod Workspace
+  * I chose to use GitPod as my development environment. Gitpod is an online container-based development platform. Having setup a new repository on GitHub, and added the Code Institite template of files, I then opened a new workspace on GitPod linked to my repository. 
+* New Django Project
+  * I then installed Django on my workspace. Django is a Python-based free and open-source web framework which offers a range of python-based development tools and libraries.
+* LawnGenie
+  * Once Django was installed I created a new Django project called 'lawngenie' within it. This process creates and adds a series of files and folders to my workspace, which I would use to create the planned LawnGenie e-commerce store.
+  
 #### 3. Adding Django Apps ####
 
-The first step I undertook was to create a project plan, and to organise my approach to the project. This can be described best using the following headings;
+Django uses the 'models, templates, views' architectural pattern, used to tackle common tasks/problems in software development. It is designed to make the creation of complex websites easier. And it provides and out-of-the box adminstration console for CRUD (create, read, update, and delete) activities. Django also has a library of different 'packages', used for setting up common website functionality and features. These packages can be easily installed in a project as required.
+
+The features and functionality of a Django website are developed by creating a series of 'apps' which come together to create a whole. Each app offers the creation database 'models' in a models.py Python file for defining how data should be organised and used for that particular app. 'Views' can also be created in each app, which offer the ability to create a set of functions and classes. The views take a request for something and give back a response. And 'Templates' represent the front-end of the app. Templates are HTML files which interact with the models and views to allow for website interactivity by a user. Django also uses its own 'templating language' so that views can be easily called from within HTML code. 
+
+The LawnGenie website was developed by setting up each of the below apps with Django, along with other files such as a base.html file, Bootstrap Toasts, and an integration with the Stripe billing platform. These apps and files were setup and created in the below order.
 
 * Django AllAuth
-* Base Temaplte
+  * This Django package offers a set of website user authentication, user registration, and account management systems.
+
+* Base Template
+  * The base.html Base Template is not a Django app, but an HTML file which Django looks for when it wants to display and app template. The base template contains blocks of HTML code which are common to all pages on a website. The app templates then contain any unique/differring html code which relate to the specific app. In LawnGenie, I created a base.html file to hold the sites scripts and links for CSS, JavaScript (which would notmally be contained within the <head> of individual pages), and meta data. It also contains the HTML for the main navigation bar and site footer. As these are in the base.html file it means they could be easily injected into every other page/template across the site.
+
 * Home App
-* Products App (incl filtering & search, sorting, category linking, product count
+  * This app represnts the sites homepage. Its template contains the HTML for the content on the homepage. 
+
+* Products App 
+  * This app contains database models relating to products and product categories. It also contains views relating to the searching by users of products, the filtering and sorting of products, catgeory linking, and product counts. All these views are then presented by the products app templates via a products listing template, and a product detail template. This app also offers a template where a store Admin can add new products to the store from the front-end. The views allow for the addition, editing, and deletion of products and their content. The Product Admin templates are secured so that only a store admin can access them.
+ 
 * Shopping Cart App (incl adding products, modifying qty's, 
-* Bootstrap TOASTS
+  * The apps contains views which enable the adding of products to a shopping cart template. The views here also allow users to edit product quantities.
+ 
+* Bootstrap TOASTS / Messages
+  * Messaging is an important part of the LawnGenie store. Views within the various apps can send messages to users to qualify what actions they have taken. Messages are positioned to appear across all templates. LawnGenie uses a Bootsrap lirary of classes to style and present the message content within a message container. Message are defined as being one of the following; Success, Warning, Info, or Error. Each toast is styled to correspond to the type of message required. 
+ 
 * Checkout App
+ * This app's views manages the creation of orders, and the calculation of pricing, subtotals, delivery costs, and total cost of items in a shopping cart. Its template presents this information and a purchase form to users when they want to buy the items they have chosen. The template also presents an external Stripe billing form which connects with Stripe when a user enters their credit card details and clicks 'buy'.
+ 
 * Profile App - After Stripe setup(incl emails
-* Product Admin App (incl Add, Edit, Delete, security, widget)
+ * This app was creatd after the integration of the Stripe billing service. It's views manage sites users in terms of their personal details, and presenting a users previous order history.
+ 
 * Blog App
+  * This app contains the data models required for a Blog. Its views allow a user to read blog posts. Like the Products app, it's views and templates
+ enable a store Admin to create, edit, and delte Blog Posts from the stores front-end.
+ 
 * Newsletter App
   * This site wa
 
+ 
 #### 4. Integrating Stripe ####
 
 The first step I undertook was to create a project plan, and to organise my approach to the project. This can be described best using the following headings;
@@ -390,13 +423,6 @@ Remote Deployment
 
 ### Remote Deployment ###
 
-#### 1. Creating a Heroku App ####
-
-The first step I undertook was to create a project plan, and to organise my approach to the project. This can be described best using the following headings;
-
-* Heroku (incl PostgreSQL
-* 
-  * This site wa
 
 #### 1. Creating a Heroku App ####
 
@@ -406,7 +432,7 @@ The first step I undertook was to create a project plan, and to organise my appr
 * 
   * This site wa
 
-#### 1. Deployng to Heroku ####
+#### 2. Deployng to Heroku ####
 
 The first step I undertook was to create a project plan, and to organise my approach to the project. This can be described best using the following headings;
 
@@ -414,7 +440,7 @@ The first step I undertook was to create a project plan, and to organise my appr
 * 
   * This site wa
 
-#### 1. AWS S3 Cloud Storage ####
+#### 3. AWS S3 Cloud Storage ####
 
 The first step I undertook was to create a project plan, and to organise my approach to the project. This can be described best using the following headings;
 
@@ -422,7 +448,7 @@ The first step I undertook was to create a project plan, and to organise my appr
 * 
   * This site wa
 
-#### 1. Email & Refactoring ####
+#### 4. Email & Refactoring ####
 
 The first step I undertook was to create a project plan, and to organise my approach to the project. This can be described best using the following headings;
 
