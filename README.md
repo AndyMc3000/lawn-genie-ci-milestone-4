@@ -222,8 +222,8 @@ With this in mind I created the below wireframes, to detail the layout of the we
 
 #### <a name="wireframe-files">Wireframes</a> #### 
 
-  * <a href="readme-assets/wireframes/lawn-genie-large-screen-ver1.png"><strong>Large Screen Devices</strong></a>
-  * <a href="readme-assets/cpc-homepage-and-related-pages-wireframes-mobile.png"><strong>Small screen/Mobile Devices</strong></a>
+  * <a href="readme/readme-assets/wireframes/lawn-genie-large-screen-ver1.png"><strong>Large Screen Devices</strong></a>
+  * <a href="readme/readme-assets/wireframes/lawn-genie-mobile-screen-ver1.png"><strong>Small screen/Mobile Devices</strong></a>
 
 ### 5. The Surface Plane ###
 
@@ -524,7 +524,7 @@ The live version of the CPC website deployed via Heroku can be seen: [Here!](htt
 * [W3Schools.com](https://www.w3schools.com/)
 * [Flask Documentation Website](https://flask.palletsprojects.com/en/1.1.x/)
 * [Mozilla MDN Web Docs](https://developer.mozilla.org/)
-* [YouTub.com](https://youtube.com/)
+* [YouTube.com](https://youtube.com/)
 * [GitHub.com](https://github.com/)
 * [EDUCBA Website](https://www.educba.com/)
 * [StackOverflow.com](https://stackoverflow.com/)
