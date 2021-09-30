@@ -42,10 +42,10 @@ I tested each of the Client and User stories which were used to determine the de
 * TEST RESULT: The Stripe billing system has been integrated into the store.
 > - [x] "The store design must allow users to navigate easily and intuitively through the product offering, regardless of what device they are using."
 * TEST RESULT: The store is responsive. The Navigation bar, footer, and buttons on pages offer an intuitive and easy navigation flow for users.
-> - [x] "For ease of use, the store must allow users of the site to register and login so that they can store their personal delivery/account information and. This is to facilitate quick purchaing transactions. They should also be able to view their past order history."
+> - [x] "For ease of use, the store must allow users of the site to register and login so that they can store their personal delivery/account information and. This is to facilitate quick purchasing transactions. They should also be able to view their past order history."
 * TEST RESULT: Registered User have access to a My Profile page where they can add or edit their delivery information, and where they can view their past orders.
-> - [x] “The store must give users the option to subscribe to an email mailing list. Marketing/promotional emails can then be sent to users based on topics such as; tips and tricks from gardening professionals and lawn care specialists, new product infromation, and special offers."
-* TEST RESULT: Users can sign-up to be added to a Newsletter subsciber list on a dedicated sign-up page.
+> - [x] “The store must give users the option to subscribe to an email mailing list. Marketing/promotional emails can then be sent to users based on topics such as; tips and tricks from gardening professionals and lawn care specialists, new product information, and special offers."
+* TEST RESULT: Users can sign-up to be added to a Newsletter subscriber list on a dedicated sign-up page.
 > - [x]  “The store must have a blog section where users can read articles and get information about lawn care and maintenance etc. A secure interface to add, update, and delete blog posts must be provided to the business owners."
 * TEST RESULT: Users can view a Blog page and individual Blog articles. The store SuperUser has access to and Add Blog Post page and an Edit Post page. They can also delete posts from the Blog Post pages.
 
@@ -67,7 +67,7 @@ I tested each of the Client and User stories which were used to determine the de
    * Lawn Feed
    * Weeding
    * Seeds
-* Category 4 - Clothng:
+* Category 4 - Clothing:
    * Jackets
    * Trousers
    * Boots
@@ -88,18 +88,18 @@ I tested each of the Client and User stories which were used to determine the de
 > - [x] “I want to be able to add products to a shopping cart and easily view all the products in my shopping cart."
 * TEST RESULT: The store does offer 'add to cart' functionality. The cart can be accessed directly from the navigation bar at any time.
 > - [x] “I want to be able to easily change the quantities of the products in my shopping cart."
-* TEST RESULT: A User can easily update the quantitiy of a product in their shopping cart.
+* TEST RESULT: A User can easily update the quantity of a product in their shopping cart.
 > - [x] “I want to be able to be able to see the total cost of my current shopping basket from every page.”
-* TEST RESULT: A User can easily update the quantitiy of a product in their shopping cart.
+* TEST RESULT: A User can easily update the quantity of a product in their shopping cart.
 > - [x] “I want to be able to view a product detail page showing me all relevant information about a product.”
 * TEST RESULT: Every product has a product detail page showing all attributes/data about a product.
 > - [x] “I want to be able to easily register on the site and store my personal delivery information for automatic retrieval at the checkout when making purchases."
 * TEST RESULT: A User can register for a My Profile Account. They can record their delivery address themselves on their My Profile page. Or, if they make a purchase they can also opt to have their delivery info added to their My Profile page for future purchases. If they then buy another product, their delivery information will be pre-populated in the checkout form.
 > - [x] “I want to get an email confirmation/verification email after I register for an account."
-* TEST RESULT: A User will be sent a verification email upon registration. The must click on a reistration link in order to be able to sign-in on the store.
+* TEST RESULT: A User will be sent a verification email upon registration. They must click on a registration link in order to be able to sign-in on the store.
 > - [x] “I want to be able to easily login or logout of my account from every page."
 * TEST RESULT: A My Profile link is displayed in the top navigation bar on every page. When a user clicks on the icon/link a dropdown offers them a login/logout link depending on whether they are logged in or out at the time.
-> - [x] “I want to be able to view a Blog page and relvant informative Blog post articles."
+> - [x] “I want to be able to view a Blog page and relevant informative Blog post articles."
 * TEST RESULT: The store does offer a Blog page showing a list of all available posts. A user can click on a post item to view the full article.
 > - [x] “I want to be able to sign up to receive a newsletter in order to get information about new products, promotions, and lawn care advice/articles."
 * TEST RESULT: Users can subscribe to receive Newsletters. They can also easily unsubscribe if they wish too.
@@ -115,27 +115,26 @@ I ran the website through the W3C validators for [HTML](https://validator.w3.org
 
 #### HTML ####
 
-The W3C CSS Validation Service. The validator highlighted the following warning for index.html. No other errors or warnings were found.
+The W3C HTML Validation Service. The validator highlighted the following warning for index.html. No other errors or warnings were found.
 
-* "Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections." - I decide not to 'fix' the issue this warning relates to. It relates to the title of the introduction section which is a h1 title. I decide to leave it as a h1 as it looks better like this when underneath the 'hero' carousel.
 
 #### CSS ####
 
-The W3C CSS Validation Service. The validator found the following errors. No other warnings or erros were found.
+The W3C CSS Validation Service. 
 
-* The validator highlighted 246 Warnings relating to the bootstrap.min.css style sheet. I queried this with Tutor Support and was advised that these were acceptable issues as I have no control over the CDN-delivered Bootstrap style sheet.
-* ERROR: ".navbar-toggler:focus	rgb(243, 8, 8, 0.1) is not a box-shadow value : rgb(243, 8, 8, 0.1)" - I updated the value to a HEX value and this fixed the error.
+* The validator found 1 error in base.css relating to an incorrect attribute for a box-shadow class. This was fixed and the validator then reported no errors comig from
+* The validator highlighted 256 Warnings relating to the bootstrap.min.css style sheet. I queried this with Tutor Support and was advised that these were acceptable issues as I have no control over the CDN-delivered Bootstrap style sheet.
 
 #### JavaScript & jQuery ####
 
 I ran the below JavaScript files and code blocks through the JSHint validator and found no errors.
-countryfield.js
-stripe_elements.js
+* countryfield.js
+* stripe_elements.js
 
 
 #### Python ####
 
-I ran the following files through the PEP8online.com Python validator and found some errors relating to some lines of code being too long, some whitespace on blank lines, and some files had no blank line at the end of the page. I fixed all errors.
+I ran the following files through the PEP8online.com Python validator and found some errors relating to some lines of code being too long, some whitespace on blank lines, and some files had no blank line at the end of the page. I fixed all errors using the PEP8 and the Black formatting tool.
 
 * Blog App - admin.py, apps.py, forms.py, models.py, urls.py, views.py, widgets.py
 * Cart App - cart_tools.py, apps.py, contexts.py, urls.py, views.py
@@ -295,10 +294,10 @@ I tested these items while logged in as the store SuperUser to ensure all featur
  
 #### Links and Form ####
 * Tested that form populates with my delivery details correctly. -> Result: Worked as expected.
-* Tested that when I change my delivery details and click the Update button, that new the infromation is saved correctly. -> Result: Worked as expected.
+* Tested that when I change my delivery details and click the Update button, that new the information is saved correctly. -> Result: Worked as expected.
 * Tested that my changed delivery details pre-populate a checkout form with the new details correctly. -> Result: Worked as expected.
 * Tested Previous order history table is displaying with correct information. -> Result: Worked as expected.
-* Tested that when accessing an order/past order confirmation page from My Profile page, the button at the bottom of the order confimation page returns a user to the My Profile page. -> Result: Worked as expected.
+* Tested that when accessing an order/past order confirmation page from My Profile page, the button at the bottom of the order confirmation page returns a user to the My Profile page. -> Result: Worked as expected.
 
 
 ## Add a Product Page ##
@@ -312,7 +311,7 @@ I tested these items while logged in as the store SuperUser to ensure all featur
 ## Create a Blog Post Page ##
  
 #### Links and From ####
-* Tested adding a new post with contaent and image -> Result: Worked as expected.
+* Tested adding a new post with content and and image -> Result: Worked as expected.
 * Tested Cancel button. -> Result: Worked as expected.
 * Tested deleting a blog post after creation. -> Result: Worked as expected.
 
@@ -320,7 +319,7 @@ I tested these items while logged in as the store SuperUser to ensure all featur
 ## Send a Newsletter Page ##
  
 #### Newsletter Links ####
-* Tested sending a new Nesletter email by adding test content to from and hitting send -> Result: Worked as expected.
+* Tested sending a new Newsletter email by adding test content to from and hitting send -> Result: Worked as expected.
 * Tested receipt of Newsletter in my inbox -> Result: Worked as expected.
 * Tested Cancel button. -> Result: Worked as expected.
 
@@ -337,17 +336,17 @@ I tested these items while logged in as the store SuperUser to ensure all featur
 
 #### Login Page  ####
 * Tested Login functionality. -> Result: Worked as expected.
-* Tested Sign-uo here button. -> Result: Worked as expected.
+* Tested Sign-up here button. -> Result: Worked as expected.
 * Tested Home button. -> Result: Worked as expected.
 * Tested Forgot Password button. -> Result: Worked as expected.
 
 #### Logout Page  ####
 * Tested Logout functionality. -> Result: Worked as expected.
 
-#### Rigistration Pages ####
-* Tested email verification sent page -> Result: Worked as expected.
+#### Registration Pages ####
+* Tested Email Verification Sent page -> Result: Worked as expected.
 * Tested sending of verification email. -> Result: Worked as expected.
-* Tested confirm email page. -> Result: Worked as expected.
+* Tested Confirm Email page. -> Result: Worked as expected.
 
 #### Password Reset Pages ####
 * Tested Password Change page -> Result: Worked as expected.
@@ -409,7 +408,7 @@ I tested these items while logged in as the store SuperUser to ensure all featur
 ## Security & User Functionality ##
 
 #### Registered User  ####
-* Tested Cart page and appearnace of 'save delivery info' check box. -> Result: Worked as expected.
+* Tested Cart page and appearance of 'save delivery info' check box. -> Result: Worked as expected.
 * Tested Navbar to check list of options available (should be My Profile or Logout only). -> Result: Worked as expected.
 * Tested hacking URL to access /products/add/ page. -> Result: Worked as expected, access denied.
 * Tested hacking URL to access /products/edit/id page. -> Result: Worked as expected, access denied.
@@ -454,8 +453,8 @@ While developing and testing the site I discovered the below bugs/issues. If I f
 #### Bugs Discovered / Remedies ####
 
 1. Category Friendly Names - I found that the 'friendly name' of a Category was not appearing in the Category listing in the Django admin console. This occurred even though I had defined the friendly_name in products/models.py and listed it as a required field in products/admin.py. I did try to troubleshoot it at the time but could not fix it. If I have time at the end of the project I will give more time to finding a fix for it.
-2. Collapsed Navbar - When I set up my navbar initially I found that the collapsed nav bar remained expanded. And when I would click the toggler, it would remain open. I found after some time working on it that as the navr was sitting inside a div with a Boostrap class of container-fluid, the toggler would not work. I easily fixed this by removing the container-fluid div and moving it one level up.
-3. Add new Product or new Blog Post - I am using crispy forms and the ClearableFileInput package, which comes with the Django forms library, to add new posts or create new products. However if I tried to add a post/product without an image, the item would be creatd in the database but it would also cause a 500 error. I had to clear my browser cookies in order to get the site running again. I resolved the issue by making an image a required field for a new post/product in the ClearableFileInput variable in products/forms.py and blog/forms.py. 
+2. Collapsed Navbar - When I set up my navbar initially I found that the collapsed navbar remained expanded. And when I would click the toggler, it would remain open. I found after some time working on it that as the navbar was sitting inside a div with a Boostrap class of container-fluid, the toggler would not work. I easily fixed this by removing the container-fluid div and moving it one level up.
+3. Add new Product or new Blog Post - I am using crispy forms and the ClearableFileInput package, which comes with the Django forms library, to add new posts or create new products. However if I tried to add a post/product without an image, the item would be created in the database but it would also cause a 500 error. I had to clear my browser cookies in order to get the site running again. I resolved the issue by making an image a required field for a new post/product in the ClearableFileInput variable in products/forms.py and blog/forms.py. 
 4. Delete a Product with sizes from Cart - I found an issue where if a product had sizes, It could not be removed from the shopping cart. The was down to an error in my code where instead of calling 'cart.pop' to remove the item, my code was calling 'cart.cart'.
 
 
