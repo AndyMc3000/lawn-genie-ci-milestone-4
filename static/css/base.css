@@ -351,6 +351,11 @@ blog-page-card-image {
     background-color: #f8f9fa;
 }
 
+.toast-free-delivery {
+    background-color: #38b000;
+    color: #ccff33;
+}
+
 /* -- from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ -- */
 .arrow-up {
     width: 0; 

@@ -77,9 +77,7 @@ def checkout(request):
                             order_line_item.save()
                 except Product.DoesNotExist:
                     messages.error(request, (
-                        "One of the products in your cart wasn't found in our store. "
-                        "Please contact us for assistance!")
-                    )
+                        "One of the products in your cart wasn't found in our store. Please contact us for assistance!"))
                     order.delete()
                     return redirect(reverse('view_cart'))
 

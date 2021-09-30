@@ -22,12 +22,12 @@
                         <span class="float-right">€{{ total|floatformat:2 }}</span>
                     </p>
                     {% if free_delivery_delta > 0 %}
-                        <p class="mb-0 p-2 bg-success text-center">
+                        <p class="mb-0 p-2 toast-free-delivery text-center">
                             Spend <strong>${{ free_delivery_delta }}</strong> more to get FREE delivery!
                         </p>
                     {% endif %}
-                    <a href="{% url 'view_cart' %}" class=" my-2 btn buttons rounded-4">
-                        <span class="my-2">Checkout</span>
+                    <a href="{% url 'view_cart' %}" class="my-3 btn buttons rounded-4">
+                        <span class="my-2">Checkout </span>
                         <span class="icon">
                             <i class="fas fa-lock"></i>
                         </span>
