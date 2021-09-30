@@ -301,6 +301,7 @@ I used the following technologies, services, and devices to develop, style, depl
 * PostgreSQL Database - All data is stored in a PostgreSQL database. The Pythons functions used to create site operations/functionality interact with this database.   
 * Heroku - I used the Heroku cloud-based and container-based platform-as-a-service to host and deploy the LawnGenie web app.
 * Balsamiq - I used the Balsamiq application to create the website sitemap, and to create the page wireframes for PC & Tablet/Mobile views.
+* TingPNG - I compressed all images on the site using the TinyPNG online image compression tool.
 * W3C validators - I used the W3C HTML5 and CSS3 code validators to validate my HTML and CSS.
 * JSHint - I used jshint.com to validate my JavaScript code.
 * PEP8Online.com - I used the PEP8 checker at Pep8online.com to check my Python code for errors.
@@ -408,8 +409,7 @@ The LawnGenie website was developed by setting up each of the below apps with Dj
  enable a store Admin to create, edit, and delte Blog Posts from the stores front-end.
  
 * Newsletter App
-  * This site wa
-
+  * This app allows users to subscribe to, and unsubscribe from a Newsletter mailing List. It also allows a site Admin to send Email Newsletters to the subscriber list. 
  
 #### 4. Integrating Stripe ####
 
@@ -457,41 +457,6 @@ The first step I undertook was to create a project plan, and to organise my appr
   * This site wa
 
 
-
-This site was deployed by firstly setting up a GitHub repository to store the website files. GitHub is a free online code hosting platform for websites or web applications, which enables version control and collaboration during the development of a project. A repository on GitHub containes all of a project's files and each file's revision history. You can learn more about GitHub and repositories here: [Click here to go to GitHub](https://docs.github.com/en/free-pro-team@latest/github)
-
-I then used the online GitPod Integrated Development Environment (or GitPod IDE) to write the code for the website. Once I was happy with a section of new code I commited or saved that to a staging area. Then, on a regular basis, I commited changes to the working version of the website on GitPod. These commits included a short description of what the changes do. I would then 'push' those changes from the GitPod IDE to my GitHub repository where the master set of files was updated. You can learn more about GitPod here: [Click here to go to GitPod](https://docs.github.com/en/free-pro-team@latest/github)
-
-Early on in the development process I also deployed the website to a live web address using Heroku. Heroku is a container-based cloud Platform as a Service (PaaS). Developers use Heroku to deploy, manage, and scale modern apps. The Heroku platform is elegant, flexible, and easy to use, offering developers an easy path to getting their apps to market. Once setup, any changes I made on my GitPod IDE (and which were subsequently 'pushed' to my GitHub repository), were automatically pushed to my Heroku app.
-
-The CPC site uses the Flask Python framework, a MongoDB database, a GitHub repository (including a main Python application file), and the Heroku platform. I had to ensure that all these components worked in sync in order to deploy the site successfully.
-
-Here are the steps I took to deploy the website on Heroku;
-
-**** Install Flask & add additional files ****
-
-1. Added Python application file (app.py).
-1. Added environment variables file (env.py).
-1. Added env.py to .gitignore file so that it would not be pushed to my public repository (it was done by default when using the Code Institute GitHub template).
-1. Imported Flask and associated libraries (see requirements.txt file below for a list of requirements).
-1. Tested that Flask was working by outputting Hello World to GitPod preview browser. 
-1. Added requirements.txt to tell Heroku what tools, frameworks, and library versions the app requires to run. in this case, these requirements are;
-    * click==7.1.2
-    * dnspython==2.0.0
-    * Flask==1.1.2
-    * Flask-PyMongo==2.3.0
-    * itsdangerous==1.1.0
-    * pymongo==3.11.0
-    * Werkzeug==1.0.1
-1. Added Procfile to tell Heroku what command to run to operate the app.
-
-**** Create a MongoDB Database ****
-
-1. Created a free MongoDB Atlas account.
-1. Created a new database on MongoDB called pool_club. 
-1. Added three collections to the database - 'league', 'user', and 'matches' - see the Database Schema <a href="readme-assets/cpc-database-schema.md"><strong>Here.</strong></a>
-1. Manually added some test documents to the user collection.
-
 **** Create app on Heroku ****
 
 1. Created a new App on Heroku.
@@ -519,28 +484,33 @@ The live version of the CPC website deployed via Heroku can be seen: [Here!](htt
 #### <br> ####
 <hr>
 
-1. Coding Websites - I regularly used a number websites to help me learn how to code certain elements/features. These websites include; 
+1. Coding Websites - I regularly used a number websites and online tutorials and videos to help me withcertain elements/features. I also used the Django and Heroku documentation sites quite a bit. These websites/sources include; 
+ 
 * [GetBootstrap.com](https://getbootstrap.com/)
-* [W3Schools.com](https://www.w3schools.com/)
-* [Flask Documentation Website](https://flask.palletsprojects.com/en/1.1.x/)
-* [Mozilla MDN Web Docs](https://developer.mozilla.org/)
-* [YouTube.com](https://youtube.com/)
-* [GitHub.com](https://github.com/)
-* [EDUCBA Website](https://www.educba.com/)
+* [Heroku.com](https://devcenter.heroku.com/categories/reference)
+* [Django.com](https://docs.djangoproject.com/en/3.2/)
+* [EngineerToDeveloper.com ](http://engineertodeveloper.com/) - Helped me with creating custom exception handlers
 * [StackOverflow.com](https://stackoverflow.com/)
 * [CSSTricks.com](https://css-tricks.com/)
-  
-1. Code Institute Course Material - I referred to and used Code Instiute course material to help with this project. I also used and edited some code snippets from the BAckend Development lessons/projects.
+* [Mozilla MDN Web Docs](https://developer.mozilla.org/)
+* [YouTube.com](https://youtube.com/) - Master Code Online - helped me with the Newsletter
+* [YouTube.com](https://youtube.com/) - KenBroTech - also helped me with the Newsletter Very Academy
+* [YouTube.com](https://youtube.com/) - Very Academy - helped me to create my own JSON fixtures files using CSV
+* [GitHub.com](https://github.com/)
+* [DjangoGirls.org](https://djangogirls.org/en/) - Helped with their tutorial on Django forms
+* [DjangoCentral](https://github.com/) - Helped with their Building a Blog tutorial
+* [GitHub.com](https://github.com/)
 
-1. I copied and used jQuery code to stop Bootstrap form validation from validating the Contact form on index.html again, after submission. I found some jQuery code on a GitHub issues thread which fixed the problem when I added the code to my EmailJS JavaScript code on script.js. This thread was owned by a GitHub user called Cina Saffary. See the GitHub thread here - ['Resetting form doesn't clear validation errors'](https://github.com/1000hz/bootstrap-validator/issues/68).
  
-1. Bootstrap Tables - I used the Cloud Tables Data Tables libray to format and sort some tables on the CPC site. You canread more info about this library on [DataTables.net](https://datatables.net/examples/styling/bootstrap5.html)
+1. Code Institute Course Material - I referred to and used Code Instiute course material to help with this project. In particular I copied code snippets from the Boutique Ado mini-project GitHub repository. These included views and models for the products, profiles, checkout, and cart apps. I also copied some JS and jQuery for the quantity input script, and the sort selector box. This repository can be seen here: [Code Institute - Boutique Ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1). 
 
-1. EmailJS code - I copied relevant JavaScript code from the EmailJS website in order to send emails from my Contact Form on index.html.
+ 1. Boutique Ad by Jon Burdon - I also referred to the README.md of a repository on GitHub created by Jon Burdon. Jon had recreated the Boutique Ado website, and documented the process in his README.md which was a useful resource. This repository can be seen here: [Jon Burdon - Boutique Ado](https://github.com/jonburdon/boutique_ado_v1). 
 
 1. Colours - I used the Coolors.co website to help me decide on a colour scheme for the webite. This website allows you to create your own colour palettes or to use one of theirs. See more about the Coolors.co palette catalogue and tools here: [Coolors.co](https://coolors.co/). 
 
-1. Font - I used Google Fonts for the fonts on the website and Canva.com for the font in the logo. See more at: [GoogleFonts.com](https://fonts.google.com/) & [Canva.com](https://canva.com/)
+1. Font - I used Google Fonts for the fonts on the website. See more at: [GoogleFonts.com](https://fonts.google.com/)
+ 
+1. Logo - I used Canva.com to help me to create the logo. [Canva.com](https://canva.com/)
 
 1. Icons - I used FontAwesome for all icons on the website. See more at: [FontAwesome.com](https://fontawesome.com/)
 
@@ -549,28 +519,27 @@ The live version of the CPC website deployed via Heroku can be seen: [Here!](htt
 
 ### Acknowledgements ###
 
-In order to get design ideas, I took inspiration from a number of relevant websites.
-These websites are;
+In order to gather product images/content, and to get design ideas, I used the following websites;
 
-No. | Business     | Website     | Description |
---- | ------------ | ----------- | ----------- |
-1 | **The UK Premier League(EPL)** | [PremierLeague.com](https://www.premierleague.com/) | Wikipedia describes the Premier League as; "The Premier League, often referred to exonymously as the English Premier League or the EPL, is the top level of the English football league system. Contested by 20 clubs, it operates on a system of promotion and relegation with the English Football League.
-2 | **World Pool-Billiard Association (WPA)** | [WPAPool.com](https://wpapool.com/) | Wikipedia describes the World Pool-Billiard Association as; "The World Pool-Billiard Association is the international governing body for pool. It was formed in 1987, and was initially headed by a provisional board of directors consisting of representatives from Japan, the United States, Sweden, and Germany. as of February 2019, the WPA president is Ian Anderson of Australia."
-3 | **American Poolplayers Association (APA)** | [WPAPool.com](https://poolplayers.com/) | The American Poolplayers Association (APA) website describes themselves as; "The American Poolplayers Association (APA) is the World's Largest Amateur Pool League. With nearly 250,000 members throughout the United States, Canada and Japan, the APA awards nearly $2 Million in guaranteed prize money every year during the APA Championships in Las Vegas! In the APA, Everyone Can Play… Anyone Can Win – even you!"
-3 | **BBC SPORT** | [BBC.com](https://www.bbc.com/) | Wikipedia describes BBC SPORT as; "BBC Sport is the sports division of the BBC, providing national (UK) sports coverage for BBC Television, radio and online. "
- 
+ * [Amazon.co.uk](https://github.com/)
+ * [STIHL](https://github.com/)
+ * [WORX](https://github.com/)
+ * [Deere.co.uk](https://github.com/)
+ * [TheGardenShop.ie](https://github.com/)
+ * [Karcher](https://github.com/)
+ * [Hozelock](https://github.com/)
+ * [Husqvarna](https://github.com/)
+ * [Wolf Garten](https://github.com/)
+ * [Hozelock](https://github.com/)
+
 
 ### Additonal Support ###
 
 I also received help and support from;
-* Reuben Ferrante - Code Institute Mentor - Slack Username: [reubenfer_mentor](https://code-institute-room.slack.com/team/UKD9L615F) - Reuben is my new Mentor and was hugely helpful (and patient).
-* Anna Greaves - Full Stack Developer and Content Developer at Code Institute - GitHub profile here: [@AJGreaves](https://github.com/AJGreaves)
- - I took inspiration from Anna's Family Hub project on GitHub. In particular I found Anne's README.md and Testing.md files very helpful. See that repository here: [FamilyHub](https://github.com/AJGreaves/familyhub)
+* Reuben Ferrante - My Code Institute Mentor - Slack Username: [reubenfer_mentor](https://code-institute-room.slack.com/team/UKD9L615F)
 * The Student Support team at Code Institute.
-* The Tutor Team at Code Institute.
-* My local Pool Club members.
-* My Wife & Kids for their immense support. Always.
+* The Tutor Team at Code Institute. Jo and Igor in particular were really helpful.
 
 #### [Back To Top ^ ](#top-of-page) ####
 
-<a name="top-of-page">![Cill na Martra Pool Club (CPC) Logo created using Canva.com and Clipart.com](/readme-assets/cpcp-logo-readme-header.png)</a>
+<a name="top-of-page">![LawnGenie Logo](readme/readme-assets/logo/lawn-genie-nav-logo-v4-resized-546-x-150px.png)</a>
