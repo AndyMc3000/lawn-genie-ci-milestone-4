@@ -24,15 +24,15 @@
                 {% for post in post_list %}
                     <div class="card px-4 mb-3 text-center">
                         <div class="row justify-content-center">
-                        <div class="col-3 p-1 text-center">
-                            <img class="img-fluid align-middle img-thumbnail m-auto" src="{{ post.image.url }}" alt="{{ object.title }} Image">
+                            <div class="col-12 p-1 my-2">
+                                <h2 class="card-title">{{ post.title }}</h2>
+                                <p class="order-info my-3">Author: {{ post.author }} | {{ post.created_on }}</p>
+                                <a href="{% url 'post_detail' post.slug  %}" class="btn btn-sm buttons">Read Post &rarr;</a>
+                            </div>
+                            <div class="col-12 p-1 text-center">
+                                <img class="w-50 img-thumbnail m-auto" src="{{ post.image.url }}" alt="{{ object.title }} Image">
+                            </div>  
                         </div>
-                        <div class="col-8 p-1 my-2">
-                            <h2 class="card-title">{{ post.title }}</h2>
-                            <p class="order-info my-3">Author: {{ post.author }} | {{ post.created_on }}</p>
-                            <a href="{% url 'post_detail' post.slug  %}" class="btn buttons">Read Post &rarr;</a>
-                        </div>
-                    </div>
                     </div>
                 {% endfor %}
             </div>
