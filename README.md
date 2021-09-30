@@ -413,17 +413,17 @@ The LawnGenie website was developed by setting up each of the below apps with Dj
  
 #### 4. Integrating Stripe ####
 
-The first step I undertook was to create a project plan, and to organise my approach to the project. This can be described best using the following headings;
-
-* UX Design Planning
-  * This site wa
-Remote Deployment
-
-
+The Stripe Payment service works by creating a secure connection with a server. Stripe does this by providing an element or secure area within a site which it amanges using JavaScript code embedded in the site. To a user this element is represented by a credit card input field. When they input their card details and click buy, a request is sent to Stripe to create directly. A users card details are never stored on the website, nor is it visible to anyone managing the website.
+ 
+Following this intial connection, Stripe then sends back a message or webhook to say the payment has been created by Stripe. Webhooks can be created an used by a website to communicate for lots of reasons. But primarily they are used to ensure no erros occur between the time when a user clicks buy, and when their purchase has been confirmed by Stripe. LawnGenie uses webhooks to ensure that an order will always be added to the database after a user clicks buy. Even if the user' browser crashes while Stripe is still processing the payment.
+ 
 
 ### Remote Deployment ###
 
 
+Once all required apps, files, and the Stripe service were in place, the site was ready to deploy to a production environment on a hosting service.
+ 
+ 
 #### 1. Creating a Heroku App ####
 
 The first step I undertook was to create a project plan, and to organise my approach to the project. This can be described best using the following headings;
