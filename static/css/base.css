@@ -161,7 +161,7 @@ body {
 }
 
 .navbar-toggler:focus {
-    box-shadow: #dc3545 !important;
+    box-shadow: 4px 4px 4px red;
 }
 
 .navbar {
